@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="Captura de pantalla pendiente">
+  <rect width="1200" height="675" fill="#f4f6f8"/>
+  <rect x="60" y="60" width="1080" height="555" rx="24" fill="#ffffff" stroke="#c7d0d9" stroke-width="4" stroke-dasharray="18 14"/>
+  <text x="600" y="285" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="46" fill="#334155" font-weight="700">Captura de pantalla pendiente</text>
+  <text x="600" y="345" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#64748b">Reemplazar por evidencia real cuando esté disponible</text>
+  <text x="600" y="405" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#94a3b8">GitHub Insights / Contributors o lista de commits</text>
+</svg>

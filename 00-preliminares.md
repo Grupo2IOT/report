@@ -1,3 +1,4 @@
+
 # Carátula { style="margin-top: 0; margin-bottom: 10px;" }
 
 <div align="center">
@@ -8,7 +9,7 @@
 
 **Universidad Peruana de Ciencias Aplicadas**
 Carrera: Ingeniería de Software
-Ciclo: 7mo
+Ciclo: 7mo  
 
 Código del curso: 1ASI0572
 Nombre del curso: Desarrollo de Soluciones IOT
@@ -78,24 +79,3 @@ Además de la redacción, todos los integrantes colaboraron en la validación de
 <img src="assets/generic-collaboration-placeholder.svg" alt="Captura genérica de lista de commits" style="width: 100%; max-width: 900px; max-height: 420px; object-fit: contain; border: 1px solid #d0d7de;">
 
 </div>
-
-<div style="page-break-after: always;"></div>
-
-# Contenido
-
-Aquí la tabla O_O
-
-<div style="page-break-after: always;"></div>
-
-# Student Outcome
-
-El curso contribuye al cumplimiento del Student Outcome ABET: ABET - EAC - Student Outcome 5.
-
-Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
-
-En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET - EAC - Student Outcome 5.
-
-| Criterio específico | Acciones realizadas | Conclusiones |
-| --- | --- | --- |
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Arevalo Meza, John Telesforo**<br>**AV1:** Texto de ejemplo AV1 sobre liderazgo compartido en la organizacion del trabajo, coordinacion de entregables y apoyo al equipo en la toma de decisiones.<br>**TB1:** ...<br>**AV2:** ...<br>**TB2:** ...<br><br>**Asmad Padilla, Fatima Andrea**<br>**AV1:** Texto de ejemplo AV1 sobre liderazgo compartido en la organizacion del trabajo, coordinacion de entregables y apoyo al equipo en la toma de decisiones.<br>**TB1:** ...<br>**AV2:** ...<br>**TB2:** ...<br><br>**Cabrera Buitrón, Diego Ivan**<br>**AV1:** Texto de ejemplo AV1 sobre liderazgo compartido en la organizacion del trabajo, coordinacion de entregables y apoyo al equipo en la toma de decisiones.<br>**TB1:** ...<br>**AV2:** ...<br>**TB2:** ...<br><br>**Castro Sanchez, Amir Gabriel**<br>**AV1:** Texto de ejemplo AV1 sobre liderazgo compartido en la organizacion del trabajo, coordinacion de entregables y apoyo al equipo en la toma de decisiones.<br>**TB1:** ...<br>**AV2:** ...<br>**TB2:** ...<br><br>**Prado Vargas, Mario Benjamin**<br>**AV1:** Texto de ejemplo AV1 sobre liderazgo compartido en la organizacion del trabajo, coordinacion de entregables y apoyo al equipo en la toma de decisiones.<br>**TB1:** ...<br>**AV2:** ...<br>**TB2:** ... | **AV1:** Texto de ejemplo AV1 de conclusion grupal sobre como el equipo evidencio liderazgo conjunto mediante coordinacion, distribucion de responsabilidades y cumplimiento inicial de objetivos.<br>**TB1:** ...<br>**AV2:** ...<br>**TB2:** ... |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Arevalo Meza, John Telesforo**<br>**AV1:** Texto de ejemplo AV1 sobre colaboracion inclusiva, planificacion de tareas y cumplimiento de metas acordadas por el equipo.<br>**TB1:** ...<br>**AV2:** ...<br>**TB2:** ...<br><br>**Asmad Padilla, Fatima Andrea**<br>**AV1:** Texto de ejemplo AV1 sobre colaboracion inclusiva, planificacion de tareas y cumplimiento de metas acordadas por el equipo.<br>**TB1:** ...<br>**AV2:** ...<br>**TB2:** ...<br><br>**Cabrera Buitrón, Diego Ivan**<br>**AV1:** Texto de ejemplo AV1 sobre colaboracion inclusiva, planificacion de tareas y cumplimiento de metas acordadas por el equipo.<br>**TB1:** ...<br>**AV2:** ...<br>**TB2:** ...<br><br>**Castro Sanchez, Amir Gabriel**<br>**AV1:** Texto de ejemplo AV1 sobre colaboracion inclusiva, planificacion de tareas y cumplimiento de metas acordadas por el equipo.<br>**TB1:** ...<br>**AV2:** ...<br>**TB2:** ...<br><br>**Prado Vargas, Mario Benjamin**<br>**AV1:** Texto de ejemplo AV1 sobre colaboracion inclusiva, planificacion de tareas y cumplimiento de metas acordadas por el equipo.<br>**TB1:** ...<br>**AV2:** ...<br>**TB2:** ... | **AV1:** Texto de ejemplo AV1 de conclusion grupal sobre el entorno colaborativo e inclusivo, el establecimiento de metas y la planificacion efectiva para cumplir los objetivos de la entrega.<br>**TB1:** ...<br>**AV2:** ...<br>**TB2:** ... |

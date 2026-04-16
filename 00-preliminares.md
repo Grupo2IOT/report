@@ -11,8 +11,7 @@
 Carrera: Ingeniería de Software
 Ciclo: 7mo  
 
-Código del curso: 1ASI0572
-Nombre del curso: Desarrollo de Soluciones IOT
+Curso: 1ASI0572 - Desarrollo de Soluciones IOT
 
 NRC: 6766
 
@@ -28,7 +27,7 @@ Nombre del producto: -
 
 <br>
 
-**Relación de integrantes**
+**Integrantes**
 
 <div style="width: 70%; margin: 0 auto;">
 
@@ -44,7 +43,7 @@ Nombre del producto: -
 
 <br>
 
-Abril 2026
+Lima, Abril 2026
 
 </div>
 

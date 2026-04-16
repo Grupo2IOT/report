@@ -1,5 +1,5 @@
 
-# Carátula { style="margin-top: 0; margin-bottom: 10px;" }
+# { style="margin-top: 0; margin-bottom: 10px;" }
 
 <div align="center">
 

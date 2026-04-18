@@ -38,21 +38,80 @@ Para definir el problema de nuestra startup, analizamos el contexto actual basá
 
 - **Domain:** El sector agrícola en el Perú, específicamente la gestión y optimización de recursos hídricos frente a escenarios de sequía, donde actualmente del 80% del agua destinada al sector, solo el 30% se distribuye de manera eficiente por métodos tradicionales.
 
-- **Customer Segments e Initial Segment:** Nuestro segmento inicial son los pequeños y medianos productores agrícolas de la región Piura (costa norte del Perú), cuyas parcelas sufren estrés hídrico.
+- **Customer Segments e Initial Segment:** Contamos con dos segmentos clave. Nuestro segmento inicial (Usuario Final) son los pequeños y medianos productores agrícolas de la región Piura cuyas parcelas sufren estrés hídrico. Nuestro segundo segmento (Cliente Patrocinador/B2B) son las Juntas de Usuarios de Agua e instituciones estatales de financiamiento agrario (como Agrobanco y Agroideas)
 
-- **Pain Points (Puntos de dolor):** Los agricultores se enfrentan a un déficit hídrico crítico originado por el bajo nivel del reservorio Poechos y las irregularidades climáticas. Al no tener herramientas tecnológicas para medir la humedad del suelo, riegan por inundación, desperdiciando el poco recurso disponible y poniendo en riesgo de pérdida total su campaña agrícola.
+- **Pain Points (Puntos de dolor):**
+  - Para el agricultor: Se enfrentan a un déficit hídrico crítico originado por el bajo nivel del reservorio Poechos, regando por inundación sin herramientas para medir la humedad, lo que pone en riesgo su campaña agrícola.
+  - Para las instituciones (Juntas/Bancos): Reparten el agua o financian créditos agrícolas sin tener un sistema de monitoreo remoto para auditar si el agricultor está usando el agua eficientemente, arriesgándose a que el recurso se agote o el agricultor no pueda pagar el préstamo por pérdida de cosecha.
 
 - **Gap (Brecha tecnológica):** Los sistemas IoT de riego inteligente actuales en el mercado dependen de plataformas en la nube (Cloud), lo que los hace inoperativos en las zonas rurales agrícolas del Perú donde la conectividad a internet es inestable o nula.
 
-- **Vision / Strategy (Visión y Estrategia):** Proveer un sistema de riego de precisión descentralizado mediante arquitectura Edge Computing que tome decisiones localmente, asegurando la autonomía del agricultor incluso sin internet.
+- **Vision / Strategy (Visión y Estrategia):** Proveer un ecosistema de gestión hídrica descentralizado mediante arquitectura Edge Computing que tome decisiones localmente en el campo sin internet, y un Dashboard web centralizado que permita a las instituciones monitorear el uso eficiente del agua a larga distancia vía LoRaWAN.
 
 > [!NOTE] Problem Statement:
 > *"Nuestra startup ha observado que los pequeños productores agrícolas de Piura están sufriendo graves pérdidas económicas debido al estrés hídrico y a la ineficiencia de sus métodos tradicionales de riego. Las soluciones de agricultura inteligente existentes en el mercado no logran escalar en el campo porque dependen de una conexión constante a la nube, la cual es inexistente en zonas rurales. ==**¿Cómo podríamos diseñar e implementar un sistema de riego de precisión basado en Edge Computing (para la toma de decisiones locales) y conectividad de largo alcance (LoRaWAN), para que los agricultores puedan automatizar su riego de forma autónoma sin depender de internet, logrando reducir el consumo de agua y asegurando la supervivencia de sus cultivos durante las sequías?**=="*
 
 #### 1.2.2.2. Lean UX Assumptions
 
+**Business Assumptions:**
+
+- **Creemos que nuestros clientes son:** Pequeños y medianos productores agrícolas de la región Piura y juntas de usuarios de agua que se ven amenazados por las sequías.
+
+- **Creemos que sus necesidades o problemas son:** La escasez de agua para riego debido al bajo nivel de reservorios (como Poechos), la pérdida de sus cosechas por estrés hídrico, y la imposibilidad de usar tecnología moderna por la falta de conectividad a internet en sus parcelas rurales.
+  
+- **Creemos que el valor que entregamos a nuestros clientes es:** Un sistema de riego de precisión automatizado que toma decisiones de forma autónoma a nivel local (Edge Computing) y reporta el estado del cultivo a largas distancias mediante tecnología LoRaWAN, garantizando el ahorro del agua y la supervivencia de los cultivos sin depender de WiFi o datos móviles.
+  
+- **Creemos que adquiriremos a la mayoría de nuestros clientes a través de:** Alianzas con municipalidades locales, juntas de usuarios de riego, y programas de financiamiento agrícola del Estado (como Agrobanco o Agroideas).
+  
+- **Creemos que nuestro principal competidor es:** Los métodos tradicionales de riego por gravedad o inundación arraigados en la costumbre, y en menor medida, los sistemas IoT comerciales que requieren conexión constante a la nube (Cloud) e infraestructura costosa.
+
+**User Assumptions:**
+
+- **¿Quién es el usuario?** El agricultor costeño de la región Piura que conduce parcelas (generalmente menores a 10 hectáreas) y cuya economía familiar depende íntegramente de la cosecha.
+
+- **¿Dónde encaja nuestro producto** en su trabajo o vida? Se integra directamente en su rutina diaria de campo, liberándolo de la tarea de abrir y cerrar compuertas manualmente y eliminando la necesidad de regar "al cálculo".
+
+- **¿Qué problemas tiene nuestro producto que resolver?** Debe evitar que la planta sufra estrés por falta de agua y, al mismo tiempo, evitar que el agricultor desperdicie su cuota de agua asignada, permitiéndole monitorear la humedad de su tierra sin estar físicamente en cada metro del terreno.
+
+- **¿Cuándo y cómo es usado nuestro producto?** El sistema (sensores y Edge API) funciona 24/7 de manera autónoma en la tierra. El usuario interactúa con la información recibiendo alertas en un dispositivo móvil solo cuando se requiere recargar el tanque, hacer mantenimiento o verificar que el riego automático se completó con éxito.
+
 #### 1.2.2.3. Lean UX Hypothesis Statements
+
+Para formular nuestras hipótesis, combinaremos las suposiciones del negocio y del usuario.
+
+- **Hipótesis 1 (Eficiencia Hídrica y Edge Computing):** Creemos que lograremos reducir el consumo y desperdicio de agua en el campo en hasta un 30% si los pequeños agricultores de Piura utilizan nuestro sistema de riego automatizado con procesamiento Edge Computing para regar sus cultivos de forma precisa y autónoma sin depender de una conexión a internet estable.
+
+- **Hipótesis 2 (Conectividad y Monitoreo a Larga Distancia):** Creemos que lograremos una alta tasa de adopción tecnológica en zonas rurales si los productores agrícolas familiares utilizan nuestra arquitectura de red basada en LoRaWAN para monitorear el estado de la humedad de su tierra y recibir reportes a larga distancia, superando la total falta de cobertura celular en sus parcelas.
+
+- **Hipótesis 3 (Mitigación de la Crisis y Viabilidad Económica):** Creemos que demostraremos la viabilidad del modelo de negocio y un rápido retorno de inversión si las familias agrícolas afectadas por el déficit hídrico del reservorio Poechos logran evitar la pérdida total de sus cosechas al implementar nuestros sensores de bajo costo (TinyML) que priorizan el riego solo cuando la planta realmente lo necesita.
+
+- **Hipótesis 4 (Escalabilidad Institucional):** Creemos que podremos escalar el proyecto mediante alianzas con entidades gubernamentales (como Agrobanco o Agroideas) si las Juntas de Usuarios de Agua en la costa norte utilizan nuestra plataforma descentralizada de gestión hídrica para asegurar y demostrar que el poco recurso hídrico asignado se está distribuyendo eficientemente durante la emergencia por sequía.
 
 #### 1.2.2.4. Lean UX Canvas
 
+- No olvidar
+
 ## 1.3. Segmentos objetivo
+
+**Segmento Objetivo 1: Pequeños y medianos productores de la agricultura familiar ubicados en la región Piura:**
+Este segmento presenta las siguientes características demográficas y estadísticas de sustento:
+
+1. **Características Demográficas y Sociales:**
+   - **Población y subsistencia:** Pertenecen al sector de la agricultura familiar de subsistencia, una actividad de la cual dependen más de 7 millones de personas en el país.
+   - **Vulnerabilidad alimentaria:** Es una población altamente vulnerable. Las estadísticas revelan que más del 70% de la población rural en el Perú se encuentra en una situación de alta inseguridad alimentaria.
+   - **Niveles de pobreza:** La incidencia de pobreza en los hogares agrarios sufrió un incremento abrupto en los últimos años, pasando del 42% al 48%.
+   - **Enfoque de género (Dato clave):** Un rasgo demográfico crítico es que los hogares agrarios con jefatura femenina son los más afectados por la crisis agrícola e hídrica, mostrando una tendencia más pronunciada al incremento de la pobreza y mayores dificultades para acceder a capital y tecnología.
+2. **Características Productivas y Tecnológicas:**
+   - **Tamaño de las parcelas:** Operan unidades agropecuarias fragmentadas y pequeñas. Generalmente conducen parcelas de hasta 10 hectáreas, aunque la gran mayoría (alrededor del 86% a nivel nacional) opera micro parcelas de entre 0 y 2 hectáreas.
+   - **Ineficiencia en el uso del recurso:** A pesar de que el sector agrícola consume el 80% del agua disponible en el país, apenas el 30% de este recurso se distribuye y utiliza de manera eficiente, debido a la dependencia del riego por gravedad o inundación.
+   - **El impacto directo de la crisis en Piura:** Este segmento depende de reservorios que actualmente están colapsados. El reservorio de Poechos (Piura) llegó a operar a un nivel crítico del 21.5% de su capacidad. Esta sequía extrema pone en riesgo inminente a unas 50,000 hectáreas de cultivos y amenaza alrededor de 280,000 puestos de trabajo formales e informales vinculados al agro en la región.
+
+**Segmento Objetivo 2: Juntas de Usuarios de Agua e Instituciones Agrícolas:**
+Este segundo segmento está conformado por las organizaciones que administran el agua y las entidades gubernamentales que financian la tecnología en el campo.
+1. **Características y Rol en el negocio:**
+   - **Juntas de Usuarios:** Son las organizaciones responsables de la administración y distribución del agua en los valles agrícolas. Ellas están sumamente interesadas en que el agua de los reservorios (como Poechos) no se desperdicie, por lo que pueden adquirir tu sistema en volumen para sus asociados.
+   - **Instituciones del Estado (E.g.: Agrobanco / Agroideas):** Entidades que otorgan créditos o cofinancian planes de negocio para la adopción de tecnología agrícola a favor de los pequeños productores. Tu startup les vende la solución tecnológica para que ellos la implementen en las comunidades.
+
+Existe un fuerte respaldo económico para este segmento institucional. Por ejemplo, para el año 2025, el Ministerio de Desarrollo Agrario y Riego (MIDAGRI) cuenta con un presupuesto histórico proyectado de 3,369 millones de soles, destinado precisamente a fortalecer la infraestructura hidráulica y el apoyo tecnológico en el campo mediante programas como Agroideas.
+
+Además, programas como el de Agrobanco ofrecen tasas preferenciales (hasta 3.5% TEA) para que agrupaciones de agricultores puedan instalar infraestructura productiva.

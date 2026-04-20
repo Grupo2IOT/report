@@ -44,9 +44,10 @@ Para llevar a cabo la recolección de información que sustentará nuestro proce
 ---
 
 **A. Guía de Entrevista para el Segmento 1: Pequeños y Medianos Agricultores (Usuario Final)**
+
 **Objetivo de la entrevista:** Comprender el impacto de la crisis hídrica (reservorio Poechos) en su día a día, identificar sus métodos de riego actuales, sus frustraciones ante la falta de conectividad en el campo y su nivel de adopción tecnológica para perfilar su User Persona.
 
-**Bloque 1: Perfil Demográfico y Background (Rompehielo)**
+**Bloque 1: Perfil Demográfico y Background**
 
 1. ¿Podría indicarme su nombre completo, edad y en qué distrito o comunidad de Piura se ubica su parcela?
 2. ¿Quiénes conforman su núcleo familiar y cuántos dependen de la actividad agrícola?
@@ -75,6 +76,7 @@ Para llevar a cabo la recolección de información que sustentará nuestro proce
 ---
 
 **B. Guía de Entrevista para el Segmento 2: Juntas de Usuarios e Instituciones (Cliente B2B/B2G)**
+
 **Objetivo de la entrevista:** Identificar cómo auditan el uso del agua y los créditos agrícolas, conocer sus herramientas de gestión actuales y validar si un Dashboard centralizado con tecnología de largo alcance resolvería sus problemas de fiscalización y riesgo crediticio.
 
 **Bloque 1: Perfil Profesional y Background**

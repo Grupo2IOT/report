@@ -89,7 +89,91 @@ Para formular nuestras hipótesis, combinaremos las suposiciones del negocio y d
 
 #### 1.2.2.4. Lean UX Canvas
 
-- No olvidar
+**Lean UX Canvas**
+<br>
+
+<table border="2" width="100%" cellpadding="10">
+
+<!-- Fila 1 -->
+<tr height="150">
+
+<td width="33%">
+<b>Business Problem</b><br>
+Los pequeños y medianos agricultores de Piura enfrentan pérdidas económicas críticas debido al uso ineficiente del agua en un contexto de sequía extrema. Las soluciones tecnológicas existentes no son viables en zonas rurales por su dependencia de internet, lo que impide optimizar el riego y tomar decisiones oportunas.
+</td>
+
+<td width="34%" rowspan="2">
+<b>Solutions</b><br>
+- Sistema IoT de riego con sensores de humedad y NPK
+- Procesamiento local con Edge AI / TinyML para decisiones autónomas
+- Red LoRaWAN para transmisión de տվյալ a larga distancia sin internet
+- Dashboard web para monitoreo institucional (Juntas/Estado)
+- Alertas móviles para mantenimiento y eventos críticos
+</td>
+
+<td width="33%">
+<b>Business Outcomes</b><br>
+- Reducir hasta en 30% el consumo de agua en parcelas intervenidas
+- Disminuir pérdidas de cultivos por estrés hídrico en al menos 25%
+- Lograr adopción del sistema en 50+ agricultores en fase inicial
+- Establecer 3+ alianzas con Juntas de Usuarios o programas estatales (Agrobanco/Agroideas)
+- Validar un modelo B2B2C escalable en el sector agrícola
+</td>
+
+</tr>
+
+<!-- Fila 2 -->
+<tr height="150">
+
+<td>
+<b>Users</b><br>
+- Usuarios finales: Pequeños y medianos agricultores de Piura (parcelas ≤10 ha)
+- Clientes pagadores (B2B): Juntas de Usuarios de Agua, Agrobanco, Agroideas y entidades estatales que financian tecnología agrícola
+</td>
+
+<td>
+<b>User Outcomes & Benefits</b><br>
+- Automatización del riego sin necesidad de internet
+- Reducción del desperdicio de agua y fertilizantes
+- Monitoreo remoto de humedad del suelo y estado del cultivo
+- Disminución del esfuerzo manual (abrir/cerrar compuertas)
+- Mayor seguridad en la producción agrícola ante sequías
+</td>
+
+</tr>
+
+<!-- Fila 3 -->
+<tr height="150">
+
+<td>
+<b>Hypotheses</b><br>
+1. El uso de Edge Computing reducirá el desperdicio de agua en al menos 30%
+2. La conectividad LoRaWAN permitirá adopción en zonas sin cobertura celular
+3. Los agricultores evitarán pérdidas significativas de cosechas usando riego automatizado
+4. Las instituciones adoptarán la solución para monitorear y auditar el uso del agua
+</td>
+
+<td>
+<b>What's the most important thing we need to learn first?</b><br>
+- Si los agricultores confían en un sistema automatizado sin intervención manual
+- Qué tan precisa debe ser la medición de humedad/NPK para impactar decisiones reales
+- Si LoRaWAN funciona de manera confiable en condiciones reales de campo en Piura
+- Disposición de pago o adopción vía financiamiento institucional
+</td>
+
+<td>
+<b>What's the least amount of work we need to do?</b><br>
+- Prototipo funcional básico con sensor de humedad + microcontrolador (MVP)
+- Prueba piloto en 1–2 parcelas reales en Piura
+- Entrevistas con agricultores para validar usabilidad y confianza
+- Prueba de transmisión LoRaWAN en campo abierto
+- Demo simple del dashboard para instituciones
+</td>
+
+</tr>
+
+</table>
+
 
 ## 1.3. Segmentos objetivo
 

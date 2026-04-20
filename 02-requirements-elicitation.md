@@ -41,6 +41,8 @@ A continuación, se desarrolla el análisis competitivo:
 
 Para llevar a cabo la recolección de información que sustentará nuestro proceso de *Needfinding*, hemos diseñado dos guías de entrevistas semiestructuradas, dirigidas específicamente a nuestros dos segmentos objetivo. Las preguntas han sido formuladas aplicando buenas prácticas de investigación cualitativa, con el fin de extraer datos reales sobre datos demográficos, comportamiento tecnológico, objetivos, frustraciones y rutinas diarias.
 
+---
+
 **A. Guía de Entrevista para el Segmento 1: Pequeños y Medianos Agricultores (Usuario Final)**
 **Objetivo de la entrevista:** Comprender el impacto de la crisis hídrica (reservorio Poechos) en su día a día, identificar sus métodos de riego actuales, sus frustraciones ante la falta de conectividad en el campo y su nivel de adopción tecnológica para perfilar su User Persona.
 
@@ -57,14 +59,45 @@ Para llevar a cabo la recolección de información que sustentará nuestro proce
 6. Cuando está en su parcela, ¿cómo es la señal de internet o datos móviles? ¿Suele perder la conexión? 
 7. ¿Qué marcas de herramientas, insumos agrícolas o tecnología reconoce como confiables en su trabajo diario? 
 8. ¿Cómo suele informarse sobre el clima o los avisos de la Junta de Usuarios (radio, boca a boca, WhatsApp)?
-Bloque 3: Tareas, Objetivos y Frustraciones (Pain Points & Goals) 
+
+**Bloque 3: Tareas, Objetivos y Frustraciones (Pain Points & Goals)**
+
 9. Actualmente, con la reducción de agua del reservorio Poechos, ¿cómo está haciendo para regar sus cultivos? ¿Qué método utiliza (inundación, gravedad, goteo)? 
 10. ¿Cómo decide exactamente cuándo y cuánta agua necesita su cultivo? ¿Se basa en la intuición, la experiencia o alguna herramienta? 
 11. ¿Cuál es su mayor miedo o frustración cuando piensa en la actual campaña agrícola frente a la sequía? 
 12. ¿Alguna vez ha intentado usar sistemas automáticos o tecnología para regar? Si falló o no lo hizo, ¿cuál fue el motivo (costo, complejidad, falta de luz/internet)?
-Bloque 4: Validación de la Solución (Edge Computing y LoRaWAN) 
+
+**Bloque 4: Validación de la Solución (Edge Computing y LoRaWAN)** 
+
 13. Si existiera un sistema económico que le avise a su celular que su tierra está seca, pero que además decida por sí solo abrir el agua para salvar su planta incluso cuando usted no tiene internet en el campo, ¿le daría confianza usarlo? ¿Por qué? 
 14. Para usted, ¿cuál sería el objetivo principal o el mayor beneficio de usar una tecnología así en su parcela?
+
+---
+
+**B. Guía de Entrevista para el Segmento 2: Juntas de Usuarios e Instituciones (Cliente B2B/B2G)**
+**Objetivo de la entrevista:** Identificar cómo auditan el uso del agua y los créditos agrícolas, conocer sus herramientas de gestión actuales y validar si un Dashboard centralizado con tecnología de largo alcance resolvería sus problemas de fiscalización y riesgo crediticio.
+
+**Bloque 1: Perfil Profesional y Background**
+
+1. ¿Cuál es su nombre, qué cargo ocupa y en qué institución labora (Junta de Usuarios / Agrobanco / Agroideas)?
+2. ¿Cuáles son sus principales responsabilidades o tareas diarias respecto a la gestión del agua o el financiamiento agrícola?
+3. ¿Cuál es su formación profesional y cuántos años de experiencia tiene en el sector agrario?
+
+**Bloque 2: Comportamiento Tecnológico y Herramientas**
+
+4. Para realizar su trabajo de monitoreo o gestión, ¿qué dispositivos y software utiliza regularmente (PC, laptops, tablets, Excel, sistemas internos del Estado)?
+5. ¿Tienen actualmente algún software o herramienta digital que les permita saber en tiempo real cuánta agua usa cada agricultor en su parcela?
+
+**Bloque 3: Tareas, Objetivos y Frustraciones (Pain Points & Goals)**
+
+6. Ante la grave crisis hídrica en Piura, ¿cuál es el mayor obstáculo que enfrentan como institución para asegurar que los agricultores no desperdicien la cuota de agua asignada?
+7. (Para bancos/Agroideas): ¿Cómo afecta la sequía y el mal uso del agua al riesgo de que los agricultores no puedan pagar sus créditos o fracasen en sus planes de negocio?
+8. ¿Qué tan costoso, lento o frustrante es enviar supervisores físicamente al campo para auditar los cultivos o las redes de riego?
+
+**Bloque 4: Validación de la Solución (Dashboard Remoto / Ecosistema IoT)**
+
+9. Si contaran con una plataforma web (Dashboard) que les mostrara un mapa en tiempo real indicando qué parcelas mantienen niveles óptimos de humedad y cuáles desperdician agua (transmitido desde zonas sin internet), ¿cómo cambiaría esto su forma de trabajar? 
+10. ¿Cree que su institución estaría dispuesta a financiar o subsidiar este tipo de tecnología para los pequeños agricultores organizados? ¿Qué requisitos pedirían?
 
 ### 2.2.2. Registro de entrevistas.
 

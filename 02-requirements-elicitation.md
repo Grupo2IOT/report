@@ -148,7 +148,23 @@ A continuación, se presenta la Matriz de Tareas de Usuario (User Task Matrix), 
 
 ### 2.3.3. User Journey Mapping.
 
--
+**Segmento 1: Pequeños y Medianos Agricultores (Usuario Final):**
+
+
+<p align="center">
+	<img src="assets/Journey%20Map_%20Pedro%20Ramos.png" alt="Journey Map - Pedro Ramos" width="980" />
+</p>
+
+
+
+**Segmento 2: Juntas de Usuarios e Instituciones (Cliente B2B/B2G):**
+
+
+<p align="center">
+	<img src="assets/Journey%20Map_%20Ana%20Rosa.png" alt="Journey Map - Ana Rosa" width="980" />
+</p>
+
+
 
 ### 2.3.4. Empathy Mapping.
 

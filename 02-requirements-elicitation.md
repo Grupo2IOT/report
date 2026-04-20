@@ -103,18 +103,61 @@ Para llevar a cabo la recolección de información que sustentará nuestro proce
 
 ### 2.2.2. Registro de entrevistas.
 
+-
+
 ### 2.2.3. Análisis de entrevistas.
+
+-
 
 ## 2.3. Needfinding.
 
 ### 2.3.1. User Personas.
 
+**Ficha 1 (Segmento 1): El Pequeño Agricultor Afectado:**
+
+<p align="center">
+	<img src="assets/Pedro%20Ramos%20Chira.png" alt="Ficha 1 - Pedro Ramos Chira" width="520" />
+</p>
+
+<p align="center"><em>Persona del Segmento 1: Pedro Ramos Chira.</em></p>
+
+
+
+**Ficha 2 (Segmento 2): El Cliente Institucional B2B/B2G:**
+
+<p align="center">
+	<img src="assets/Ana%20Rosa%20Castillo.png" alt="Ficha 2 - Ana Rosa Castillo" width="520" />
+</p>
+
+<p align="center"><em>Persona del Segmento 2: Ana Rosa Castillo.</em></p>
+
+
+
 ### 2.3.2. User Task Matrix.
+
+A continuación, se presenta la Matriz de Tareas de Usuario (User Task Matrix), la cual identifica las principales acciones que nuestros segmentos objetivo necesitan realizar para cumplir sus metas, evaluando la frecuencia e importancia de cada una desde su propia perspectiva.
+
+| Tareas de los Usuarios (User Tasks) | User Persona 1: Pedro (Pequeño Agricultor) - Frecuencia | User Persona 1: Pedro (Pequeño Agricultor) - Importancia | User Persona 2: Ana (Evaluadora / Institución) - Frecuencia | User Persona 2: Ana (Evaluadora / Institución) - Importancia |
+| --- | --- | --- | --- | --- |
+| Revisar el estado de humedad de la tierra en la parcela | Alta (Diaria) | Alta | Media (Semanal) | Alta |
+| Abrir o cerrar el paso de agua para regar los cultivos | Media | Alta | Nunca | Ninguna |
+| Identificar señales de falta de agua o enfermedad en las plantas | Alta | Alta | Media | Alta |
+| Calcular y registrar el consumo histórico de agua en el valle | Baja (Mensual) | Media | Alta (Diaria) | Alta |
+| Inspeccionar las parcelas agrícolas para aprobar o verificar créditos | Nunca | Ninguna | Alta | Alta |
+
 
 ### 2.3.3. User Journey Mapping.
 
+-
+
 ### 2.3.4. Empathy Mapping.
+
+-
 
 ## 2.4. Big Picture EventStorming.
 
+-
+
 ## 2.5. Ubiquitous Language.
+
+-

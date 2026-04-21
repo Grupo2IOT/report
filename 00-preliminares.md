@@ -1,4 +1,3 @@
-
 # { style="margin-top: 0; margin-bottom: 10px;" }
 
 <div align="center">
@@ -9,7 +8,7 @@
 
 **Universidad Peruana de Ciencias Aplicadas**
 Carrera: Ingeniería de Software
-Ciclo: 7mo  
+Ciclo: 7mo
 
 Curso: 1ASI0572 - Desarrollo de Soluciones IOT
 
@@ -31,13 +30,13 @@ Nombre del producto: -
 
 <div style="width: 70%; margin: 0 auto;">
 
-| Código | Apellidos y Nombres |
-| --- | --- |
+| Código       | Apellidos y Nombres          |
+| ------------ | ---------------------------- |
 | (u20XXXXXXX) | Arevalo Meza, John Telesforo |
 | (u20XXXXXXX) | Asmad Padilla, Fatima Andrea |
-| (u20XXXXXXX) | Cabrera Buitrón, Diego Ivan |
+| (u20XXXXXXX) | Cabrera Buitrón, Diego Ivan  |
 | (u202310680) | Castro Sanchez, Amir Gabriel |
-| (u20XXXXXXX) | Prado Vargas, Mario Benjamin |
+| (u202115357) | Prado Vargas, Mario Benjamin |
 
 </div>
 
@@ -51,9 +50,39 @@ Lima, Abril 2026
 
 # Registro de Versiones del Informe
 
-| Versión | Fecha | Autor | Descripción de modificación |
-| --- | --- | --- | --- |
-| 1 | Abril, 2026 | Todos | Se realizó el esqueleto del informe |
+<table border="0">
+  <thead>
+    <tr>
+      <th>Versión</th>
+      <th>Fecha</th>
+      <th>Autor</th>
+      <th>Descripción de modificación</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TB1</td>
+      <td>20/04/2026</td>
+      <td>
+        <ul>
+            <li>Arevalo Meza, John Telesforo</li>
+            <li>Asmad Padilla, Fatima Andrea</li>
+            <li>Cabrera Buitrón, Diego Ivan</li>
+            <li>Castro Sanchez, Amir Gabriel</li>
+            <li>Prado Vargas, Mario Benjamin</li>
+        </ul>
+      </td>
+      <td>
+        ● Capítulo I: Introducción<br>
+        ● Capítulo II: Requirements Elicitation & Analysis<br>
+        ● Capítulo III: Requirements Specification<br>
+        ● Capítulo IV: Solution Software Design<br>
+        ● Capítulo V: Product Implementation, Validation & Deployment<br>
+        ● Avance de Conclusiones, Bibliografía y Anexos
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 # Project Report Collaboration Insights
 

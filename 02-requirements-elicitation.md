@@ -1,4 +1,3 @@
-
 # Capítulo II: Requirements Elicitation & Analysis
 
 ## 2.1. Competidores.
@@ -15,19 +14,19 @@ A continuación, se desarrolla el análisis competitivo:
 
 **¿Por qué llevar a cabo este análisis?** Identificar las brechas tecnológicas y comerciales de las empresas de riego actuales en el mercado peruano, para validar cómo nuestra arquitectura Edge Computing representa una ventaja competitiva única para zonas rurales sin internet frente a soluciones que dependen estrictamente de la Nube (Cloud) o Wi-Fi local.
 
-| Perfil | Nuestra Startup | Comp. 1: Netafim | Comp. 2: Smelpro | Comp. 3: Rain Bird |
-| --- | --- | --- | --- | --- |
-| Overview | Ecosistema de riego de precisión autónomo con procesamiento Edge AI y transmisión LoRaWAN para zonas rurales. | Gigante global que ofrece proyectos "llave en mano" y su plataforma digital GrowSphere para riego y fertirrigación de alta precisión. | Integradora peruana de IoT que utiliza sensores, gateways LoRaWAN y centraliza el control en plataformas cloud (AWS). | Fabricante global de aspersores, válvulas y controladores de riego comerciales que operan mediante Wi-Fi y apps móviles. |
-| Ventaja competitiva | ¿Qué valor ofrece a los clientes? Decisiones de riego autónomas sin depender de internet (Edge Computing) en parcelas alejadas. | Soporte agronómico global, altísima precisión y soluciones probadas en miles de hectáreas. | Soporte técnico local (Lima/Perú) y uso de tecnología de largo alcance (LoRaWAN) para la transmisión de datos. | Marca muy confiable, productos fáciles de comprar en ferreterías o distribuidores locales, tecnología muy probada mecánicamente. |
-| Perfil de Marketing - Mercado objetivo | Pequeños agricultores (Piura), Juntas de Usuarios y entidades del Estado (Agrobanco/Agroideas). | Grandes agroexportadoras (ej. en Olmos y Piura) y fundos de alto valor. | Medianas empresas agrícolas e industrias peruanas que buscan automatización. | Huertos urbanos, jardinería residencial, parques públicos y pequeña agricultura. |
-| Perfil de Marketing - Estrategias de marketing | Alianzas B2B/B2G con Juntas de Riego; demostraciones piloto de ROI en campo. | Venta corporativa B2B, líneas de crédito propias (ej. USD 20 millones para agroindustrias). | Marketing digital, desarrollo de proyectos integrales "a medida" en Perú. | Amplia red de distribuidores autorizados internacionales, venta B2C y B2B. |
-| Perfil de Producto - Productos & Servicios | Nodos sensores Edge (TinyML), App móvil, Dashboard Web administrativo para Juntas, red LoRaWAN. | Mangueras de goteo, válvulas, software GrowSphere, servicios técnicos y capacitación. | Sensores de suelo, gateways LoRaWAN, sistema SCADA y plataforma en la nube (AWS). | Controladores Wi-Fi locales, aspersores, válvulas, temporizadores. |
-| Perfil de Producto - Precios & Costos | Costo medio-bajo, accesible mediante cofinanciamiento del Estado. | Costos muy elevados por suscripciones de software y hardware de alta gama. | Costo medio, requiere inversión en gateways y suscripciones cloud. | Costo medio-bajo en hardware (S/ 600 - 1,200 por controlador), pero alto costo en consumo de agua si no se calibra bien. |
-| Perfil de Producto - Canales de distribución | Venta institucional (B2B/B2G) y portal web. | Venta directa corporativa y distribuidores exclusivos. | Venta directa mediante consultoría técnica en Perú. | Distribuidores de equipos de riego, grandes almacenes. |
-| Análisis SWOT - Fortalezas | Funciona 100% offline (Edge), no colapsa si cae el internet. | Músculo financiero enorme, investigación agronómica líder. | Desarrollo de hardware local (PCB a medida), uso de LoRaWAN. | Fácil adopción, equipos de larga durabilidad. |
-| Análisis SWOT - Debilidades | Marca nueva, requiere esfuerzo para generar confianza en el agricultor. | Soluciones inalcanzables para el pequeño agricultor de subsistencia. | Depende de la nube (AWS) para tomar decisiones; si se cae la señal celular del Gateway, el riego no se automatiza bien. | Los equipos Wi-Fi son inútiles en el campo rural sin señal de internet. |
-| Análisis SWOT - Oportunidades | El déficit del reservorio Poechos obliga a los pequeños agricultores a tecnificarse urgentemente. | Alianzas globales (ej. Bayer, IFC) para expandir sus créditos agrícolas. | Crecimiento de la agricultura inteligente en valles costeros peruanos. | Integración de sus controladores de casa con asistentes inteligentes. |
-| Análisis SWOT - Amenazas | Resistencia cultural de los agricultores mayores frente al software. | Surgimiento de startups ágiles y económicas de AgTech. | Competencia de startups que no cobran licencias cloud costosas. | Marcas más baratas o sistemas IoT más avanzados que dejan obsoletos a los temporizadores simples. |
+| Perfil                                         | Nuestra Startup                                                                                                                 | Comp. 1: Netafim                                                                                                                      | Comp. 2: Smelpro                                                                                                        | Comp. 3: Rain Bird                                                                                                               |
+| ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| Overview                                       | Ecosistema de riego de precisión autónomo con procesamiento Edge AI y transmisión LoRaWAN para zonas rurales.                   | Gigante global que ofrece proyectos "llave en mano" y su plataforma digital GrowSphere para riego y fertirrigación de alta precisión. | Integradora peruana de IoT que utiliza sensores, gateways LoRaWAN y centraliza el control en plataformas cloud (AWS).   | Fabricante global de aspersores, válvulas y controladores de riego comerciales que operan mediante Wi-Fi y apps móviles.         |
+| Ventaja competitiva                            | ¿Qué valor ofrece a los clientes? Decisiones de riego autónomas sin depender de internet (Edge Computing) en parcelas alejadas. | Soporte agronómico global, altísima precisión y soluciones probadas en miles de hectáreas.                                            | Soporte técnico local (Lima/Perú) y uso de tecnología de largo alcance (LoRaWAN) para la transmisión de datos.          | Marca muy confiable, productos fáciles de comprar en ferreterías o distribuidores locales, tecnología muy probada mecánicamente. |
+| Perfil de Marketing - Mercado objetivo         | Pequeños agricultores (Piura), Juntas de Usuarios y entidades del Estado (Agrobanco/Agroideas).                                 | Grandes agroexportadoras (ej. en Olmos y Piura) y fundos de alto valor.                                                               | Medianas empresas agrícolas e industrias peruanas que buscan automatización.                                            | Huertos urbanos, jardinería residencial, parques públicos y pequeña agricultura.                                                 |
+| Perfil de Marketing - Estrategias de marketing | Alianzas B2B/B2G con Juntas de Riego; demostraciones piloto de ROI en campo.                                                    | Venta corporativa B2B, líneas de crédito propias (ej. USD 20 millones para agroindustrias).                                           | Marketing digital, desarrollo de proyectos integrales "a medida" en Perú.                                               | Amplia red de distribuidores autorizados internacionales, venta B2C y B2B.                                                       |
+| Perfil de Producto - Productos & Servicios     | Nodos sensores Edge (TinyML), App móvil, Dashboard Web administrativo para Juntas, red LoRaWAN.                                 | Mangueras de goteo, válvulas, software GrowSphere, servicios técnicos y capacitación.                                                 | Sensores de suelo, gateways LoRaWAN, sistema SCADA y plataforma en la nube (AWS).                                       | Controladores Wi-Fi locales, aspersores, válvulas, temporizadores.                                                               |
+| Perfil de Producto - Precios & Costos          | Costo medio-bajo, accesible mediante cofinanciamiento del Estado.                                                               | Costos muy elevados por suscripciones de software y hardware de alta gama.                                                            | Costo medio, requiere inversión en gateways y suscripciones cloud.                                                      | Costo medio-bajo en hardware (S/ 600 - 1,200 por controlador), pero alto costo en consumo de agua si no se calibra bien.         |
+| Perfil de Producto - Canales de distribución   | Venta institucional (B2B/B2G) y portal web.                                                                                     | Venta directa corporativa y distribuidores exclusivos.                                                                                | Venta directa mediante consultoría técnica en Perú.                                                                     | Distribuidores de equipos de riego, grandes almacenes.                                                                           |
+| Análisis SWOT - Fortalezas                     | Funciona 100% offline (Edge), no colapsa si cae el internet.                                                                    | Músculo financiero enorme, investigación agronómica líder.                                                                            | Desarrollo de hardware local (PCB a medida), uso de LoRaWAN.                                                            | Fácil adopción, equipos de larga durabilidad.                                                                                    |
+| Análisis SWOT - Debilidades                    | Marca nueva, requiere esfuerzo para generar confianza en el agricultor.                                                         | Soluciones inalcanzables para el pequeño agricultor de subsistencia.                                                                  | Depende de la nube (AWS) para tomar decisiones; si se cae la señal celular del Gateway, el riego no se automatiza bien. | Los equipos Wi-Fi son inútiles en el campo rural sin señal de internet.                                                          |
+| Análisis SWOT - Oportunidades                  | El déficit del reservorio Poechos obliga a los pequeños agricultores a tecnificarse urgentemente.                               | Alianzas globales (ej. Bayer, IFC) para expandir sus créditos agrícolas.                                                              | Crecimiento de la agricultura inteligente en valles costeros peruanos.                                                  | Integración de sus controladores de casa con asistentes inteligentes.                                                            |
+| Análisis SWOT - Amenazas                       | Resistencia cultural de los agricultores mayores frente al software.                                                            | Surgimiento de startups ágiles y económicas de AgTech.                                                                                | Competencia de startups que no cobran licencias cloud costosas.                                                         | Marcas más baratas o sistemas IoT más avanzados que dejan obsoletos a los temporizadores simples.                                |
 
 ### 2.1.2. Estrategias y tácticas frente a competidores.
 
@@ -39,7 +38,7 @@ A continuación, se desarrolla el análisis competitivo:
 
 ### 2.2.1. Diseño de entrevistas.
 
-Para llevar a cabo la recolección de información que sustentará nuestro proceso de *Needfinding*, hemos diseñado dos guías de entrevistas semiestructuradas, dirigidas específicamente a nuestros dos segmentos objetivo. Las preguntas han sido formuladas aplicando buenas prácticas de investigación cualitativa, con el fin de extraer datos reales sobre datos demográficos, comportamiento tecnológico, objetivos, frustraciones y rutinas diarias.
+Para llevar a cabo la recolección de información que sustentará nuestro proceso de _Needfinding_, hemos diseñado dos guías de entrevistas semiestructuradas, dirigidas específicamente a nuestros dos segmentos objetivo. Las preguntas han sido formuladas aplicando buenas prácticas de investigación cualitativa, con el fin de extraer datos reales sobre datos demográficos, comportamiento tecnológico, objetivos, frustraciones y rutinas diarias.
 
 ---
 
@@ -56,21 +55,21 @@ Para llevar a cabo la recolección de información que sustentará nuestro proce
 
 **Bloque 2: Comportamiento Tecnológico, Marcas y Canales de Interacción**
 
-5. ¿Qué tipo de teléfono celular utiliza (básico o smartphone) y qué aplicaciones usa con más frecuencia en su día a día (ej. WhatsApp, Facebook, radio local)? 
-6. Cuando está en su parcela, ¿cómo es la señal de internet o datos móviles? ¿Suele perder la conexión? 
-7. ¿Qué marcas de herramientas, insumos agrícolas o tecnología reconoce como confiables en su trabajo diario? 
+5. ¿Qué tipo de teléfono celular utiliza (básico o smartphone) y qué aplicaciones usa con más frecuencia en su día a día (ej. WhatsApp, Facebook, radio local)?
+6. Cuando está en su parcela, ¿cómo es la señal de internet o datos móviles? ¿Suele perder la conexión?
+7. ¿Qué marcas de herramientas, insumos agrícolas o tecnología reconoce como confiables en su trabajo diario?
 8. ¿Cómo suele informarse sobre el clima o los avisos de la Junta de Usuarios (radio, boca a boca, WhatsApp)?
 
 **Bloque 3: Tareas, Objetivos y Frustraciones (Pain Points & Goals)**
 
-9. Actualmente, con la reducción de agua del reservorio Poechos, ¿cómo está haciendo para regar sus cultivos? ¿Qué método utiliza (inundación, gravedad, goteo)? 
-10. ¿Cómo decide exactamente cuándo y cuánta agua necesita su cultivo? ¿Se basa en la intuición, la experiencia o alguna herramienta? 
-11. ¿Cuál es su mayor miedo o frustración cuando piensa en la actual campaña agrícola frente a la sequía? 
+9. Actualmente, con la reducción de agua del reservorio Poechos, ¿cómo está haciendo para regar sus cultivos? ¿Qué método utiliza (inundación, gravedad, goteo)?
+10. ¿Cómo decide exactamente cuándo y cuánta agua necesita su cultivo? ¿Se basa en la intuición, la experiencia o alguna herramienta?
+11. ¿Cuál es su mayor miedo o frustración cuando piensa en la actual campaña agrícola frente a la sequía?
 12. ¿Alguna vez ha intentado usar sistemas automáticos o tecnología para regar? Si falló o no lo hizo, ¿cuál fue el motivo (costo, complejidad, falta de luz/internet)?
 
-**Bloque 4: Validación de la Solución (Edge Computing y LoRaWAN)** 
+**Bloque 4: Validación de la Solución (Edge Computing y LoRaWAN)**
 
-13. Si existiera un sistema económico que le avise a su celular que su tierra está seca, pero que además decida por sí solo abrir el agua para salvar su planta incluso cuando usted no tiene internet en el campo, ¿le daría confianza usarlo? ¿Por qué? 
+13. Si existiera un sistema económico que le avise a su celular que su tierra está seca, pero que además decida por sí solo abrir el agua para salvar su planta incluso cuando usted no tiene internet en el campo, ¿le daría confianza usarlo? ¿Por qué?
 14. Para usted, ¿cuál sería el objetivo principal o el mayor beneficio de usar una tecnología así en su parcela?
 
 ---
@@ -98,7 +97,7 @@ Para llevar a cabo la recolección de información que sustentará nuestro proce
 
 **Bloque 4: Validación de la Solución (Dashboard Remoto / Ecosistema IoT)**
 
-9. Si contaran con una plataforma web (Dashboard) que les mostrara un mapa en tiempo real indicando qué parcelas mantienen niveles óptimos de humedad y cuáles desperdician agua (transmitido desde zonas sin internet), ¿cómo cambiaría esto su forma de trabajar? 
+9. Si contaran con una plataforma web (Dashboard) que les mostrara un mapa en tiempo real indicando qué parcelas mantienen niveles óptimos de humedad y cuáles desperdician agua (transmitido desde zonas sin internet), ¿cómo cambiaría esto su forma de trabajar?
 10. ¿Cree que su institución estaría dispuesta a financiar o subsidiar este tipo de tecnología para los pequeños agricultores organizados? ¿Qué requisitos pedirían?
 
 ### 2.2.2. Registro de entrevistas.
@@ -121,8 +120,6 @@ Para llevar a cabo la recolección de información que sustentará nuestro proce
 
 <p align="center"><em>Persona del Segmento 1: Pedro Ramos Chira.</em></p>
 
-
-
 **Ficha 2 (Segmento 2): El Cliente Institucional B2B/B2G:**
 
 <p align="center">
@@ -131,39 +128,31 @@ Para llevar a cabo la recolección de información que sustentará nuestro proce
 
 <p align="center"><em>Persona del Segmento 2: Ana Rosa Castillo.</em></p>
 
-
-
 ### 2.3.2. User Task Matrix.
 
 A continuación, se presenta la Matriz de Tareas de Usuario (User Task Matrix), la cual identifica las principales acciones que nuestros segmentos objetivo necesitan realizar para cumplir sus metas, evaluando la frecuencia e importancia de cada una desde su propia perspectiva.
 
-| Tareas de los Usuarios (User Tasks) | User Persona 1: Pedro (Pequeño Agricultor) - Frecuencia | User Persona 1: Pedro (Pequeño Agricultor) - Importancia | User Persona 2: Ana (Evaluadora / Institución) - Frecuencia | User Persona 2: Ana (Evaluadora / Institución) - Importancia |
-| --- | --- | --- | --- | --- |
-| Revisar el estado de humedad de la tierra en la parcela | Alta (Diaria) | Alta | Media (Semanal) | Alta |
-| Abrir o cerrar el paso de agua para regar los cultivos | Media | Alta | Nunca | Ninguna |
-| Identificar señales de falta de agua o enfermedad en las plantas | Alta | Alta | Media | Alta |
-| Calcular y registrar el consumo histórico de agua en el valle | Baja (Mensual) | Media | Alta (Diaria) | Alta |
-| Inspeccionar las parcelas agrícolas para aprobar o verificar créditos | Nunca | Ninguna | Alta | Alta |
-
+| Tareas de los Usuarios (User Tasks)                                   | User Persona 1: Pedro (Pequeño Agricultor) - Frecuencia | User Persona 1: Pedro (Pequeño Agricultor) - Importancia | User Persona 2: Ana (Evaluadora / Institución) - Frecuencia | User Persona 2: Ana (Evaluadora / Institución) - Importancia |
+| --------------------------------------------------------------------- | ------------------------------------------------------- | -------------------------------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------ |
+| Revisar el estado de humedad de la tierra en la parcela               | Alta (Diaria)                                           | Alta                                                     | Media (Semanal)                                             | Alta                                                         |
+| Abrir o cerrar el paso de agua para regar los cultivos                | Media                                                   | Alta                                                     | Nunca                                                       | Ninguna                                                      |
+| Identificar señales de falta de agua o enfermedad en las plantas      | Alta                                                    | Alta                                                     | Media                                                       | Alta                                                         |
+| Calcular y registrar el consumo histórico de agua en el valle         | Baja (Mensual)                                          | Media                                                    | Alta (Diaria)                                               | Alta                                                         |
+| Inspeccionar las parcelas agrícolas para aprobar o verificar créditos | Nunca                                                   | Ninguna                                                  | Alta                                                        | Alta                                                         |
 
 ### 2.3.3. User Journey Mapping.
 
 **Segmento 1: Pequeños y Medianos Agricultores (Usuario Final):**
 
-
 <p align="center">
 	<img src="assets/journeymap-1.png" alt="Journey Map - Pedro Ramos" width="980" />
 </p>
 
-
-
 **Segmento 2: Juntas de Usuarios e Instituciones (Cliente B2B/B2G):**
-
 
 <p align="center">
 	<img src="assets/journeymap-2.png" alt="Journey Map - Ana Rosa" width="980" />
 </p>
-
 
 ### 2.3.4. Empathy Mapping.
 
@@ -187,6 +176,28 @@ A continuación, se presenta la Matriz de Tareas de Usuario (User Task Matrix), 
 
 -
 
-## 2.5. Ubiquitous Language.
+## 2.5. Ubiquitous Language
 
--
+| Término en Inglés          | Término en Español          | Definición                                                                                                                                                                                                      |
+| -------------------------- | --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Edge Computing             | Computación en el Borde     | Arquitectura donde el procesamiento de datos y la toma de decisiones se realizan localmente en el dispositivo (microcontrolador) en el campo, sin depender de la conexión a internet o la nube.                 |
+| LoRaWAN                    | LoRaWAN                     | Tecnología de red de área amplia de baja potencia y largo alcance utilizada para transmitir datos entre sensores, nodos y el dashboard central, incluso en zonas rurales sin cobertura de internet tradicional. |
+| User Persona               | Persona de Usuario          | Representación ficticia de los usuarios objetivo del sistema, como el pequeño agricultor (Pedro) o la evaluadora institucional (Ana), utilizada para guiar el diseño centrado en el usuario.                    |
+| Dashboard                  | Panel de Control            | Plataforma web centralizada que permite a las instituciones monitorear en tiempo real el estado de las parcelas, el uso del agua y la eficiencia del riego, incluso desde zonas sin internet.                   |
+| Sensor Node                | Nodo Sensor                 | Dispositivo físico instalado en la parcela que mide variables como humedad del suelo y transmite los datos mediante LoRaWAN para la toma de decisiones autónoma de riego.                                       |
+| TinyML                     | TinyML                      | Implementación de modelos de aprendizaje automático (Machine Learning) en microcontroladores de bajo consumo para procesar datos y tomar decisiones localmente en el campo.                                     |
+| Irrigation Event           | Evento de Riego             | Acción de apertura o cierre de válvulas para suministrar agua a los cultivos, ejecutada automáticamente por el sistema según las condiciones detectadas por los sensores.                                       |
+| User Task Matrix           | Matriz de Tareas de Usuario | Herramienta que identifica y prioriza las acciones principales que los diferentes usuarios necesitan realizar para cumplir sus objetivos, evaluando frecuencia e importancia.                                   |
+| Water Stress               | Estrés Hídrico              | Condición en la que los cultivos sufren por falta de agua suficiente, poniendo en riesgo la producción agrícola y la economía familiar del agricultor.                                                          |
+| Agricultural Credit        | Crédito Agrícola            | Financiamiento otorgado por instituciones como Agrobanco o Agroideas a los agricultores para la implementación de tecnología o mejora de infraestructura de riego.                                              |
+| Junta de Usuarios          | Junta de Usuarios           | Organización local encargada de la gestión y distribución del agua entre los agricultores de una región o comunidad.                                                                                            |
+| Remote Monitoring          | Monitoreo Remoto            | Supervisión a distancia del estado de las parcelas y el uso del agua, posible gracias a la transmisión de datos por LoRaWAN y la visualización en el dashboard.                                                 |
+| Autonomous Irrigation      | Riego Autónomo              | Proceso en el que el sistema decide y ejecuta el riego de los cultivos sin intervención humana directa, basado en datos de sensores y algoritmos locales.                                                       |
+| Cloud Dependency           | Dependencia de la Nube      | Limitación de algunos sistemas que requieren conexión constante a internet para funcionar, lo que los hace inoperativos en zonas rurales sin cobertura.                                                         |
+| Pilot Demonstration        | Demostración Piloto         | Prueba de campo realizada para mostrar la efectividad y el retorno de inversión (ROI) del sistema a potenciales clientes o instituciones.                                                                       |
+| Maintenance Alert          | Alerta de Mantenimiento     | Notificación enviada al usuario cuando el sistema detecta la necesidad de realizar tareas de mantenimiento preventivo o correctivo en los sensores o válvulas.                                                  |
+| Water Quota                | Cuota de Agua               | Cantidad de agua asignada a cada agricultor por la Junta de Usuarios, que debe ser utilizada eficientemente para evitar sanciones o pérdida de crédito.                                                         |
+| Institutional Client       | Cliente Institucional       | Entidad como una Junta de Usuarios, Agrobanco o Agroideas que adquiere o financia la solución tecnológica para beneficiar a un grupo de agricultores.                                                           |
+| Field Connectivity         | Conectividad en el Campo    | Disponibilidad y calidad de señal de internet o datos móviles en la parcela agrícola, factor crítico para la viabilidad de soluciones tecnológicas.                                                             |
+| ROI (Return on Investment) | Retorno de Inversión        | Beneficio económico obtenido por el agricultor o la institución al implementar el sistema de riego inteligente, medido en ahorro de agua, reducción de pérdidas y mejora de la producción.                      |
+

@@ -165,10 +165,23 @@ A continuación, se presenta la Matriz de Tareas de Usuario (User Task Matrix), 
 </p>
 
 
-
 ### 2.3.4. Empathy Mapping.
 
--
+**Empathy Map 1: Pedro Ramos Chira (Pequeño Agricultor)**
+
+<p align="center">
+	<img src="assets/Pedro%20Ramos%20Chira%20%28Peque%C3%B1o%20Agricultor%29.png" alt="Empathy Map - Pedro Ramos Chira" width="920" />
+</p>
+
+<p align="center"><em>Empathy Map del Segmento 1: Pedro Ramos Chira.</em></p>
+
+**Empathy Map 2: Ana Rosa Castillo (Evaluadora B2B/B2G)**
+
+<p align="center">
+	<img src="assets/Ana%20Rosa%20Castillo%20%28Evaluadora%20B2B_B2G%29.png" alt="Empathy Map - Ana Rosa Castillo" width="920" />
+</p>
+
+<p align="center"><em>Empathy Map del Segmento 2: Ana Rosa Castillo.</em></p>
 
 ## 2.4. Big Picture EventStorming.
 

@@ -116,7 +116,7 @@ Para llevar a cabo la recolección de información que sustentará nuestro proce
 **Ficha 1 (Segmento 1): El Pequeño Agricultor Afectado:**
 
 <p align="center">
-	<img src="assets/Pedro%20Ramos%20Chira.png" alt="Ficha 1 - Pedro Ramos Chira" width="520" />
+	<img src="assets/persona-1.png" alt="Ficha 1 - Pedro Ramos Chira" width="520" />
 </p>
 
 <p align="center"><em>Persona del Segmento 1: Pedro Ramos Chira.</em></p>
@@ -126,7 +126,7 @@ Para llevar a cabo la recolección de información que sustentará nuestro proce
 **Ficha 2 (Segmento 2): El Cliente Institucional B2B/B2G:**
 
 <p align="center">
-	<img src="assets/Ana%20Rosa%20Castillo.png" alt="Ficha 2 - Ana Rosa Castillo" width="520" />
+	<img src="assets/persona-2.png" alt="Ficha 2 - Ana Rosa Castillo" width="520" />
 </p>
 
 <p align="center"><em>Persona del Segmento 2: Ana Rosa Castillo.</em></p>
@@ -152,7 +152,7 @@ A continuación, se presenta la Matriz de Tareas de Usuario (User Task Matrix), 
 
 
 <p align="center">
-	<img src="assets/Journey%20Map_%20Pedro%20Ramos.png" alt="Journey Map - Pedro Ramos" width="980" />
+	<img src="assets/journeymap-1.png" alt="Journey Map - Pedro Ramos" width="980" />
 </p>
 
 
@@ -161,7 +161,7 @@ A continuación, se presenta la Matriz de Tareas de Usuario (User Task Matrix), 
 
 
 <p align="center">
-	<img src="assets/Journey%20Map_%20Ana%20Rosa.png" alt="Journey Map - Ana Rosa" width="980" />
+	<img src="assets/journeymap-2.png" alt="Journey Map - Ana Rosa" width="980" />
 </p>
 
 
@@ -170,7 +170,7 @@ A continuación, se presenta la Matriz de Tareas de Usuario (User Task Matrix), 
 **Empathy Map 1: Pedro Ramos Chira (Pequeño Agricultor)**
 
 <p align="center">
-	<img src="assets/Pedro%20Ramos%20Chira%20%28Peque%C3%B1o%20Agricultor%29.png" alt="Empathy Map - Pedro Ramos Chira" width="920" />
+	<img src="assets/empathy-1.png" alt="Empathy Map - Pedro Ramos Chira" width="920" />
 </p>
 
 <p align="center"><em>Empathy Map del Segmento 1: Pedro Ramos Chira.</em></p>
@@ -178,7 +178,7 @@ A continuación, se presenta la Matriz de Tareas de Usuario (User Task Matrix), 
 **Empathy Map 2: Ana Rosa Castillo (Evaluadora B2B/B2G)**
 
 <p align="center">
-	<img src="assets/Ana%20Rosa%20Castillo%20%28Evaluadora%20B2B_B2G%29.png" alt="Empathy Map - Ana Rosa Castillo" width="920" />
+	<img src="assets/empathy-2.png" alt="Empathy Map - Ana Rosa Castillo" width="920" />
 </p>
 
 <p align="center"><em>Empathy Map del Segmento 2: Ana Rosa Castillo.</em></p>

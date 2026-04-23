@@ -152,7 +152,7 @@ Las preguntas fueron formuladas siguiendo buenas prácticas de investigación cu
 | <strong>Segmento:</strong> Juntas de Usuarios e Instituciones (Cliente B2B/B2G) |
 | <strong>Resumen:</strong> La entrevista a Rodrigo Aquije, especialista en gestión de recursos hídricos, evidenció que la gestión del agua en el sector agrario enfrenta limitaciones debido a la falta de monitoreo en tiempo real, lo que obliga a trabajar con datos estimados y reduce la eficiencia en la toma de decisiones. Asimismo, la supervisión en campo resulta costosa y poco oportuna, mientras que la crisis hídrica incrementa los riesgos productivos y crediticios. En este contexto, se identificó que la implementación de un sistema con dashboard en tiempo real mejoraría significativamente la gestión del recurso y que existe disposición institucional para financiar este tipo de soluciones si demuestran impacto y viabilidad. |
 | <strong>Enlace de video:</strong> [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b490_upc_edu_pe/IQAuyPvT7CXURoTXpQArPvxUAcaJnqvuP_HVGP5L_iE7PMQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=sWB09n](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b490_upc_edu_pe/IQAuyPvT7CXURoTXpQArPvxUAcaJnqvuP_HVGP5L_iE7PMQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=sWB09n) |
-| <strong>Foto del entrevistado:</strong><br><img src="./assets/Entrevista_4.png" alt="Entrevista_4" height="200"/> |
+| <strong>Foto del entrevistado:</strong><br><img src="./assets/Entrevista_4.png" alt="Entrevista_4" height="500"/> |
 
 &nbsp;
 
@@ -182,7 +182,33 @@ Las preguntas fueron formuladas siguiendo buenas prácticas de investigación cu
 
 ### 2.2.3. Análisis de entrevistas.
 
--
+**Entrevista 1:**
+
+xxxxx
+
+**Entrevista 2:**
+
+xxxx
+
+**Entrevista 3:**
+
+xxxxxx
+
+**Entrevista 4:**
+
+La entrevista a Rodrigo Aquije, especialista en gestión de recursos hídricos y financiamiento agrícola, permitió identificar aspectos clave sobre la gestión del agua en el sector agrario. En su labor, se encarga del monitoreo del uso del recurso hídrico, la coordinación con agricultores y la evaluación de proyectos agrícolas, utilizando principalmente herramientas como Excel, sistemas del Estado y, en algunos casos, sistemas de información geográfica.
+
+Uno de los principales problemas detectados es la ausencia de sistemas de monitoreo en tiempo real, lo que obliga a trabajar con datos estimados o recolectados manualmente, limitando la eficiencia en la toma de decisiones. Frente a la crisis hídrica, el mayor obstáculo es la falta de control y visibilidad sobre el uso del agua, lo que incrementa el riesgo productivo y crediticio en los agricultores.
+
+Asimismo, se evidenció que la supervisión en campo resulta costosa, lenta y poco eficiente. En este contexto, la implementación de un dashboard con información en tiempo real sería altamente beneficiosa, ya que permitiría mejorar la gestión, optimizar recursos y reducir la necesidad de supervisión presencial. Finalmente, se concluye que existe disposición institucional para financiar este tipo de tecnología, siempre que demuestre impacto, viabilidad y accesibilidad para los pequeños agricultores.
+
+**Entrevista 5:**
+
+xxxx
+
+**Entrevista 6:**
+
+xxxxx
 
 ## 2.3. Needfinding.
 

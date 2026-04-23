@@ -113,7 +113,7 @@ Las preguntas fueron formuladas siguiendo buenas prácticas de investigación cu
 | <strong>Nombre:</strong> xxxx |
 | <strong>Edad:</strong> xxxx |
 | <strong>Procedencia:</strong> xxxx |
-| <strong>Segmento:</strong> xxxx |
+| <strong>Segmento:</strong> Pequeños y Medianos Agricultores (Usuario Final) |
 | <strong>Resumen:</strong> xxxx |
 | <strong>Enlace de video:</strong> xxxx |
 | <strong>Foto del entrevistado:</strong><br><img src="xxx" alt="xxx" height="200"/> |
@@ -125,7 +125,7 @@ Las preguntas fueron formuladas siguiendo buenas prácticas de investigación cu
 | <strong>Nombre:</strong> xxxx |
 | <strong>Edad:</strong> xxxx |
 | <strong>Procedencia:</strong> xxxx |
-| <strong>Segmento:</strong> xxxx |
+| <strong>Segmento:</strong> Pequeños y Medianos Agricultores (Usuario Final) |
 | <strong>Resumen:</strong> xxxx |
 | <strong>Enlace de video:</strong> xxxx |
 | <strong>Foto del entrevistado:</strong><br><img src="xxx" alt="xxx" height="200"/> |
@@ -137,7 +137,7 @@ Las preguntas fueron formuladas siguiendo buenas prácticas de investigación cu
 | <strong>Nombre:</strong> xxxx |
 | <strong>Edad:</strong> xxxx |
 | <strong>Procedencia:</strong> xxxx |
-| <strong>Segmento:</strong> xxxx |
+| <strong>Segmento:</strong> Pequeños y Medianos Agricultores (Usuario Final) |
 | <strong>Resumen:</strong> xxxx |
 | <strong>Enlace de video:</strong> xxxx |
 | <strong>Foto del entrevistado:</strong><br><img src="xxx" alt="xxx" height="200"/> |
@@ -146,13 +146,13 @@ Las preguntas fueron formuladas siguiendo buenas prácticas de investigación cu
 
 | **Entrevista 4** |
 |------------------|
-| <strong>Nombre:</strong> xxxx |
-| <strong>Edad:</strong> xxxx |
-| <strong>Procedencia:</strong> xxxx |
-| <strong>Segmento:</strong> xxxx |
-| <strong>Resumen:</strong> xxxx |
-| <strong>Enlace de video:</strong> xxxx |
-| <strong>Foto del entrevistado:</strong><br><img src="xxx" alt="xxx" height="200"/> |
+| <strong>Nombre:</strong> Rodrigo Aquije |
+| <strong>Edad:</strong> 30 |
+| <strong>Procedencia:</strong> Lima |
+| <strong>Segmento:</strong> Juntas de Usuarios e Instituciones (Cliente B2B/B2G) |
+| <strong>Resumen:</strong> La entrevista a Rodrigo Aquije, especialista en gestión de recursos hídricos, evidenció que la gestión del agua en el sector agrario enfrenta limitaciones debido a la falta de monitoreo en tiempo real, lo que obliga a trabajar con datos estimados y reduce la eficiencia en la toma de decisiones. Asimismo, la supervisión en campo resulta costosa y poco oportuna, mientras que la crisis hídrica incrementa los riesgos productivos y crediticios. En este contexto, se identificó que la implementación de un sistema con dashboard en tiempo real mejoraría significativamente la gestión del recurso y que existe disposición institucional para financiar este tipo de soluciones si demuestran impacto y viabilidad. |
+| <strong>Enlace de video:</strong> [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b490_upc_edu_pe/IQAuyPvT7CXURoTXpQArPvxUAcaJnqvuP_HVGP5L_iE7PMQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=sWB09n](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b490_upc_edu_pe/IQAuyPvT7CXURoTXpQArPvxUAcaJnqvuP_HVGP5L_iE7PMQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=sWB09n) |
+| <strong>Foto del entrevistado:</strong><br><img src="./assets/Entrevista_4.png" alt="Entrevista_4" height="200"/> |
 
 &nbsp;
 
@@ -161,7 +161,7 @@ Las preguntas fueron formuladas siguiendo buenas prácticas de investigación cu
 | <strong>Nombre:</strong> xxxx |
 | <strong>Edad:</strong> xxxx |
 | <strong>Procedencia:</strong> xxxx |
-| <strong>Segmento:</strong> xxxx |
+| <strong>Segmento:</strong> Juntas de Usuarios e Instituciones (Cliente B2B/B2G) |
 | <strong>Resumen:</strong> xxxx |
 | <strong>Enlace de video:</strong> xxxx |
 | <strong>Foto del entrevistado:</strong><br><img src="xxx" alt="xxx" height="200"/> |
@@ -173,7 +173,7 @@ Las preguntas fueron formuladas siguiendo buenas prácticas de investigación cu
 | <strong>Nombre:</strong> xxxx |
 | <strong>Edad:</strong> xxxx |
 | <strong>Procedencia:</strong> xxxx |
-| <strong>Segmento:</strong> xxxx |
+| <strong>Segmento:</strong> Juntas de Usuarios e Instituciones (Cliente B2B/B2G) |
 | <strong>Resumen:</strong> xxxx |
 | <strong>Enlace de video:</strong> xxxx |
 | <strong>Foto del entrevistado:</strong><br><img src="xxx" alt="xxx" height="200"/> |

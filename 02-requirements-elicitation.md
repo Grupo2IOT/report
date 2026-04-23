@@ -102,7 +102,83 @@ Para llevar a cabo la recolección de información que sustentará nuestro proce
 
 ### 2.2.2. Registro de entrevistas.
 
--
+En esta sección se describe el proceso de recolección de información que respalda el Needfinding, el cual se llevó a cabo mediante la elaboración de dos guías de entrevistas semiestructuradas. Estas fueron diseñadas específicamente para abordar a los segmentos objetivo definidos: pequeños y medianos agricultores, como usuarios finales, y representantes de juntas de usuarios e instituciones, como actores clave del entorno.
+
+Las preguntas fueron formuladas siguiendo buenas prácticas de investigación cualitativa, con el propósito de obtener información relevante sobre aspectos demográficos, comportamiento tecnológico, objetivos, frustraciones y dinámicas cotidianas. De esta manera, se busca comprender en profundidad las necesidades, desafíos y expectativas de cada segmento frente a la crisis hídrica y el uso de tecnología, permitiendo así fundamentar el diseño de una solución innovadora basada en un ecosistema IoT orientado a la optimización del riego agrícola.
+
+&nbsp;
+
+| **Entrevista 1** |
+|------------------|
+| <strong>Nombre:</strong> xxxx |
+| <strong>Edad:</strong> xxxx |
+| <strong>Procedencia:</strong> xxxx |
+| <strong>Segmento:</strong> xxxx |
+| <strong>Resumen:</strong> xxxx |
+| <strong>Enlace de video:</strong> xxxx |
+| <strong>Foto del entrevistado:</strong><br><img src="xxx" alt="xxx" height="200"/> |
+
+&nbsp;
+
+| **Entrevista 2** |
+|------------------|
+| <strong>Nombre:</strong> xxxx |
+| <strong>Edad:</strong> xxxx |
+| <strong>Procedencia:</strong> xxxx |
+| <strong>Segmento:</strong> xxxx |
+| <strong>Resumen:</strong> xxxx |
+| <strong>Enlace de video:</strong> xxxx |
+| <strong>Foto del entrevistado:</strong><br><img src="xxx" alt="xxx" height="200"/> |
+
+&nbsp;
+
+| **Entrevista 3** |
+|------------------|
+| <strong>Nombre:</strong> xxxx |
+| <strong>Edad:</strong> xxxx |
+| <strong>Procedencia:</strong> xxxx |
+| <strong>Segmento:</strong> xxxx |
+| <strong>Resumen:</strong> xxxx |
+| <strong>Enlace de video:</strong> xxxx |
+| <strong>Foto del entrevistado:</strong><br><img src="xxx" alt="xxx" height="200"/> |
+
+&nbsp;
+
+| **Entrevista 4** |
+|------------------|
+| <strong>Nombre:</strong> xxxx |
+| <strong>Edad:</strong> xxxx |
+| <strong>Procedencia:</strong> xxxx |
+| <strong>Segmento:</strong> xxxx |
+| <strong>Resumen:</strong> xxxx |
+| <strong>Enlace de video:</strong> xxxx |
+| <strong>Foto del entrevistado:</strong><br><img src="xxx" alt="xxx" height="200"/> |
+
+&nbsp;
+
+| **Entrevista 5** |
+|------------------|
+| <strong>Nombre:</strong> xxxx |
+| <strong>Edad:</strong> xxxx |
+| <strong>Procedencia:</strong> xxxx |
+| <strong>Segmento:</strong> xxxx |
+| <strong>Resumen:</strong> xxxx |
+| <strong>Enlace de video:</strong> xxxx |
+| <strong>Foto del entrevistado:</strong><br><img src="xxx" alt="xxx" height="200"/> |
+
+&nbsp;
+
+| **Entrevista 6** |
+|------------------|
+| <strong>Nombre:</strong> xxxx |
+| <strong>Edad:</strong> xxxx |
+| <strong>Procedencia:</strong> xxxx |
+| <strong>Segmento:</strong> xxxx |
+| <strong>Resumen:</strong> xxxx |
+| <strong>Enlace de video:</strong> xxxx |
+| <strong>Foto del entrevistado:</strong><br><img src="xxx" alt="xxx" height="200"/> |
+
+&nbsp;
 
 ### 2.2.3. Análisis de entrevistas.
 

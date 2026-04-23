@@ -7,6 +7,38 @@
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
+---
+#### **xxx – Ingeniería de Software – xxx**  
+<img src="xxx" alt="xxx" height="200"/>
+
+xxx
+
+---
+#### **Fatima Andrea Asmad Padilla – Ingeniería de Software – U20221B490**  
+<img src="./assets/Fatima_Asmad_1.jpeg" alt="Fatima Asmad" height="200"/>
+
+Mi perfil se caracteriza por la responsabilidad, disciplina y compromiso en cada tarea que realizo, buscando siempre dar lo mejor de mí en cualquier proyecto o actividad asignada. Actualmente curso el sexto ciclo de la carrera de Ingeniería de Software, lo cual me ha permitido adquirir una base sólida en distintas áreas del desarrollo tecnológico.
+
+---
+#### **xxx – Ingeniería de Software – xxx**  
+<img src="xxx" alt="xxx" height="200"/>
+
+xxx
+
+---
+#### **xxx – Ingeniería de Software – xxx**  
+<img src="xxx" alt="xxx" height="200"/>
+
+xxx
+
+---
+#### **xxx – Ingeniería de Software – xxx**  
+<img src="xxx" alt="xxx" height="200"/>
+
+xxx
+
+---
+
 ## 1.2. Solution Profile
 
 ### 1.2.1 Antecedentes y problemática

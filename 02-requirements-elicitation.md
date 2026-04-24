@@ -110,13 +110,13 @@ Las preguntas fueron formuladas siguiendo buenas prácticas de investigación cu
 
 | **Entrevista 1** |
 |------------------|
-| <strong>Nombre:</strong> xxxx |
-| <strong>Edad:</strong> xxxx |
-| <strong>Procedencia:</strong> xxxx |
+| <strong>Nombre:</strong> Andrea Begonia |
+| <strong>Edad:</strong> 28 |
+| <strong>Procedencia:</strong> Piura  |
 | <strong>Segmento:</strong> Pequeños y Medianos Agricultores (Usuario Final) |
-| <strong>Resumen:</strong> xxxx |
-| <strong>Enlace de video:</strong> xxxx |
-| <strong>Foto del entrevistado:</strong><br><img src="xxx" alt="xxx" height="200"/> |
+| <strong>Resumen:</strong> Andrea trabaja 3 hectáreas junto a su familia de 5 integrantes que dependen de la agricultura, cultiva principalmente arroz y limón y aprendió el oficio desde joven por experiencia familiar, utiliza un smartphone básico donde usa WhatsApp, Facebook y radio pero enfrenta señal inestable en su parcela, confía en marcas conocidas recomendadas por otros agricultores y se informa por radio, grupos de WhatsApp y boca a boca, actualmente riega por gravedad debido a la reducción de agua del reservorio Poechos y decide cuándo regar basándose en la experiencia observando la tierra y la planta, su mayor frustración es perder la cosecha por la sequía y no ha adoptado tecnologías por su costo, complejidad y falta de conectividad, aunque estaría dispuesto a usar un sistema automático sin internet si es confiable y económico ya que le permitiría ahorrar agua y reducir el riesgo de pérdida de cultivos |
+| <strong>Enlace de video:</strong> [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b490_upc_edu_pe/IQDMDQdLqakCTJsGhNQBFPbDAZuyXbkfBPyHMNfMpYh6MxU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=xF3XNj](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b490_upc_edu_pe/IQDMDQdLqakCTJsGhNQBFPbDAZuyXbkfBPyHMNfMpYh6MxU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=xF3XNj) |
+| <strong>Foto del entrevistado:</strong><br><img src="./assets/entrevista1iot.png" alt="Entrevista_1" height="500"/> |
 
 &nbsp;
 

@@ -26,10 +26,10 @@ Mi perfil se caracteriza por la responsabilidad, disciplina y compromiso en cada
 xxx
 
 ---
-#### **xxx – Ingeniería de Software – xxx**  
-<img src="xxx" alt="xxx" height="200"/>
+#### **Diego Ivan Cabrera Buitron – Ingeniería de Software – U20211B293**  
+<img src="./assets/perfiliot.jpg" alt="Diego Cabrera" height="200"/>
 
-xxx
+Estudiante de la carrera de Ingeniería de Softare, me caracterizo por ser responsable, entusiaste, perseverante y alineado al cumplimiento de los objetivos.Poseo una base de conocimientos sólidos con respecto a las tecnologías actuales.
 
 ---
 #### **xxx – Ingeniería de Software – xxx**  

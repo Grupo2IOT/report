@@ -276,7 +276,50 @@ A continuación, se presenta la Matriz de Tareas de Usuario (User Task Matrix), 
 
 ## 2.4. Big Picture EventStorming.
 
--
+En esta sección se presenta la aplicación de la técnica Big Picture EventStorming, utilizada para comprender de manera integral el dominio del sistema de riego inteligente. Esta dinámica permitió identificar los principales eventos del negocio, actores involucrados, reglas del sistema y relaciones entre procesos, tomando como base los epics y user stories definidos previamente.
+
+**Metodología aplicada**
+
+La sesión se desarrolló siguiendo la dinámica de EventStorming, utilizando notas adhesivas clasificadas por colores:
+
+Eventos (naranja): representan hechos ocurridos en el sistema.
+Comandos (azul): acciones solicitadas por usuarios o sistemas.
+Actores (amarillo): usuarios que interactúan con el sistema.
+Políticas (morado): reglas automáticas del sistema.
+Sistemas (rosa): componentes tecnológicos involucrados.
+Agregados (beige): entidades principales del dominio.
+
+**Evidencia del EventStorming**
+
+<p align="center">
+	<img src="assets/evidencia_EventStorming1.png" alt="EventStorming1" width="800" />
+</p>
+
+<p align="center">
+	<img src="assets/evidencia_EventStorming2.png" alt="EventStorming2" width="800" />
+</p>
+
+La Figura muestra el resultado del Big Picture EventStorming, donde se organizan los eventos en una línea temporal y se identifican sus relaciones con comandos, actores y políticas.
+
+**Descripción del flujo principal**
+
+A partir del análisis, se identificó el siguiente flujo principal:
+
+Un agricultor configura los umbrales de humedad, lo que permite al sistema monitorear continuamente las condiciones del suelo. Cuando la humedad desciende por debajo del nivel establecido, se genera una alerta y se activa automáticamente el riego, registrando cada evento para su posterior consulta. Paralelamente, los datos son almacenados y utilizados para generar reportes que pueden ser consultados por instituciones.
+
+**Contextos identificados (Bounded Contexts)**
+
+El ejercicio permitió identificar los siguientes contextos:
+
+- Monitoreo de humedad
+- Gestión de riego automático
+- Administración de usuarios
+- Gestión de dispositivos IoT
+- Reportes y auditoría
+
+**Conclusiones**
+
+El Big Picture EventStorming permitió obtener una visión global del sistema, identificar los procesos clave y definir un lenguaje común entre los actores. Además, facilitó la detección de reglas de negocio críticas y la segmentación del sistema en contextos delimitados, lo cual servirá como base para el diseño de la arquitectura y los microservicios.
 
 ## 2.5. Ubiquitous Language
 

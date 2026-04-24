@@ -184,7 +184,13 @@ Las preguntas fueron formuladas siguiendo buenas prácticas de investigación cu
 
 **Entrevista 1:**
 
-xxxxx
+La entrevista a Andrea Begonia, agricultora de La Unión en Piura, permitió comprender el impacto directo de la crisis hídrica del reservorio Poechos en su actividad diaria, evidenciando que depende completamente de la disponibilidad de agua para sostener sus cultivos de arroz y limón, los cuales constituyen el principal sustento económico de su familia, asimismo se identificó que su toma de decisiones se basa principalmente en la experiencia empírica y la observación directa del estado del suelo y las plantas, debido a la ausencia de herramientas tecnológicas accesibles en su entorno.
+
+Uno de los principales problemas detectados es la limitada disponibilidad de agua, lo que lo obliga a utilizar métodos tradicionales de riego por gravedad bajo turnos restringidos, generando incertidumbre y reduciendo la productividad, además se evidenció una fuerte limitación en la conectividad, ya que la señal de internet en su parcela es inestable o inexistente, lo que dificulta la adopción de soluciones digitales que dependan de conexión constante, sumado a esto, factores como el costo elevado, la complejidad y la falta de infraestructura eléctrica refuerzan la barrera tecnológica.
+
+También se identificó que los canales de información siguen siendo tradicionales, como la radio local, grupos de WhatsApp y la comunicación entre agricultores, lo que refleja un bajo nivel de digitalización en el sector, sin embargo, existe una apertura hacia nuevas tecnologías siempre que estas sean confiables, económicas y adaptadas a su contexto, especialmente si permiten automatizar el riego y optimizar el uso del agua sin depender de internet.
+
+Finalmente, se concluye que existe una oportunidad clara para implementar soluciones tecnológicas basadas en automatización y funcionamiento offline, ya que podrían reducir el riesgo de pérdida de cultivos, mejorar la eficiencia en el uso del agua y brindar mayor tranquilidad al agricultor, siempre que se garantice su accesibilidad, facilidad de uso y confiabilidad en condiciones rurales.
 
 **Entrevista 2:**
 

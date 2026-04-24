@@ -32,4 +32,10 @@
 
 ## 3.2. Impact Mapping.
 
+En esta sección se presenta el Impact Mapping del proyecto, con el objetivo de alinear las funcionalidades del sistema con la optimización del uso del agua en parcelas agrícolas. Para ello, se identifican los actores clave, sus impactos esperados y los entregables asociados, organizados en función de dos segmentos principales: el pequeño agricultor y el cliente institucional (B2B/B2G).
+
+<p align="center">
+	<img src="assets/Impact map.png" alt="Impact Map" width="920" />
+</p>
+
 ## 3.3. Product Backlog.

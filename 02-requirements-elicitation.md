@@ -292,11 +292,7 @@ Agregados (beige): entidades principales del dominio.
 **Evidencia del EventStorming**
 
 <p align="center">
-	<img src="assets/evidencia_EventStorming1.png" alt="EventStorming1" width="800" />
-</p>
-
-<p align="center">
-	<img src="assets/evidencia_EventStorming2.png" alt="EventStorming2" width="800" />
+	<img src="assets/evidencia_EventStorming.png" alt="EventStorming" width="900" />
 </p>
 
 La Figura muestra el resultado del Big Picture EventStorming, donde se organizan los eventos en una línea temporal y se identifican sus relaciones con comandos, actores y políticas.

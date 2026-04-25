@@ -5,6 +5,26 @@
 
 ### 4.1.1. Design-Level EventStorming.
 
+Con el propósito de lograr una comprensión profunda del dominio del sistema, se realizó una sesión de Event Storming con una duración aproximada de una hora. Esta actividad permitió al equipo estructurar y analizar sus ideas desde distintas perspectivas, incluyendo el enfoque de negocio, el usuario final, la administración y la experiencia general del sistema.
+
+A través de esta dinámica, se identificaron elementos clave como eventos, comandos, actores y agregados, lo que facilitó la construcción de una primera visión integral del sistema. Durante la sesión, se abordaron los siguientes aspectos:
+
+**Exploración del dominio general**
+El análisis inició desde la interacción del usuario con la plataforma, considerando su recorrido desde el acceso inicial hasta las principales funcionalidades del sistema, incluyendo los procesos de registro, autenticación y uso de los servicios disponibles.
+
+**Identificación de eventos y comandos clave**
+Se emplearon notas adhesivas para representar los eventos (en color naranja) y los comandos (en color azul), tomando como base las User Stories previamente definidas, lo que permitió mantener coherencia en el flujo de la solución.
+
+**Asignación de roles y responsables**
+Se identificaron y diferenciaron los distintos actores del sistema, con el fin de delimitar sus responsabilidades e interacciones. Esta segmentación facilitó la detección de posibles mejoras y puntos críticos dentro del sistema.
+
+**Evidencia de la sesión**
+Finalmente, se recopiló evidencia del trabajo realizado durante la sesión como respaldo del proceso de análisis y modelado del dominio.
+
+<p align="center">
+	<img src="assets/EventStorming.png" alt="Event atorming evidence" width="920" />
+</p>
+
 #### 4.1.1.1 Candidate Context Discovery.
 
 #### 4.1.1.2 Domain Message Flows Modeling.

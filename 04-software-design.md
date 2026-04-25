@@ -35,6 +35,12 @@ La identificación de contextos candidatos constituye una etapa fundamental para
 
 #### 4.1.1.2 Domain Message Flows Modeling.
 
+El Modelado de Flujos de Mensajes de Dominio es una técnica empleada para analizar y diseñar sistemas de software, la cual permite representar el intercambio de información entre los distintos componentes mediante mensajes. Este enfoque se centra en definir los mensajes que los actores del sistema envían y reciben, así como en comprender las relaciones entre ellos. Su aplicación facilita la visualización de los flujos de información, lo que contribuye a identificar posibles problemas y a mejorar la estructura del diseño. A continuación, se presentan algunos diagramas ilustrativos aplicados al sistema propuesto.
+
+<p align="center">
+	<img src="assets/Strategic Domain-Driven Design.jpg" alt="Event Stormind" width="920" />
+</p>
+
 #### 4.1.1.3 Bounded Context Canvases.
 
 ### 4.1.2. Context Mapping.

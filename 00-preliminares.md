@@ -61,7 +61,7 @@ Lima, Abril 2026
   </thead>
   <tbody>
     <tr>
-      <td>TB1</td>
+      <td>AV1</td>
       <td>20/04/2026</td>
       <td>
         <ul>
@@ -77,8 +77,7 @@ Lima, Abril 2026
         ● Capítulo II: Requirements Elicitation & Analysis<br>
         ● Capítulo III: Requirements Specification<br>
         ● Capítulo IV: Solution Software Design<br>
-        ● Capítulo V: Product Implementation, Validation & Deployment<br>
-        ● Avance de Conclusiones, Bibliografía y Anexos
+        ● Avance de Bibliografía y Anexos
       </td>
     </tr>
   </tbody>

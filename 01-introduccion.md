@@ -206,7 +206,6 @@ Los pequeños y medianos agricultores de Piura enfrentan pérdidas económicas c
 
 </table>
 
-
 ## 1.3. Segmentos objetivo
 
 **Segmento Objetivo 1: Pequeños y medianos productores de la agricultura familiar ubicados en la región Piura:**
@@ -224,6 +223,7 @@ Este segmento presenta las siguientes características demográficas y estadíst
 
 **Segmento Objetivo 2: Juntas de Usuarios de Agua e Instituciones Agrícolas:**
 Este segundo segmento está conformado por las organizaciones que administran el agua y las entidades gubernamentales que financian la tecnología en el campo.
+
 1. **Características y Rol en el negocio:**
    - **Juntas de Usuarios:** Son las organizaciones responsables de la administración y distribución del agua en los valles agrícolas. Ellas están sumamente interesadas en que el agua de los reservorios (como Poechos) no se desperdicie, por lo que pueden adquirir tu sistema en volumen para sus asociados.
    - **Instituciones del Estado (E.g.: Agrobanco / Agroideas):** Entidades que otorgan créditos o cofinancian planes de negocio para la adopción de tecnología agrícola a favor de los pequeños productores. Tu startup les vende la solución tecnológica para que ellos la implementen en las comunidades.

@@ -22,10 +22,16 @@ Se identificaron y diferenciaron los distintos actores del sistema, con el fin d
 Finalmente, se recopiló evidencia del trabajo realizado durante la sesión como respaldo del proceso de análisis y modelado del dominio.
 
 <p align="center">
-	<img src="assets/EventStorming.png" alt="Event atorming evidence" width="920" />
+	<img src="assets/evidencia_EventStorming.png" alt="Event atorming evidence" width="920" />
 </p>
 
 #### 4.1.1.1 Candidate Context Discovery.
+
+La identificación de contextos candidatos constituye una etapa fundamental para gestionar la complejidad en el desarrollo de sistemas. Este proceso implica un análisis detallado orientado a reconocer los elementos principales del dominio y sus relaciones. A partir de ello, dichos elementos se organizan en contextos delimitados que mantienen coherencia lógica. Esta estructuración no solo simplifica el diseño y la implementación, sino que también contribuye a mejorar la escalabilidad, el rendimiento y la mantenibilidad del sistema.
+
+<p align="center">
+	<img src="assets/evidencia_EventStorming.png" alt="Event Stormind" width="920" />
+</p>
 
 #### 4.1.1.2 Domain Message Flows Modeling.
 

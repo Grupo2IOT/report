@@ -22,7 +22,7 @@ Se identificaron y diferenciaron los distintos actores del sistema, con el fin d
 Finalmente, se recopiló evidencia del trabajo realizado durante la sesión como respaldo del proceso de análisis y modelado del dominio.
 
 <p align="center">
-	<img src="assets/evidencia_EventStorming.png" alt="Event atorming evidence" width="920" />
+	<img src="assets/EventStorming.png" alt="Event atorming evidence" width="920" />
 </p>
 
 #### 4.1.1.1 Candidate Context Discovery.

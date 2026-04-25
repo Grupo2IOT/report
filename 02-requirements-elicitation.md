@@ -122,13 +122,13 @@ Las preguntas fueron formuladas siguiendo buenas prácticas de investigación cu
 
 | **Entrevista 2** |
 |------------------|
-| <strong>Nombre:</strong> xxxx |
-| <strong>Edad:</strong> xxxx |
-| <strong>Procedencia:</strong> xxxx |
+| <strong>Nombre:</strong> Santiago Gordillo |
+| <strong>Edad:</strong> 28 años |
+| <strong>Procedencia:</strong> Piura |
 | <strong>Segmento:</strong> Pequeños y Medianos Agricultores (Usuario Final) |
-| <strong>Resumen:</strong> xxxx |
+| <strong>Resumen:</strong> La entrevista confirma la alta vulnerabilidad económica de la agricultura familiar frente a la actual crisis hídrica. El usuario depende de métodos de riego tradicionales (por gravedad) sujetos a turnos restrictivos y toma decisiones basadas puramente en la experiencia empírica visual, sin contar con instrumentos de medición de humedad. Se identificó que la principal barrera para la adopción de tecnología comercial es la nula o inestable conectividad a internet en sus parcelas. Sin embargo, existe una clara disposición para adoptar un sistema de riego automatizado y autónomo que no dependa de WiFi, siempre que este demuestre ser económico, adaptado al entorno rural y garantice la supervivencia del cultivo, reduciendo la incertidumbre y el riesgo de pérdida total. |
 | <strong>Enlace de video:</strong> xxxx |
-| <strong>Foto del entrevistado:</strong><br><img src="xxx" alt="xxx" height="200"/> |
+| <strong>Foto del entrevistado:</strong><br><img src="./assets/entrevista-santiagoG.png" alt="Entrevista 2" height="500"/> |
 
 &nbsp;
 
@@ -158,13 +158,13 @@ Las preguntas fueron formuladas siguiendo buenas prácticas de investigación cu
 
 | **Entrevista 5** |
 |------------------|
-| <strong>Nombre:</strong> xxxx |
-| <strong>Edad:</strong> xxxx |
-| <strong>Procedencia:</strong> xxxx |
+| <strong>Nombre:</strong> Bruno Ortón |
+| <strong>Edad:</strong> 30 años |
+| <strong>Procedencia:</strong> Lima |
 | <strong>Segmento:</strong> Juntas de Usuarios e Instituciones (Cliente B2B/B2G) |
-| <strong>Resumen:</strong> xxxx |
+| <strong>Resumen:</strong> Desde la perspectiva de las entidades supervisoras y financieras, se evidenció una carencia crítica de herramientas de monitoreo en tiempo real sobre el uso del agua en las parcelas. Esta falta de visibilidad obliga a las instituciones a depender de supervisiones físicas que resultan logísticamente ineficientes, lentas y de alto costo. En consecuencia, el riesgo crediticio y productivo se incrementa significativamente durante las sequías. El entrevistado validó que la implementación de un Dashboard web centralizado que recolecte datos de humedad de forma remota tendría un impacto transformador, permitiendo optimizar recursos y fiscalizar "a distancia". Asimismo, confirmó la total disposición institucional para financiar y respaldar este tipo de tecnologías si demuestran escalabilidad e impacto real en los pequeños agricultores. |
 | <strong>Enlace de video:</strong> xxxx |
-| <strong>Foto del entrevistado:</strong><br><img src="xxx" alt="xxx" height="200"/> |
+| <strong>Foto del entrevistado:</strong><br><img src="./assets/entrevista-brunoO.png" alt="xxx" height="500"/> |
 
 &nbsp;
 

@@ -5,6 +5,24 @@
 
 ### 1.1.1. Descripción de la Startup
 
+**AquaEdge** es una solución tecnológica orientada a optimizar el uso del agua en la agricultura mediante un sistema inteligente de riego basado en tecnologías IoT, Edge Computing y conectividad de largo alcance (LoRaWAN). Su propuesta se centra en resolver los problemas de ineficiencia hídrica y falta de conectividad en zonas rurales, permitiendo a los agricultores gestionar sus cultivos de manera precisa, autónoma y sin depender de internet.
+
+Para los pequeños y medianos agricultores, **AquaEdge** ofrece la capacidad de monitorear en tiempo real la humedad del suelo a través de Sensor Nodes, recibir alertas ante condiciones críticas de Water Stress y automatizar el riego mediante un sistema de Autonomous Irrigation. Gracias a la implementación de TinyML en dispositivos de bajo consumo, el sistema toma decisiones directamente en el campo, eliminando la necesidad de intervención manual constante y reduciendo significativamente el desperdicio de agua.
+
+Por otro lado, para las instituciones como juntas de usuarios o entidades de financiamiento agrícola, la solución proporciona un Dashboard centralizado que permite el Remote Monitoring de múltiples parcelas, la generación de reportes de uso de agua y la auditoría del cumplimiento de cuotas hídricas. Esto facilita la toma de decisiones estratégicas, mejora la gestión del recurso y reduce los riesgos asociados al financiamiento agrícola.
+
+**AquaEdge** se posiciona como una respuesta innovadora y realista frente a la crisis hídrica en la agricultura peruana, enfocándose en la eficiencia del riego y la resiliencia tecnológica en entornos con baja conectividad. Su enfoque especializado permite una implementación escalable, accesible y de alto impacto, tanto para agricultores como para instituciones.
+
+
+**Misión**
+
+Brindar una solución tecnológica eficiente y accesible para la optimización del uso del agua en la agricultura, mediante sistemas de riego inteligente basados en IoT, Edge Computing y conectividad de largo alcance, permitiendo a los agricultores mejorar su productividad y sostenibilidad.
+
+**Visión**
+
+Consolidarse como la solución líder en el Perú y Latinoamérica en gestión hídrica inteligente para la agricultura, promoviendo el uso eficiente del agua a través de tecnologías descentralizadas, accesibles y adaptadas a entornos rurales con baja conectividad.
+
+
 ### 1.1.2. Perfiles de integrantes del equipo
 
 ---

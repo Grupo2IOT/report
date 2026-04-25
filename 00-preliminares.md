@@ -33,7 +33,7 @@ Nombre del producto: -
 | Código       | Apellidos y Nombres          |
 | ------------ | ---------------------------- |
 | (u20XXXXXXX) | Arevalo Meza, John Telesforo |
-| (u20XXXXXXX) | Asmad Padilla, Fatima Andrea |
+| (u20221B490) | Asmad Padilla, Fatima Andrea |
 | (u20211b293) | Cabrera Buitrón, Diego Ivan  |
 | (u202310680) | Castro Sanchez, Amir Gabriel |
 | (u202115357) | Prado Vargas, Mario Benjamin |

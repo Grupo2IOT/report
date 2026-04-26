@@ -50,10 +50,10 @@ Estudiante de Ingeniería de Software orientado a resultados, responsable y pers
 Estudiante de la carrera de Ingeniería de Softare, me caracterizo por ser responsable, entusiaste, perseverante y alineado al cumplimiento de los objetivos.Poseo una base de conocimientos sólidos con respecto a las tecnologías actuales.
 
 ---
-#### **xxx – Ingeniería de Software – xxx**  
-<img src="xxx" alt="xxx" height="200"/>
+#### **Mario Benjamín Prado Vargas – Ingeniería de Software – U202115357**  
+<img src="./assets/mario.png" alt="mario" height="200"/>
 
-xxx
+Apasionado por la Ingeniería de Software, me considero una persona perseverante, responsable y proactiva. Me mantengo actualizado con las tecnologías vanguardistas, enfocado siempre en superar metas y entregar soluciones de calidad
 
 ---
 

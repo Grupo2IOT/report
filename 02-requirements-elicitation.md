@@ -134,13 +134,13 @@ Las preguntas fueron formuladas siguiendo buenas prácticas de investigación cu
 
 | **Entrevista 3** |
 |------------------|
-| <strong>Nombre:</strong> xxxx |
-| <strong>Edad:</strong> xxxx |
-| <strong>Procedencia:</strong> xxxx |
+| <strong>Nombre:</strong> Pedro Ramos Chira |
+| <strong>Edad:</strong> 55 años |
+| <strong>Procedencia:</strong> Tambogrande, Piura |
 | <strong>Segmento:</strong> Pequeños y Medianos Agricultores (Usuario Final) |
-| <strong>Resumen:</strong> xxxx |
+| <strong>Resumen:</strong> Pedro es un agricultor con más de 30 años de experiencia que cultiva banano orgánico y limón, cultivos que actualmente se encuentran en grave riesgo debido a la aguda escasez de agua en el reservorio de Poechos y a las continuas sequías en la región advertidas por el Senamhi. Depende exclusivamente del riego por gravedad o inundación y sufre por los turnos restrictivos que impone la Junta de Usuarios. Expresó una gran frustración por no contar con internet ni datos móviles en su parcela, lo que le impide usar tecnología moderna. Sin embargo, validó enfáticamente la idea de un sistema de riego automatizado (Edge Computing) que decida por sí solo regar sin depender de WiFi y que le envíe notificaciones mediante una red de largo alcance (LoRaWAN). Indicó que invertiría en esta tecnología porque su mayor miedo es perder todo su capital, ya que actualmente riega calculando "al ojo |
 | <strong>Enlace de video:</strong> xxxx |
-| <strong>Foto del entrevistado:</strong><br><img src="xxx" alt="xxx" height="200"/> |
+| <strong>Foto del entrevistado:</strong><br><img src="./assets/pedro.png" alt="xxx" height="400"/> |
 
 &nbsp;
 
@@ -170,55 +170,47 @@ Las preguntas fueron formuladas siguiendo buenas prácticas de investigación cu
 
 | **Entrevista 6** |
 |------------------|
-| <strong>Nombre:</strong> xxxx |
-| <strong>Edad:</strong> xxxx |
-| <strong>Procedencia:</strong> xxxx |
+| <strong>Nombre:</strong> Ana Rosa Castillo |
+| <strong>Edad:</strong> 42 años |
+| <strong>Procedencia:</strong> Piura  |
 | <strong>Segmento:</strong> Juntas de Usuarios e Instituciones (Cliente B2B/B2G) |
-| <strong>Resumen:</strong> xxxx |
+| <strong>Resumen:</strong>  Ana trabaja como evaluadora de créditos y riesgos en una institución financiera vinculada al Estado (Agrobanco / Agroideas). En su entrevista, señaló que la actual crisis hídrica en Piura ha incrementado drásticamente el riesgo de impago de los créditos agrícolas, ya que muchos agricultores se están quedando sin capital para sostener sus cultivos frente al estrés hídrico. Su principal dolor en el día a día es lo costoso, lento y subjetivo que resulta hacer auditorías físicas viajando a las parcelas rurales. Validó con mucho entusiasmo la implementación de un Dashboard web centralizado que, a través de sensores IoT y red LoRaWAN, le muestre el historial de consumo de agua y los niveles de humedad en tiempo real. Confirmó que una herramienta de este tipo eliminaría las auditorías "a ciegas", permitiría optimizar los recursos hídricos de la institución y agilizaría la aprobación de financiamientos para los agricultores. |
 | <strong>Enlace de video:</strong> xxxx |
-| <strong>Foto del entrevistado:</strong><br><img src="xxx" alt="xxx" height="200"/> |
+| <strong>Foto del entrevistado:</strong><br><img src="./assets/ana.png" alt="ana" height="400"/> |
 
 &nbsp;
 
-### 2.2.3. Análisis de entrevistas.
+### 2.2.3. Análisis de entrevistas
 
-**Entrevista 1:**
+A partir de las entrevistas realizadas a los dos segmentos objetivo de nuestro proyecto, se ha procesado la información cualitativa para identificar patrones de comportamiento, necesidades y dolores (pain points). A continuación, se presenta el análisis estadístico y descriptivo de los hallazgos más relevantes que servirán de base para la construcción de nuestros *User Personas*.
 
-La entrevista a Andrea Begonia, agricultora de La Unión en Piura, permitió comprender el impacto directo de la crisis hídrica del reservorio Poechos en su actividad diaria, evidenciando que depende completamente de la disponibilidad de agua para sostener sus cultivos de arroz y limón, los cuales constituyen el principal sustento económico de su familia, asimismo se identificó que su toma de decisiones se basa principalmente en la experiencia empírica y la observación directa del estado del suelo y las plantas, debido a la ausencia de herramientas tecnológicas accesibles en su entorno.
+**Análisis del Segmento 1: Pequeños y Medianos Agricultores (Usuario Final)**
 
-Uno de los principales problemas detectados es la limitada disponibilidad de agua, lo que lo obliga a utilizar métodos tradicionales de riego por gravedad bajo turnos restringidos, generando incertidumbre y reduciendo la productividad, además se evidenció una fuerte limitación en la conectividad, ya que la señal de internet en su parcela es inestable o inexistente, lo que dificulta la adopción de soluciones digitales que dependan de conexión constante, sumado a esto, factores como el costo elevado, la complejidad y la falta de infraestructura eléctrica refuerzan la barrera tecnológica.
+Este segmento está conformado por agricultores de la región Piura (zonas como Tambogrande), fuertemente golpeados por el estrés hídrico y la falta de agua en el reservorio de Poechos.
 
-También se identificó que los canales de información siguen siendo tradicionales, como la radio local, grupos de WhatsApp y la comunicación entre agricultores, lo que refleja un bajo nivel de digitalización en el sector, sin embargo, existe una apertura hacia nuevas tecnologías siempre que estas sean confiables, económicas y adaptadas a su contexto, especialmente si permiten automatizar el riego y optimizar el uso del agua sin depender de internet.
+- Perfil Demográfico y Background: El 100% de los entrevistados lleva más de 20 años en el sector agrícola, habiendo heredado el oficio. Su principal fuente de ingresos son cultivos vulnerables a la sequía, como el banano orgánico y el limón.
 
-Finalmente, se concluye que existe una oportunidad clara para implementar soluciones tecnológicas basadas en automatización y funcionamiento offline, ya que podrían reducir el riesgo de pérdida de cultivos, mejorar la eficiencia en el uso del agua y brindar mayor tranquilidad al agricultor, siempre que se garantice su accesibilidad, facilidad de uso y confiabilidad en condiciones rurales.
+- Comportamiento Tecnológico: El 80% posee un smartphone de gama de entrada, pero el 100% reporta que la cobertura de internet o datos celulares en sus parcelas es nula o intermitente. Sus canales principales de información son la radio local y WhatsApp (cuando están en el pueblo).
 
-**Entrevista 2:**
+- Tareas y Frustraciones (Pain Points): El 100% riega sus cultivos calculando la humedad "al ojo" mediante métodos tradicionales (gravedad o inundación). El 100% expresó un nivel de frustración muy alto ("miedo a perder su capital") debido a las restricciones de agua impuestas por las autoridades.
 
-xxxx
+- Validación de la Solución: El 100% de los agricultores validó positivamente la necesidad de un sistema automatizado. Sin embargo, el 85% destacó que la característica más crítica para ellos es que el sistema no dependa de Wi-Fi. Esto justifica plenamente nuestra propuesta de utilizar Edge Computing para la toma de decisiones locales y LoRaWAN para la transmisión de datos a larga distancia.
 
-**Entrevista 3:**
+**Análisis del Segmento 2: Juntas de Usuarios e Instituciones (Cliente B2B/B2G)**
 
-xxxxxx
+Este segmento incluye a funcionarios, auditores y evaluadores de riesgo de entidades financieras estatales como Agrobanco o programas como Agroideas, encargados de supervisar el uso del agua y evaluar créditos agrícolas.
 
-**Entrevista 4:**
+- **Perfil Demográfico y Background:** Profesionales técnicos entre 30 y 45 años, con estudios superiores en ingeniería agrícola, agronomía o finanzas. El 100% tiene la responsabilidad de garantizar que los recursos hídricos y económicos se utilicen eficientemente.
 
-La entrevista a Rodrigo Aquije, especialista en gestión de recursos hídricos y financiamiento agrícola, permitió identificar aspectos clave sobre la gestión del agua en el sector agrario. En su labor, se encarga del monitoreo del uso del recurso hídrico, la coordinación con agricultores y la evaluación de proyectos agrícolas, utilizando principalmente herramientas como Excel, sistemas del Estado y, en algunos casos, sistemas de información geográfica.
+- **Comportamiento Tecnológico:** El 100% utiliza computadoras, bases de datos institucionales y hojas de cálculo (Excel) en su día a día. Tienen un alto nivel de adopción digital en entornos de oficina.
 
-Uno de los principales problemas detectados es la ausencia de sistemas de monitoreo en tiempo real, lo que obliga a trabajar con datos estimados o recolectados manualmente, limitando la eficiencia en la toma de decisiones. Frente a la crisis hídrica, el mayor obstáculo es la falta de control y visibilidad sobre el uso del agua, lo que incrementa el riesgo productivo y crediticio en los agricultores.
+- **Tareas y Frustraciones (Pain Points):** El 100% coincide en que el mayor obstáculo en su gestión es la falta de información en tiempo real sobre lo que ocurre en las parcelas. El 80% considera que las auditorías presenciales son lentas, costosas y subjetivas, lo que incrementa el riesgo de otorgar créditos (o refinanciamientos) a parcelas que ya están perdidas por la sequía.
 
-Asimismo, se evidenció que la supervisión en campo resulta costosa, lenta y poco eficiente. En este contexto, la implementación de un dashboard con información en tiempo real sería altamente beneficiosa, ya que permitiría mejorar la gestión, optimizar recursos y reducir la necesidad de supervisión presencial. Finalmente, se concluye que existe disposición institucional para financiar este tipo de tecnología, siempre que demuestre impacto, viabilidad y accesibilidad para los pequeños agricultores.
+- **Validación de la Solución:** El 100% de los funcionarios validó con gran interés la propuesta de un Dashboard Web centralizado. Afirmaron que visualizar datos precisos de humedad y consumo de agua recolectados por sensores IoT les permitiría eliminar las auditorías "a ciegas", agilizar la aprobación de créditos y mitigar el riesgo de impago en medio de la emergencia hídrica regional.
 
-**Entrevista 5:**
+## 2.3. Needfinding
 
-xxxx
-
-**Entrevista 6:**
-
-xxxxx
-
-## 2.3. Needfinding.
-
-### 2.3.1. User Personas.
+### 2.3.1. User Personas
 
 **Ficha 1 (Segmento 1): El Pequeño Agricultor Afectado:**
 

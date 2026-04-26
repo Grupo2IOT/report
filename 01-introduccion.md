@@ -26,10 +26,10 @@ Consolidarse como la solución líder en el Perú y Latinoamérica en gestión h
 ### 1.1.2. Perfiles de integrantes del equipo
 
 ---
-#### **xxx – Ingeniería de Software – xxx**  
+#### **John Telesforo Arevalo Meza – Ingeniería de Software – xxx**  
 <img src="xxx" alt="xxx" height="200"/>
 
-xxx
+Futuro Ingeniero de Software con conocimientos sólidos en tecnologías actuales. Destaco por mi perseverancia, responsabilidad y compromiso con el cumplimiento de objetivos técnicos y profesionales.
 
 ---
 #### **Fatima Andrea Asmad Padilla – Ingeniería de Software – U20221B490**  

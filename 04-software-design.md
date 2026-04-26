@@ -43,6 +43,16 @@ El Modelado de Flujos de Mensajes de Dominio es una técnica empleada para anali
 
 #### 4.1.1.3 Bounded Context Canvases
 
+En esta sección se presentan los Bounded Context Canvases, los cuales permiten describir de manera estructurada cada uno de los contextos delimitados identificados en el dominio. A través de este enfoque, se detallan aspectos clave como el propósito, las interacciones, los mensajes intercambiados y las decisiones de negocio, facilitando una comprensión clara de las responsabilidades y límites de cada contexto. Esto contribuye a una mejor organización del sistema y a la coherencia en su diseño bajo los principios de Domain-Driven Design.
+
+<p align="center">
+	<img src="assets/Bounded Context Canvases 2.jpg" alt="Bounded Context Canvases" width="920" />
+</p>
+
+<p align="center">
+	<img src="assets/Bounded Context Canvases 1.jpg" alt="Bounded Context Canvases" width="920" />
+</p>
+
 ### 4.1.2. Context Mapping
 
 <p align="center">

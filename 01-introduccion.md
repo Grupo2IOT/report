@@ -38,10 +38,10 @@ xxx
 Mi perfil se caracteriza por la responsabilidad, disciplina y compromiso en cada tarea que realizo, buscando siempre dar lo mejor de mí en cualquier proyecto o actividad asignada. Actualmente curso el sexto ciclo de la carrera de Ingeniería de Software, lo cual me ha permitido adquirir una base sólida en distintas áreas del desarrollo tecnológico.
 
 ---
-#### **xxx – Ingeniería de Software – xxx**  
-<img src="xxx" alt="xxx" height="200"/>
+#### **Amir Gabriel Castro Sanchez – Ingeniería de Software – u202310680**  
+<img src="./assets/amir.png" alt="amir" height="200"/>
 
-xxx
+Estudiante de Ingeniería de Software orientado a resultados, responsable y perseverante. Cuento con una base sólida en tecnologías actuales y un alto entusiasmo por el desarrollo tecnológico y el cumplimiento de objetivos.
 
 ---
 #### **Diego Ivan Cabrera Buitron – Ingeniería de Software – U20211B293**  

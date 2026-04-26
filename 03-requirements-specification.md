@@ -39,3 +39,23 @@ En esta sección se presenta el Impact Mapping del proyecto, con el objetivo de 
 </p>
 
 ## 3.3. Product Backlog.
+
+En esta sección se presenta el Product Backlog del sistema, el cual organiza y prioriza las User Stories definidas previamente en función del valor que aportan al negocio y al usuario final. Cada historia ha sido estimada utilizando story points, permitiendo establecer una base para la planificación ágil del desarrollo y la gestión eficiente de los sprints.
+
+| #  | User Story Id | Título                                      | Descripción                                                                                                                    | Story Points |
+| -- | ------------- | ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | ------------ |
+| 1  | US-01         | Visualizar estado de humedad en tiempo real | Como agricultor, deseo ver el nivel de humedad actual de mi parcela en tiempo real para saber si mis cultivos necesitan riego. | 5            |
+| 2  | US-03         | Recibir alertas de humedad baja             | Como agricultor, deseo recibir alertas cuando la humedad esté baja para actuar rápidamente y evitar daños en mis cultivos.     | 5            |
+| 3  | US-04         | Activar riego automático basado en sensores | Como agricultor, deseo que el sistema active el riego automáticamente para optimizar el uso del agua sin intervención manual.  | 8            |
+| 4  | US-05         | Configurar umbrales de riego                | Como usuario, deseo configurar los umbrales de humedad para adaptar el riego a mis cultivos.                                   | 3            |
+| 5  | US-02         | Consultar historial de humedad              | Como agricultor, deseo consultar el historial de humedad para analizar tendencias y mejorar decisiones.                        | 3            |
+| 6  | US-06         | Visualizar eventos de riego ejecutados      | Como agricultor, deseo ver los eventos de riego realizados para validar el funcionamiento del sistema.                         | 3            |
+| 7  | US-10         | Registrar nodo sensor                       | Como técnico, deseo registrar un sensor para que empiece a enviar datos al sistema.                                            | 5            |
+| 8  | US-11         | Recibir alertas de mantenimiento            | Como usuario, deseo recibir alertas de mantenimiento para evitar fallos en sensores.                                           | 3            |
+| 9  | US-12         | Consultar estado de sensores                | Como usuario, deseo ver el estado de batería y conectividad para anticipar problemas.                                          | 2            |
+| 10 | US-07         | Registrar agricultor                        | Como administrador, deseo registrar agricultores para que accedan al sistema.                                                  | 3            |
+| 11 | US-08         | Asignar parcelas                            | Como administrador, deseo asignar parcelas a usuarios para gestionar sus terrenos.                                             | 3            |
+| 12 | US-09         | Definir roles                               | Como administrador, deseo definir roles para controlar accesos.                                                                | 2            |
+| 13 | US-13         | Generar reporte de uso de agua              | Como institución, deseo generar reportes para auditar el consumo de agua.                                                      | 5            |
+| 14 | US-14         | Visualizar mapa de parcelas                 | Como institución, deseo ver un mapa de parcelas para identificar zonas críticas.                                               | 3            |
+| 15 | US-15         | Descargar historial de eventos              | Como institución, deseo descargar historial para auditoría.                                                                    | 3            |

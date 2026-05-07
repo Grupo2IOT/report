@@ -20,9 +20,9 @@ Nombre del profesor: Marco Antonio Leon Baca
 
 <br>
 
-Nombre del startup: -
+Nombre del startup: AquaEdge
 
-Nombre del producto: -
+Nombre del producto: AquaEdge
 
 <br>
 
@@ -97,12 +97,12 @@ Además de la redacción, todos los integrantes colaboraron en la validación de
 
 <div style="text-align: center; margin: 0 0 18px 0;">
 
-<img src="assets/generic-collaboration-placeholder.svg" alt="Captura genérica de analíticos de GitHub" style="width: 100%; max-width: 900px; max-height: 420px; object-fit: contain; border: 1px solid #d0d7de;">
+<img src="assets/evidecnia2.png" alt="Captura genérica de analíticos de GitHub" style="width: 100%; max-width: 900px; max-height: 420px; object-fit: contain; border: 1px solid #d0d7de;">
 
 </div>
 
 <div style="text-align: center; margin: 0 0 18px 0;">
 
-<img src="assets/generic-collaboration-placeholder.svg" alt="Captura genérica de lista de commits" style="width: 100%; max-width: 900px; max-height: 420px; object-fit: contain; border: 1px solid #d0d7de;">
+<img src="assets/evidencia1.png" alt="Captura genérica de lista de commits" style="width: 100%; max-width: 900px; max-height: 420px; object-fit: contain; border: 1px solid #d0d7de;">
 
 </div>

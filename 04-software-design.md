@@ -84,46 +84,53 @@ A continuación, se detallan y sustentan las relaciones establecidas en el mapa:
 #### 4.1.3.1. Software Architecture System Landscape Diagram
 
 <p align="center">
-	<img src="assets/landscape-diagram.png" alt="Landscape Diagram" width="920" />
+	<img src="assets/Landscape.png" alt="Landscape Diagram" width="920" />
 </p>
 
-Para la representación de la arquitectura de software de nuestra solución, el equipo ha adoptado el **C4 Model**, un marco de trabajo visual jerárquico. Iniciamos con el **System Landscape Diagram (Nivel Enterprise)**, el cual representa el nivel más alto de abstracción. A diferencia de un diagrama de contexto tradicional, el Landscape nos permite visualizar un mapa completo del ecosistema agrícola, tecnológico y financiero en el que nuestra startup operará, mostrando no solo nuestro producto, sino cómo coexiste con la infraestructura externa.
+El Diagrama de Paisaje del Sistema (System Landscape) ofrece una visión panorámica del entorno operativo de **AquaEdge**, situándolo en la intersección de la tecnología IoT y el sector agro-financiero. En este nivel, se visualiza cómo la solución aborda la crisis hídrica mediante la digitalización de la parcela.
 
-En el diagrama se pueden identificar:
-
-- **Nuestro Sistema Core:** El Ecosistema IoT de Riego Inteligente, responsable de recolectar datos de humedad, tomar decisiones autónomas de riego y exponer dashboards institucionales.
-- **Actores:** El Agricultor (usuario final), el Auditor Institucional (de entidades como Agrobanco, que usa la plataforma para evaluar el riesgo crediticio), y el Administrador del Sistema.
-- **Sistemas Externos:** El Weather Forecast API (proveedor meteorológico), la infraestructura de red Gateway LoRaWAN (que suple la falta de conectividad celular), y el Sistema Core de Agrobanco (sistema interno del banco donde la funcionaria registra las aprobaciones basándose en nuestros datos).
+El ecosistema se divide en tres grandes dominios: el Dominio de Campo, donde los Nodos IoT y el Agricultor interactúan para optimizar el recurso hídrico; el Dominio de Servicios Cloud, que actúa como el núcleo de procesamiento y monetización (vía Stripe); y el Dominio Institucional, donde la información se transforma en activos financieros para el Core Bancario. Este mapa evidencia que AquaEdge no es solo una aplicación, sino un habilitador tecnológico que conecta la realidad física del agro con los sistemas de decisión financiera.
 
 #### 4.1.3.2. Software Architecture Context Level Diagrams
 
 <p align="center">
-	<img src="assets/context-level-diagram.png" alt="Context Diagram" width="500" />
+	<img src="assets/Contexto.png" alt="Context Diagram" width="500" />
 </p>
 
-En este nivel de abstracción (Nivel 1 del C4 Model), el diagrama de Contexto delimita estrictamente las fronteras de nuestro **Ecosistema de Riego Inteligente**. El sistema se representa como una única "caja negra", ocultando los detalles de su infraestructura técnica para centrarse exclusivamente en el valor que aporta a sus usuarios directos (el agricultor en el campo y el auditor en la institución) y en sus dependencias de software externo. Se evidencia que nuestra plataforma no actúa de manera aislada, sino que delega la recolección de pronósticos climáticos a una API externa (Weather Forecast API) y se apoya en infraestructura de terceros (Gateway LoRaWAN) para sortear la brecha de conectividad rural, logrando así entregar la información a los usuarios finales.
+En este primer nivel de abstracción, el Diagrama de Contexto delimita las fronteras de **AquaEdge**, presentándolo como una solución integral que orquesta la interacción entre diversos actores y sistemas externos para optimizar el riego agrícola. El sistema se visualiza como una única unidad lógica que satisface las necesidades de tres perfiles clave: el Agricultor (monitoreo y alertas), el Analista Institucional (auditoría de recursos) y el Técnico de Soporte (gestión de hardware).
+
+**AquaEdge** no actúa de forma aislada; su valor reside en la capacidad de integrarse con un ecosistema externo robusto. Esto incluye la interoperabilidad con un Core Bancario Externo para el intercambio de datos crediticios, la integración con Stripe para la gestión de suscripciones, y el consumo de una Weather Forecast API para el riego predictivo. Asimismo, se evidencia la dependencia bidireccional con el Nodo IoT AquaEdge (hardware basado en ESP32), el cual actúa como el brazo ejecutor en el campo, capturando telemetría y operando válvulas bajo el control de nuestra lógica de software.
+
 
 #### 4.1.3.3. Software Architecture Container Level Diagrams
 
 <p align="center">
-	<img src="assets/container-diagram.png" alt="Architecture Container Diagram" width="920" />
+	<img src="assets/Contenedores.png" alt="Architecture Container Diagram" width="920" />
 </p>
 
-El Diagrama de Contenedores (Nivel 2 del C4 Model) realiza un "zoom in" a nuestro Ecosistema de Riego Inteligente para revelar sus unidades desplegables, responsabilidades y las decisiones tecnológicas de arquitectura de software establecidas.
-Dada la naturaleza de nuestra solución frente a la carencia de conectividad en zonas rurales, la arquitectura se ha dividido físicamente en dos grandes entornos:
+El Diagrama de Contenedores realiza un 'zoom in' para revelar la arquitectura distribuida de **AquaEdge**, diseñada bajo un enfoque de Edge Computing para garantizar la resiliencia en zonas con conectividad nula o limitada. La solución se descompone en las siguientes unidades desplegables:
 
-1. **Entorno Local en el Campo (Edge):**
-	- **Embedded Application:** Escrita en **C++ / Python** y desplegada sobre microcontroladores (ej. ESP32). Actúa como la interfaz física interactuando directamente con los sensores de humedad y las electroválvulas.
-	- **Edge API:** Representa el núcleo del Edge Computing. Desarrollado en **Python utilizando el micro-framework Flask y Peewee ORM**, este contenedor toma decisiones de riego de forma local y autónoma, asegurando la supervivencia del cultivo independientemente de la conexión a internet.
-	- **Edge Database:** Base de datos embebida **SQLite** para el almacenamiento temporal y ágil de los eventos en la propia parcela.
-2. **Entorno Centralizado (Cloud):**
-	- **Cloud RESTful API:** El backend central, desplegado en la nube y desarrollado en **Spring Boot (Java)** [o NestJS/ASP.NET Core]. Es responsable de consolidar los datos de todas las parcelas y aplicar la lógica de negocio para la auditoría institucional.
-	- **Cloud Database:** Base de datos relacional robusta **(PostgreSQL/MySQL)** orientada a la persistencia histórica y analítica.
-	- **Web Application (SPA):** Desarrollada en **Angular** [o Vue], sirve como el Dashboard institucional para que los auditores revisen los reportes en tiempo real.
-	- **Mobile Application:** Desarrollada en **Kotlin** [o Swift], enfocada en la experiencia del agricultor para visualizar el estado de sus sensores a distancia.
-	- **Landing Page:** Sitio estático de captación B2B/B2C desarrollado con **HTML5, CSS3 y JavaScript.**
+1. **Entorno de Borde (Edge Computing):**
 
-La comunicación puente entre el entorno de campo (Edge) y la nube (Cloud) se orquesta a través de un **Gateway LoRaWAN**, enviando tramas ligeras vía MQTT/HTTP, optimizando el bajo consumo energético de los sensores y garantizando el flujo de datos.
+    **Embedded Application:** Software desarrollado en C++/Arduino que corre sobre el Nodo IoT. Gestiona la interacción directa con el hardware (lectura de sensores y señales a actuadores).
+
+    **Edge API:** Desarrollada en Python (Flask), actúa como el cerebro local en el Gateway de campo. Implementa la lógica de riego autónoma para asegurar la supervivencia del cultivo sin depender de la nube.
+
+    **Local Database:** Repositorio SQLite que garantiza la persistencia de datos en el campo durante periodos de desconexión.
+
+2. Entorno Centralizado (Cloud):
+
+    **API Gateway / Cloud API:** Backend robusto desarrollado en Spring Boot (Java). Centraliza las peticiones de las interfaces de usuario, procesa la lógica de negocio compleja y orquesta la integración con Stripe, la API del clima y el Core Bancario.
+
+    **Cloud Database:** Base de datos relacional PostgreSQL para el almacenamiento histórico y analítico de todas las parcelas.
+
+3. **Interfaces de Usuario:**
+
+    **Web Application:** Dashboard desarrollado en Angular que consolida el portal de auditoría institucional y el panel de administración técnica.
+
+    **Mobile Application:** App nativa (Kotlin/Swift) para el agricultor, con capacidad de comunicación híbrida: vía Cloud (remota) o vía Edge API (local en campo mediante Wi-Fi/Bluetooth).
+
+La sincronización entre el entorno Edge y el Cloud se realiza mediante el protocolo LoRaWAN, optimizando el envío de tramas de datos ligeras para superar las brechas de comunicación rural sin sacrificar el consumo energético.
 
 #### 4.1.3.4. Software Architecture Deployment Diagrams
 

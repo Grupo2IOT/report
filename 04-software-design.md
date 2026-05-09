@@ -112,23 +112,23 @@ El **Diagrama de Contenedores** realiza un 'zoom in' para revelar la arquitectur
 
 1. **Entorno de Borde (Edge Computing):**
 
-    **Embedded Application:** Software desarrollado en C++/Arduino que corre sobre el Nodo IoT. Gestiona la interacción directa con el hardware (lectura de sensores y señales a actuadores).
+    - **Embedded Application:** Software desarrollado en C++/Arduino que corre sobre el Nodo IoT. Gestiona la interacción directa con el hardware (lectura de sensores y señales a actuadores).
 
-    **Edge API:** Desarrollada en Python (Flask), actúa como el cerebro local en el Gateway de campo. Implementa la lógica de riego autónoma para asegurar la supervivencia del cultivo sin depender de la nube.
+    - **Edge API:** Desarrollada en Python (Flask), actúa como el cerebro local en el Gateway de campo. Implementa la lógica de riego autónoma para asegurar la supervivencia del cultivo sin depender de la nube.
 
-    **Local Database:** Repositorio SQLite que garantiza la persistencia de datos en el campo durante períodos de desconexión.
+    - **Local Database:** Repositorio SQLite que garantiza la persistencia de datos en el campo durante períodos de desconexión.
 
 2. **Entorno Centralizado (Cloud):**
 
-    **API Gateway / Cloud API:** Backend robusto desarrollado en Spring Boot (Java). Centraliza las peticiones de las interfaces de usuario, procesa la lógica de negocio compleja y orquesta la integración con Stripe, la API del clima y el Core Bancario.
+    - **API Gateway / Cloud API:** Backend robusto desarrollado en Spring Boot (Java). Centraliza las peticiones de las interfaces de usuario, procesa la lógica de negocio compleja y orquesta la integración con Stripe, la API del clima y el Core Bancario.
 
-    **Cloud Database:** Base de datos relacional PostgreSQL para el almacenamiento histórico y analítico de todas las parcelas.
+    - **Cloud Database:** Base de datos relacional PostgreSQL para el almacenamiento histórico y analítico de todas las parcelas.
 
 3. **Interfaces de Usuario:**
 
-    **Web Application:** Dashboard desarrollado en Angular que consolida el portal de auditoría institucional y el panel de administración técnica.
+    - **Web Application:** Dashboard desarrollado en Angular que consolida el portal de auditoría institucional y el panel de administración técnica.
 
-    **Mobile Application:** App nativa (Kotlin/Swift) para el agricultor, con capacidad de comunicación híbrida: vía Cloud (remota) o vía Edge API (local en campo mediante Wi-Fi/Bluetooth).
+    - **Mobile Application:** App nativa (Kotlin/Swift) para el agricultor, con capacidad de comunicación híbrida: vía Cloud (remota) o vía Edge API (local en campo mediante Wi-Fi/Bluetooth).
 
 La sincronización entre el entorno Edge y el Cloud se realiza mediante el protocolo LoRaWAN, optimizando el envío de tramas de datos ligeras para superar las brechas de comunicación rural sin sacrificar el consumo energético.
 

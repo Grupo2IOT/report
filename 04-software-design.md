@@ -116,7 +116,7 @@ El **Diagrama de Contenedores** realiza un 'zoom in' para revelar la arquitectur
 
     **Edge API:** Desarrollada en Python (Flask), actúa como el cerebro local en el Gateway de campo. Implementa la lógica de riego autónoma para asegurar la supervivencia del cultivo sin depender de la nube.
 
-    **Local Database:** Repositorio SQLite que garantiza la persistencia de datos en el campo durante periodos de desconexión.
+    **Local Database:** Repositorio SQLite que garantiza la persistencia de datos en el campo durante períodos de desconexión.
 
 2. Entorno Centralizado (Cloud):
 

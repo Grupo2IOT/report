@@ -87,7 +87,7 @@ A continuación, se detallan y sustentan las relaciones establecidas en el mapa:
 	<img src="assets/Landscape.png" alt="Landscape Diagram" width="920" />
 </p>
 
-El Diagrama de Paisaje del Sistema (System Landscape) ofrece una visión panorámica del entorno operativo de **AquaEdge**, situándolo en la intersección de la tecnología IoT y el sector agro-financiero. En este nivel, se visualiza cómo la solución aborda la crisis hídrica mediante la digitalización de la parcela.
+El **Diagrama de Paisaje del Sistema** (System Landscape) ofrece una visión panorámica del entorno operativo de **AquaEdge**, situándolo en la intersección de la tecnología IoT y el sector agro-financiero. En este nivel, se visualiza cómo la solución aborda la crisis hídrica mediante la digitalización de la parcela.
 
 El ecosistema se divide en tres grandes dominios: el Dominio de Campo, donde los Nodos IoT y el Agricultor interactúan para optimizar el recurso hídrico; el Dominio de Servicios Cloud, que actúa como el núcleo de procesamiento y monetización (vía Stripe); y el Dominio Institucional, donde la información se transforma en activos financieros para el Core Bancario. Este mapa evidencia que AquaEdge no es solo una aplicación, sino un habilitador tecnológico que conecta la realidad física del agro con los sistemas de decisión financiera.
 
@@ -97,7 +97,7 @@ El ecosistema se divide en tres grandes dominios: el Dominio de Campo, donde los
 	<img src="assets/Contexto.png" alt="Context Diagram" width="500" />
 </p>
 
-En este primer nivel de abstracción, el Diagrama de Contexto delimita las fronteras de **AquaEdge**, presentándolo como una solución integral que orquesta la interacción entre diversos actores y sistemas externos para optimizar el riego agrícola. El sistema se visualiza como una única unidad lógica que satisface las necesidades de tres perfiles clave: el Agricultor (monitoreo y alertas), el Analista Institucional (auditoría de recursos) y el Técnico de Soporte (gestión de hardware).
+En este primer nivel de abstracción, el **Diagrama de Contexto** delimita las fronteras de **AquaEdge**, presentándolo como una solución integral que orquesta la interacción entre diversos actores y sistemas externos para optimizar el riego agrícola. El sistema se visualiza como una única unidad lógica que satisface las necesidades de tres perfiles clave: el Agricultor (monitoreo y alertas), el Analista Institucional (auditoría de recursos) y el Técnico de Soporte (gestión de hardware).
 
 **AquaEdge** no actúa de forma aislada; su valor reside en la capacidad de integrarse con un ecosistema externo robusto. Esto incluye la interoperabilidad con un Core Bancario Externo para el intercambio de datos crediticios, la integración con Stripe para la gestión de suscripciones, y el consumo de una Weather Forecast API para el riego predictivo. Asimismo, se evidencia la dependencia bidireccional con el Nodo IoT AquaEdge (hardware basado en ESP32), el cual actúa como el brazo ejecutor en el campo, capturando telemetría y operando válvulas bajo el control de nuestra lógica de software.
 
@@ -108,7 +108,7 @@ En este primer nivel de abstracción, el Diagrama de Contexto delimita las front
 	<img src="assets/Contenedores.png" alt="Architecture Container Diagram" width="920" />
 </p>
 
-El Diagrama de Contenedores realiza un 'zoom in' para revelar la arquitectura distribuida de **AquaEdge**, diseñada bajo un enfoque de Edge Computing para garantizar la resiliencia en zonas con conectividad nula o limitada. La solución se descompone en las siguientes unidades desplegables:
+El **Diagrama de Contenedores** realiza un 'zoom in' para revelar la arquitectura distribuida de **AquaEdge**, diseñada bajo un enfoque de Edge Computing para garantizar la resiliencia en zonas con conectividad nula o limitada. La solución se descompone en las siguientes unidades desplegables:
 
 1. **Entorno de Borde (Edge Computing):**
 
@@ -135,27 +135,32 @@ La sincronización entre el entorno Edge y el Cloud se realiza mediante el proto
 #### 4.1.3.4. Software Architecture Deployment Diagrams
 
 <p align="center">
-	<img src="assets/deployment-diagram.png" alt="Deployment Diagram" width="920" />
+	<img src="assets/Despliegue.png" alt="Deployment Diagram" width="920" />
 </p>
 
-El Diagrama de Despliegue ilustra cómo los contenedores de software previamente definidos se mapean e instalan sobre la infraestructura de hardware y redes físicas. Este diagrama es fundamental en nuestra arquitectura IoT, ya que demuestra la separación estratégica de responsabilidades para superar la barrera tecnológica de la falta de internet en zonas rurales.
+El **Diagrama de Despliegue** detalla la topología física y la distribución de los contenedores de software sobre la infraestructura de hardware y servicios de red. Esta vista es crucial para **AquaEdge**, ya que evidencia una arquitectura de Edge Computing diseñada para operar en entornos de baja conectividad, garantizando la alta disponibilidad y la integridad de los datos hídricos.
 
-La infraestructura se divide en los siguientes Nodos de Despliegue (Deployment Nodes):
+La infraestructura se organiza en los siguientes Nodos de Despliegue (Deployment Nodes):
 
-1. **Nodos de Parcela Agrícola (Entorno Edge):**
+1. **Entorno de Parcela Agrícola (Edge Domain):**
 
-	- **Microcontrolador IoT (ESP32/Arduino):** Hardware de bajo consumo energético y costo que ejecuta el Embedded Application, interactuando físicamente con la tierra y las válvulas.
-	- **Gateway Local (Raspberry Pi):** Minicomputadora instalada en el campo que aloja el Edge API (Flask) y la Edge Database (SQLite). Aquí reside la inteligencia local (Edge Computing) que permite al sistema tomar decisiones de riego autónomas sin depender de servicios en la nube.
+	- **AquaEdge IoT Node:** Nodo físico basado en el microcontrolador ESP32, encargado de ejecutar el Embedded Application. Se comunica con los sensores y actuadores mediante señales analógicas/digitales y envía la telemetría procesada al Gateway local.
 
-2. **Nodos de Telecomunicaciones Externa:**
+	- **Smart Gateway:** Estación base de borde implementada sobre una Raspberry Pi 4 con sistema operativo Linux. Utiliza Docker Engine para orquestar la Edge API y la Local Database (SQLite), permitiendo la toma de decisiones autónoma y la persistencia local en caso de pérdida de conexión LoRaWAN.
 
-	- **Torre de Antena LoRaWAN:** Infraestructura de hardware que captura las señales de radio de los dispositivos en el campo y actúa como puente (Gateway) inyectando los paquetes de datos hacia la red troncal de internet mediante el protocolo MQTT.
+2. **Infraestructura Cloud (Cloud Domain):**
 
-3. **Nodos de Infraestructura Cloud (AWS/Azure/GCP):**
-	- Hardware virtualizado (servidores Ubuntu Linux / contenedores Docker) que aloja el ecosistema centralizado. Incluye el servidor de base de datos relacional (PostgreSQL), el servidor de aplicaciones (Spring Boot / NestJS) y el CDN que distribuye los archivos estáticos de la Web Application (Angular) y el Landing Page.
+    - **Backend Server (VPS):** Instancia virtualizada (DigitalOcean/AWS) basada en Ubuntu Server. Aloja el API Gateway centralizado dentro de un contenedor Docker, gestionando la lógica de negocio y las integraciones con servicios externos (Stripe, Weather API, Core Bancario).
 
-4. **Nodos de Dispositivos de Usuario:**
-	- Representan los terminales físicos desde donde interactúan los usuarios finales: el Smartphone del agricultor (ejecutando la Mobile Application nativa) y las computadoras de oficina de la entidad financiera (ejecutando el Web Browser para acceder al Dashboard web).
+    - **Database Server:** Servicio gestionado de base de datos PostgreSQL, configurado de forma aislada para garantizar la seguridad y escalabilidad de la persistencia histórica.
+
+3. **Nodos de Dispositivos de Usuario:**
+
+    - **Smartphone del Agricultor:** Dispositivo móvil que ejecuta la Mobile Application. Este nodo destaca por su capacidad de conexión dual: vía HTTPS hacia la nube o vía comunicación local (Wi-Fi/Bluetooth) hacia el Gateway de campo para control directo.
+
+    - **Estación de Trabajo Institucional:** Computador del analista financiero que accede a la Web Application a través de un navegador moderno, interactuando con el ecosistema para la auditoría de recursos y gestión de riesgos crediticios.
+
+La comunicación entre el entorno de borde y la nube se realiza mediante el protocolo de largo alcance LoRaWAN, asegurando la transmisión de datos en zonas rurales sin dependencia de redes celulares convencionales.
 
 ## 4.2. Tactical-Level Domain-Driven Design
 

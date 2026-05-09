@@ -146,7 +146,7 @@ La infraestructura se organiza en los siguientes Nodos de Despliegue (Deployment
 
 	- **AquaEdge IoT Node:** Nodo físico basado en el microcontrolador ESP32, encargado de ejecutar el Embedded Application. Se comunica con los sensores y actuadores mediante señales analógicas/digitales y envía la telemetría procesada al Gateway local.
 
-	- **Smart Gateway:** Estación base de borde implementada sobre una Raspberry Pi 4 con sistema operativo Linux. Utiliza Docker Engine para orquestar la Edge API y la Local Database (SQLite), permitiendo la toma de decisiones autónoma y la persistencia local en caso de pérdida de conexión LoRaWAN.
+	- **Smart Gateway:** Estación base de borde implementada sobre una Raspberry Pi 4 con sistema operativo Linux. Utiliza Docker Engine para orquestar la Edge API y la Local Database (SQLite), permitiendo la toma de decisiones autónomas y la persistencia local en caso de pérdida de conexión LoRaWAN.
 
 2. **Infraestructura Cloud (Cloud Domain):**
 

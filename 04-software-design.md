@@ -118,7 +118,7 @@ El **Diagrama de Contenedores** realiza un 'zoom in' para revelar la arquitectur
 
     **Local Database:** Repositorio SQLite que garantiza la persistencia de datos en el campo durante períodos de desconexión.
 
-2. Entorno Centralizado (Cloud):
+2. **Entorno Centralizado (Cloud):**
 
     **API Gateway / Cloud API:** Backend robusto desarrollado en Spring Boot (Java). Centraliza las peticiones de las interfaces de usuario, procesa la lógica de negocio compleja y orquesta la integración con Stripe, la API del clima y el Core Bancario.
 

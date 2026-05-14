@@ -322,4 +322,58 @@ Los diagramas de flujo de usuario de AquaEdge describen la interaccion desde una
 
 ## 5.5. Applications Prototyping.
 
-## 5.6. IoT Device Design.
+## 5.6. IoT Device Design
+
+En esta sección se detalla el diseño final del nodo sensor de **AquaEdge**. Siguiendo el **Paso 9 (Device & Component Design)** de la metodología de diseño de soluciones IoT, se presenta la arquitectura de hardware, el mapeo de pines y la lógica de control local (Edge) validada mediante simulación.
+
+### 5.6.1. Bill of Materials (BOM)
+
+Se presenta la lista de componentes finales utilizados en el prototipo funcional. Se ha priorizado una sonda industrial integrada para la captura de nutrientes y humedad, optimizando el despliegue en campo.
+
+| **Componente** | **Especificación** | **Función** | **Cantidad** |
+| --- | --- | --- | --- |
+| **MCU** | ESP32-WROOM-32 (30 pines) | Procesamiento central y lógica de borde. | 1 |
+| **Sonda Industrial** | Sensor NPK + Humedad (RS485) | Captura de N, P, K y Humedad del suelo. | 1 |
+| **Sensor de Clima** | DHT22 | Medición de temperatura y humedad ambiental. | 1 |
+| **Comunicación** | Módulo LoRa RYLR998 | Transmisión de largo alcance (LPWAN). | 1 |
+| **Actuador** | Módulo Relé 5V | Control de la electroválvula de riego. | 1 |
+| **Interfaz** | LEDs Difusos (R, G, B) | Indicadores visuales de estado del sistema. | 3 |
+| **Energía** | Panel Solar 1W + Batería 18650 | Sistema de alimentación autónoma. | 1 |
+
+### 5.6.2. IoT Device Hardware Architecture (Pinout)
+
+La interconexión de la **Capa Física** se ha diseñado para evitar interferencias y maximizar la precisión de los sensores de tiempo crítico.
+
+| **Componente** | **Pin ESP32 (GPIO)** | **Tipo de Señal** | **Función** |
+| --- | --- | --- | --- |
+| **Sensor DHT22** | GPIO 13 | Digital (One-Wire) | Lectura de Clima |
+| **Sensor NPK (TX)** | GPIO 16 (RX2) | Serial (UART2) | Recepción de datos de suelo |
+| **Sensor NPK (RX)** | GPIO 17 (TX2) | Serial (UART2) | Solicitud de datos |
+| **Relé (Bomba)** | GPIO 18 | Digital (Output) | Activación de riego |
+| **LED Rojo** | GPIO 2 | PWM/Digital | Alerta de riego/Humedad baja |
+| **LED Azul** | GPIO 4 | PWM/Digital | Indicador de comunicación |
+| **LED Verde** | GPIO 5 | PWM/Digital | Estado óptimo |
+
+### 5.6.3. IoT Device Software Logic (Edge Computing)
+
+El dispositivo no es un simple transmisor; ejecuta una **Lógica de Borde** que permite la autonomía del sistema incluso sin conexión a la nube:
+
+1. **Lectura Asíncrona:** El firmware utiliza temporizadores no bloqueantes (`millis()`) para leer el clima cada 2.5 segundos, evitando que el sensor DHT22 se sature o entregue valores erróneos.
+
+2. **Procesamiento de Trama Serial:** Se implementó una función de parsing para extraer valores individuales de Nitrógeno, Fósforo, Potasio y Humedad desde una trama de datos industrial.
+
+3. **Umbral de Decisión:** Si la humedad del suelo cae por debajo del **30%**, el dispositivo activa automáticamente el relé de riego y el indicador visual rojo, sin esperar instrucciones del servidor.
+
+### 5.6.4. IoT Device Physical Design & Simulation
+
+El prototipo ha sido validado en el simulador **Wokwi**, donde se verificó la correcta integración de todos los componentes del BOM. El diseño físico final contempla el uso de una carcasa **IP66** con pasacables estancos para proteger la electrónica de la humedad extrema de Piura.
+
+- **Estado de Simulación:** Validado (Humedad, Clima, NPK y Actuación funcionando).
+
+- **Representación Visual:** Se adjuntan capturas de pantalla del circuito en Wokwi y del monitor serial mostrando el reporte de datos procesados.
+
+<p align="center">
+	<img src="assets/Prototipo-wokwi.png" alt="Prototipo Wokwi de AquaEdge" width="700" />
+</p>
+
+*Figura X. Implementación de la Capa Física en el entorno de simulación Wokwi. Se observa la integración del microcontrolador ESP32 con la sonda industrial (Custom Chip), el sensor de clima DHT22 y el subsistema de actuación, validando la interoperabilidad de los componentes antes del despliegue físico*

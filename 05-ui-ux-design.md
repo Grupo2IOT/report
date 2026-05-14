@@ -324,47 +324,56 @@ Los diagramas de flujo de usuario de AquaEdge describen la interaccion desde una
 
 ## 5.6. IoT Device Design
 
-Siguiendo las pautas de la metodología de diseño de soluciones IoT (Paso 9: Device & Component Design), en esta sección se detallan los elementos que componen la capa física **(Physical Layer)** de AquaEdge. El diseño se centra en la capacidad de procesamiento local y la eficiencia en la transmisión de datos hacia la capa de intercambio **(Data Exchange Layer)**.
+En esta sección se detalla el diseño final del nodo sensor de **AquaEdge**. Siguiendo el **Paso 9 (Device & Component Design)** de la metodología de diseño de soluciones IoT, se presenta la arquitectura de hardware, el mapeo de pines y la lógica de control local (Edge) validada mediante simulación.
 
 ### 5.6.1. Bill of Materials (BOM)
 
-En concordancia con los componentes fundamentales de un sistema IoT (Microcontroladores y Sensores), se presenta la lista de materiales necesaria para el prototipo. Se ha seleccionado el ESP32 como nodo central debido a su capacidad de procesamiento superior frente a alternativas básicas de Arduino, permitiendo una futura implementación de lógica Edge.
+Se presenta la lista de componentes finales utilizados en el prototipo funcional. Se ha priorizado una sonda industrial integrada para la captura de nutrientes y humedad, optimizando el despliegue en campo.
 
-| **Componente** | **Especificacion Tecnica** | **Funcion (Capa Fisica)** | **Cantidad** |
+| **Componente** | **Especificación** | **Función** | **Cantidad** |
 | --- | --- | --- | --- |
-| **Microcontrolador** | ESP32-WROOM-32 (Dual Core) | Procesamiento de señales y gestion del ciclo de sueño. | 1 |
-| **Modulo de Comunicacion** | Reyax RYLR998 (LoRa) | Interfaz de red para transmision a larga distancia. | 1 |
-| **Sensor de Humedad** | Capacitivo Soil Moisture v1.2 | Captura de datos analogicos del sustrato. | 1 |
-| **Sensor Nutrientes** | NPK RS485 Industrial | Captura de datos quimicos (N-P-K) via protocolo serial. | 1 |
-| **Interfaz Serial** | Adaptador TTL a RS485 (MAX485) | Conversion de senal para compatibilidad con el MCU. | 1 |
-| **Gestion Energetica** | Panel Solar 1W + Modulo TP4056 | Sistema de recoleccion y carga de energia. | 1 |
-| **Almacenamiento Energia** | Bateria Li-ion 18650 (3.7V) | Fuente de poder para operacion autonoma. | 1 |
-| **Proteccion** | Gabinete ABS con sello IP66 | Proteccion fisica contra condiciones ambientales. | 1 |
+| **MCU** | ESP32-WROOM-32 (30 pines) | Procesamiento central y lógica de borde. | 1 |
+| **Sonda Industrial** | Sensor NPK + Humedad (RS485) | Captura de N, P, K y Humedad del suelo. | 1 |
+| **Sensor de Clima** | DHT22 | Medición de temperatura y humedad ambiental. | 1 |
+| **Comunicación** | Módulo LoRa RYLR998 | Transmisión de largo alcance (LPWAN). | 1 |
+| **Actuador** | Módulo Relé 5V | Control de la electroválvula de riego. | 1 |
+| **Interfaz** | LEDs Difusos (R, G, B) | Indicadores visuales de estado del sistema. | 3 |
+| **Energía** | Panel Solar 1W + Batería 18650 | Sistema de alimentación autónoma. | 1 |
 
-### 5.6.2. IoT Device Hardware Architecture
+### 5.6.2. IoT Device Hardware Architecture (Pinout)
 
-La arquitectura de hardware de AquaEdge se ha diseñado siguiendo el modelo de **Capa Física** descrito en la teoría de diseño de soluciones IoT básicas, integrando los siguientes sub-módulos:
+La interconexión de la **Capa Física** se ha diseñado para evitar interferencias y maximizar la precisión de los sensores de tiempo crítico.
 
-1. **Módulo de Procesamiento:** El **ESP32** gestiona el flujo de información. Este componente es el encargado de ejecutar el "Procesamiento de datos en el borde" (Edge) antes de la transmisión, filtrando ruidos en las lecturas de los sensores.
+| **Componente** | **Pin ESP32 (GPIO)** | **Tipo de Señal** | **Función** |
+| --- | --- | --- | --- |
+| **Sensor DHT22** | GPIO 13 | Digital (One-Wire) | Lectura de Clima |
+| **Sensor NPK (TX)** | GPIO 16 (RX2) | Serial (UART2) | Recepción de datos de suelo |
+| **Sensor NPK (RX)** | GPIO 17 (TX2) | Serial (UART2) | Solicitud de datos |
+| **Relé (Bomba)** | GPIO 18 | Digital (Output) | Activación de riego |
+| **LED Rojo** | GPIO 2 | PWM/Digital | Alerta de riego/Humedad baja |
+| **LED Azul** | GPIO 4 | PWM/Digital | Indicador de comunicación |
+| **LED Verde** | GPIO 5 | PWM/Digital | Estado óptimo |
 
-2. **Módulo de Percepción (Inputs): * Lectura Analógica:** El sensor de humedad entrega una señal de voltaje proporcional a la humedad del suelo.
+### 5.6.3. IoT Device Software Logic (Edge Computing)
 
-   - **Lectura Digital/Serial:** El sensor NPK utiliza una trama de datos RS485 que es decodificada por el ESP32 para obtener los valores específicos de nutrientes.
+El dispositivo no es un simple transmisor; ejecuta una **Lógica de Borde** que permite la autonomía del sistema incluso sin conexión a la nube:
 
-3. **Módulo de Comunicación (Output):** Utiliza el puerto UART del ESP32 para enviar los datos procesados al módulo LoRa, estableciendo el enlace hacia el Internet Gateway (Capa de Intercambio de Datos).
+1. **Lectura Asíncrona:** El firmware utiliza temporizadores no bloqueantes (`millis()`) para leer el clima cada 2.5 segundos, evitando que el sensor DHT22 se sature o entregue valores erróneos.
 
-### 5.6.3. IoT Device Connectivity Architecture
+2. **Procesamiento de Trama Serial:** Se implementó una función de parsing para extraer valores individuales de Nitrógeno, Fósforo, Potasio y Humedad desde una trama de datos industrial.
 
-Bajo el esquema de diseño de soluciones IoT, la conectividad se define por el alcance y el consumo energético:
+3. **Umbral de Decisión:** Si la humedad del suelo cae por debajo del **30%**, el dispositivo activa automáticamente el relé de riego y el indicador visual rojo, sin esperar instrucciones del servidor.
 
-- **Protocolo de Red:** Se utiliza **LoRa (Long Range)**, ideal para la topología de red en estrella donde los nodos sensores están dispersos en el campo.
+### 5.6.4. IoT Device Physical Design & Simulation
 
-- **Modo de Operación:** El dispositivo opera bajo un régimen de "Dispositivo Final" que envía datos periódicamente y entra en modo de bajo consumo (Low Power Mode) para maximizar la vida útil de la batería.
+El prototipo ha sido validado en el simulador **Wokwi**, donde se verificó la correcta integración de todos los componentes del BOM. El diseño físico final contempla el uso de una carcasa **IP66** con pasacables estancos para proteger la electrónica de la humedad extrema de Piura.
 
-### 5.6.4. IoT Device Physical Design
+- **Estado de Simulación:** Validado (Humedad, Clima, NPK y Actuación funcionando).
 
-El diseño físico (Prototipo) responde a los requisitos funcionales de operatividad en exteriores:
+- **Representación Visual:** Se adjuntan capturas de pantalla del circuito en Wokwi y del monitor serial mostrando el reporte de datos procesados.
 
-- **Protección Ambiental:** El uso de una carcasa **IP66** asegura que los componentes electrónicos (Capa Física) no se vean afectados por el polvo o el agua de riego.
+<p align="center">
+	<img src="assets/Prototipo-wokwi.png" alt="Prototipo Wokwi de AquaEdge" width="700" />
+</p>
 
-- **Ergonomía de Instalación:** El dispositivo incluye pasacables estancos para que las sondas de los sensores (humedad y NPK) puedan enterrarse mientras el cerebro del dispositivo permanece protegido y elevado.
+*Figura X. Implementación de la Capa Física en el entorno de simulación Wokwi. Se observa la integración del microcontrolador ESP32 con la sonda industrial (Custom Chip), el sensor de clima DHT22 y el subsistema de actuación, validando la interoperabilidad de los componentes antes del despliegue físico*

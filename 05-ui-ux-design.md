@@ -322,4 +322,49 @@ Los diagramas de flujo de usuario de AquaEdge describen la interaccion desde una
 
 ## 5.5. Applications Prototyping.
 
-## 5.6. IoT Device Design.
+## 5.6. IoT Device Design
+
+Siguiendo las pautas de la metodología de diseño de soluciones IoT (Paso 9: Device & Component Design), en esta sección se detallan los elementos que componen la capa física **(Physical Layer)** de AquaEdge. El diseño se centra en la capacidad de procesamiento local y la eficiencia en la transmisión de datos hacia la capa de intercambio **(Data Exchange Layer)**.
+
+### 5.6.1. Bill of Materials (BOM)
+
+En concordancia con los componentes fundamentales de un sistema IoT (Microcontroladores y Sensores), se presenta la lista de materiales necesaria para el prototipo. Se ha seleccionado el ESP32 como nodo central debido a su capacidad de procesamiento superior frente a alternativas básicas de Arduino, permitiendo una futura implementación de lógica Edge.
+
+| **Componente** | **Especificacion Tecnica** | **Funcion (Capa Fisica)** | **Cantidad** |
+| --- | --- | --- | --- |
+| **Microcontrolador** | ESP32-WROOM-32 (Dual Core) | Procesamiento de señales y gestion del ciclo de sueño. | 1 |
+| **Modulo de Comunicacion** | Reyax RYLR998 (LoRa) | Interfaz de red para transmision a larga distancia. | 1 |
+| **Sensor de Humedad** | Capacitivo Soil Moisture v1.2 | Captura de datos analogicos del sustrato. | 1 |
+| **Sensor Nutrientes** | NPK RS485 Industrial | Captura de datos quimicos (N-P-K) via protocolo serial. | 1 |
+| **Interfaz Serial** | Adaptador TTL a RS485 (MAX485) | Conversion de senal para compatibilidad con el MCU. | 1 |
+| **Gestion Energetica** | Panel Solar 1W + Modulo TP4056 | Sistema de recoleccion y carga de energia. | 1 |
+| **Almacenamiento Energia** | Bateria Li-ion 18650 (3.7V) | Fuente de poder para operacion autonoma. | 1 |
+| **Proteccion** | Gabinete ABS con sello IP66 | Proteccion fisica contra condiciones ambientales. | 1 |
+
+### 5.6.2. IoT Device Hardware Architecture
+
+La arquitectura de hardware de AquaEdge se ha diseñado siguiendo el modelo de **Capa Física** descrito en la teoría de diseño de soluciones IoT básicas, integrando los siguientes sub-módulos:
+
+1. **Módulo de Procesamiento:** El **ESP32** gestiona el flujo de información. Este componente es el encargado de ejecutar el "Procesamiento de datos en el borde" (Edge) antes de la transmisión, filtrando ruidos en las lecturas de los sensores.
+
+2. **Módulo de Percepción (Inputs): * Lectura Analógica:** El sensor de humedad entrega una señal de voltaje proporcional a la humedad del suelo.
+
+   - **Lectura Digital/Serial:** El sensor NPK utiliza una trama de datos RS485 que es decodificada por el ESP32 para obtener los valores específicos de nutrientes.
+
+3. **Módulo de Comunicación (Output):** Utiliza el puerto UART del ESP32 para enviar los datos procesados al módulo LoRa, estableciendo el enlace hacia el Internet Gateway (Capa de Intercambio de Datos).
+
+### 5.6.3. IoT Device Connectivity Architecture
+
+Bajo el esquema de diseño de soluciones IoT, la conectividad se define por el alcance y el consumo energético:
+
+- **Protocolo de Red:** Se utiliza **LoRa (Long Range)**, ideal para la topología de red en estrella donde los nodos sensores están dispersos en el campo.
+
+- **Modo de Operación:** El dispositivo opera bajo un régimen de "Dispositivo Final" que envía datos periódicamente y entra en modo de bajo consumo (Low Power Mode) para maximizar la vida útil de la batería.
+
+### 5.6.4. IoT Device Physical Design
+
+El diseño físico (Prototipo) responde a los requisitos funcionales de operatividad en exteriores:
+
+- **Protección Ambiental:** El uso de una carcasa **IP66** asegura que los componentes electrónicos (Capa Física) no se vean afectados por el polvo o el agua de riego.
+
+- **Ergonomía de Instalación:** El dispositivo incluye pasacables estancos para que las sondas de los sensores (humedad y NPK) puedan enterrarse mientras el cerebro del dispositivo permanece protegido y elevado.

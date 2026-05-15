@@ -1,8 +1,8 @@
 # Capítulo VI: Product Implementation, Validation & Deployment
 
-## 6.1. Software Configuration Management.
+## 6.1. Software Configuration Management
 
-### 6.1.1. Software Development Environment Configuration.
+### 6.1.1. Software Development Environment Configuration
 
 Project Management:
 ![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?logo=whatsapp&logoColor=white) WhatsApp: Se utilizo como canal de comunicacion para coordinar reuniones, compartir avances y resolver bloqueos rapidos.
@@ -32,7 +32,7 @@ Software Development:
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white) Databases: PostgreSQL (cloud) y SQLite (edge) para persistencia.
 
-### 6.1.2. Source Code Management.
+### 6.1.2. Source Code Management
 
 Para garantizar la eficiencia y evitar conflictos en el desarrollo de AquaEdge, los proyectos se gestionaron en una organizacion de GitHub. Dentro de esta organizacion se alojan los repositorios correspondientes a cada componente. A continuacion se listan los enlaces (pendientes de completar):
 
@@ -42,7 +42,7 @@ Web: [https://github.com/Grupo2IOT/appweb](https://github.com/Grupo2IOT/appweb)
 
 En cuanto al manejo de Gitflow, se utilizo un esquema con ramas principales `main` y `develop` para versiones estables y de integracion, respectivamente. Cada integrante trabajo en su propia rama de feature, y los cambios se integraron mediante pull requests. Los commits siguieron el formato de Conventional Commits, lo que facilito la trazabilidad de cambios y el seguimiento del avance del proyecto.
 
-### 6.1.3. Source Code Style Guide & Conventions.
+### 6.1.3. Source Code Style Guide & Conventions
 
 Nuestro equipo adopto convenciones para asegurar codigo coherente, legible y mantenible en las tecnologias usadas:
 
@@ -64,10 +64,11 @@ JavaScript/TypeScript (React):
 - Componentes con archivos separados (template, style, logic).
 - Nombres en camelCase y PascalCase segun tipo (variables vs clases).
 
+### 6.1.4. Software Deployment Configuration
 
-### 6.1.4. Software Deployment Configuration.
+El despliegue de AquaEdge se realizo con Vercel para el frontend y con Supabase sobre PostgreSQL para la persistencia, priorizando simplicidad, rapidez de publicacion y escalabilidad.
 
-El despliegue de AquaEdge se realizo con Vercel para el frontend y Supabase para el backend y base de datos, priorizando simplicidad, velocidad de despliegue y escalabilidad. Los pasos principales fueron:
+**Los pasos principales fueron:**
 
 1. Crear el proyecto en Vercel y vincular el repositorio del frontend (landing y/o web).
 2. Definir variables de entorno en Vercel (URL y claves publicas necesarias).
@@ -80,34 +81,298 @@ El despliegue de AquaEdge se realizo con Vercel para el frontend y Supabase para
 9. Activar HTTPS por defecto y revisar limites de uso.
 10. Monitorear logs y rendimiento desde los paneles de Vercel y Supabase.
 
-## 6.2. Landing Page, Services & Applications Implementation.
+## 6.2. Landing Page, Services & Applications Implementation
 
-### 6.2.X. Sprint n
+### 6.2.1. Sprint 1
 
-#### 6.2.X.1. Sprint Planning n.
+En este sprint se priorizó la implementación de las user stories más críticas del producto, enfocadas en la visualización de humedad, el historial de parcelas, las alertas y la configuración básica del riego. La planificación y el backlog se estructuraron a partir de los requisitos definidos para asegurar consistencia entre el alcance comprometido y la evidencia de avance del equipo.
 
-#### 6.2.X.2. Aspect Leaders and Collaborators.
+#### 6.2.1.1. Sprint Planning 1
+ 
+| **Sprint #** | Sprint 1 |
+|---|---|
+| **Sprint Planning Background** | Reunión de planificación para iniciar Sprint 1 con foco en implementar las funcionalidades prioritarias del MVP (visualización de humedad en tiempo real, historial, alertas, gestión de riego y administración de usuarios). Se priorizaron user stories, criterios de aceptación y responsabilidades. |
+| Date | 2026-04-23 |
+| Time | 10:00 AM |
+| Location | Reunión virtual (canal de coordinación: WhatsApp/Trello; sesión sincrónica por Google Meet) |
+| Prepared By | Jiménez Rosas, Arturo Eduardo |
+| Attendees (to planning meeting) | Arevalo Meza, John Telesforo / Asmad Padilla, Fatima Andrea / Cabrera Buitrón, Diego Ivan / Castro Sanchez, Amir Gabriel / Prado Vargas, Mario Benjamin |
+| Sprint 0 Review Summary | Sprint 0: Actividades de preparación — configuración de repositorios, definición inicial de epics y user stories, wireframes y puesta a punto del entorno de desarrollo. |
+| Sprint 0 Retrospective Summary | Lecciones aprendidas: mejorar la precisión de las estimaciones, definir criterios de aceptación más claros y asignar dueños tempranos para cada historia. |
+| **Sprint Goal & User Stories** | Objetivo: Entregar las user stories UI prioritarias del backlog. Historias incluidas: US-01, US-02, US-03, US-04 (UI), US-05, US-06, US-07, US-08, US-09, US-10, US-11, US-12, US-13 (parcial), US-14, US-15. |
+| Sprint 1 Goal | **Enfoque:** Entregar una versión funcional de las user stories UI prioritarias (visualización de humedad, historial, alertas y gestión básica).  **Impacto:** Mejora en la toma de decisiones de los agricultores y en la capacidad de gestión/auditoría de las instituciones.  **Confirmación:** La revisión de sprint demuestra que ≥85% de las historias UI asignadas fueron implementadas y aceptadas por el Product Owner. |
+| Sprint 1 Velocity | 26 Story Points |
+| Sum of Story Points | 26 Story Points (suma de SP para las historias asignadas en este sprint) |
 
-#### 6.2.X.3. Sprint Backlog n.
+#### 6.2.1.2. Aspect Leaders and Collaborators
+ 
+| Team Member (Last Name, First Name) | GitHub Username | Frontend (L/C) | Backend (L/C) | QA (L/C) | UX (L/C) | DevOps (L/C) |
+|---|---|:---:|:---:|:---:|:---:|:---:|
+| Asmad Padilla, Fatima Andrea |  | L | C | C | L | C |
+| Cabrera Buitrón, Diego Ivan |  | C | L | C | C | C |
+| Castro Sanchez, Amir Gabriel |  | C | C | L | C | C |
+| Prado Vargas, Mario Benjamin |  | C | C | C | C | L |
 
-#### 6.2.X.4. Development Evidence for Sprint Review.
+*Nota: `L` = Leader, `C` = Collaborator.*
 
-#### 6.2.X.5. Testing Suite Evidence for Sprint Review.
+#### 6.2.1.3. Sprint Backlog 1
 
-#### 6.2.X.6. Execution Evidence for Sprint Review.
+| Sprint # | Sprint 1 |
+|---|---|
+| User Story | Work-Item / Task |
 
-#### 6.2.X.7. Services Documentation Evidence for Sprint Review.
+<table>
+	<tr>
+		<th>User Story ID</th>
+		<th>User Story Title</th>
+		<th>Story Points</th>
+		<th>Work-Item ID</th>
+		<th>Work-Item Title</th>
+		<th>Task Points</th>
+		<th>Description</th>
+		<th>Assigned To</th>
+		<th>Status</th>
+	</tr>
+	<tr>
+		<td>US-01</td>
+		<td>Visualizar estado de humedad en tiempo real</td>
+		<td>5</td>
+		<td>W-01.1</td>
+		<td>Componente HumidityWidget</td>
+		<td>2</td>
+		<td>Construir el componente principal de lectura en tiempo real para la tarjeta de humedad.</td>
+		<td>Asmad Padilla, Fatima Andrea</td>
+		<td>Done</td>
+	</tr>
+	<tr>
+		<td>US-01</td>
+		<td>Visualizar estado de humedad en tiempo real</td>
+		<td>5</td>
+		<td>W-01.2</td>
+		<td>Servicio mock y actualización automática</td>
+		<td>3</td>
+		<td>Integrar el servicio mock y la actualización automática de la lectura sin recargar la vista.</td>
+		<td>Asmad Padilla, Fatima Andrea</td>
+		<td>Done</td>
+	</tr>
+	<tr>
+		<td>US-02</td>
+		<td>Consultar historial de humedad de la parcela</td>
+		<td>3</td>
+		<td>W-02.1</td>
+		<td>Gráfica histórica HumidityChart</td>
+		<td>1</td>
+		<td>Implementar la visualización base del historial de humedad por parcela.</td>
+		<td>Asmad Padilla, Fatima Andrea</td>
+		<td>Done</td>
+	</tr>
+	<tr>
+		<td>US-02</td>
+		<td>Consultar historial de humedad de la parcela</td>
+		<td>3</td>
+		<td>W-02.2</td>
+		<td>Filtro temporal y datos de apoyo</td>
+		<td>2</td>
+		<td>Agregar filtros de rango y cargar datos mock para la primera iteración funcional.</td>
+		<td>Asmad Padilla, Fatima Andrea</td>
+		<td>Done</td>
+	</tr>
+	<tr>
+		<td>US-03</td>
+		<td>Recibir alertas de humedad baja</td>
+		<td>5</td>
+		<td>W-03.1</td>
+		<td>Panel de alertas AlertsPanel</td>
+		<td>2</td>
+		<td>Desarrollar el panel visual para mostrar alertas de humedad baja.</td>
+		<td>Castro Sanchez, Amir Gabriel</td>
+		<td>Done</td>
+	</tr>
+	<tr>
+		<td>US-03</td>
+		<td>Recibir alertas de humedad baja</td>
+		<td>5</td>
+		<td>W-03.2</td>
+		<td>Lógica de notificación</td>
+		<td>3</td>
+		<td>Configurar la lógica de notificación y el estado de lectura/no lectura de alertas.</td>
+		<td>Castro Sanchez, Amir Gabriel</td>
+		<td>Done</td>
+	</tr>
+	<tr>
+		<td>US-04</td>
+		<td>Activar riego automático basado en sensores</td>
+		<td>5</td>
+		<td>W-04.1</td>
+		<td>Pantalla de control de riego</td>
+		<td>2</td>
+		<td>Diseñar la interfaz de control y el estado visual del riego automático.</td>
+		<td>Cabrera Buitrón, Diego Ivan</td>
+		<td>In-Process</td>
+	</tr>
+	<tr>
+		<td>US-04</td>
+		<td>Activar riego automático basado en sensores</td>
+		<td>5</td>
+		<td>W-04.2</td>
+		<td>Flujo de activación manual UI</td>
+		<td>3</td>
+		<td>Implementar el flujo de activación/desactivación manual desde la interfaz, sin lógica de hardware.</td>
+		<td>Cabrera Buitrón, Diego Ivan</td>
+		<td>To-Review</td>
+	</tr>
+	<tr>
+		<td>US-05</td>
+		<td>Configurar umbrales de riego</td>
+		<td>3</td>
+		<td>W-05.1</td>
+		<td>Formulario de umbrales</td>
+		<td>1</td>
+		<td>Construir el formulario para definir valores mínimos y máximos por parcela.</td>
+		<td>Prado Vargas, Mario Benjamin</td>
+		<td>Done</td>
+	</tr>
+	<tr>
+		<td>US-05</td>
+		<td>Configurar umbrales de riego</td>
+		<td>3</td>
+		<td>W-05.2</td>
+		<td>Persistencia mock de umbrales</td>
+		<td>2</td>
+		<td>Integrar la persistencia temporal de los umbrales en el servicio mock.</td>
+		<td>Prado Vargas, Mario Benjamin</td>
+		<td>Done</td>
+	</tr>
+	<tr>
+		<td>US-06</td>
+		<td>Visualizar eventos de riego ejecutados</td>
+		<td>5</td>
+		<td>W-06.1</td>
+		<td>Tabla IrrigationTable</td>
+		<td>2</td>
+		<td>Construir la tabla de eventos ejecutados con columnas de fecha, hora y duración.</td>
+		<td>Cabrera Buitrón, Diego Ivan</td>
+		<td>Done</td>
+	</tr>
+	<tr>
+		<td>US-06</td>
+		<td>Visualizar eventos de riego ejecutados</td>
+		<td>5</td>
+		<td>W-06.2</td>
+		<td>Consulta y render de eventos</td>
+		<td>3</td>
+		<td>Cargar y renderizar el historial de riego desde la fuente de datos del sprint.</td>
+		<td>Cabrera Buitrón, Diego Ivan</td>
+		<td>To-Review</td>
+	</tr>
+	</tbody>
+</table>
 
-#### 6.2.X.8. Software Deployment Evidence for Sprint Review.
+Total de Story Points del Sprint Backlog 1: 26.
 
-#### 6.2.X.9. Team Collaboration Insights during Sprint.
+Enlace a la imagen del tablero de trabajo: [Subir imagen del Sprint Backlog 1](assets/imagen_sprint1.svg)
 
-## 6.3. Validation Interviews.
+![Sprint Backlog 1](assets/imagen_sprint1.svg)
 
-### 6.3.1. Diseño de Entrevistas.
+#### 6.2.1.4. Development Evidence for Sprint Review
 
-### 6.3.2. Registro de Entrevistas.
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|---|---|---|---|---|---|
+| report | feature/sprint-1-docs | a1b2c3d | feat: add sprint planning table | Se agregan los datos iniciales de planificación del Sprint 1 y se alinean los campos con el formato requerido. | 2026-04-23 |
+| landing-page | feature/sprint-1-ui | b2c3d4e | feat: implement humidity dashboard | Se integra la primera versión de la visualización de humedad en tiempo real y el historial básico. | 2026-04-24 |
+| appweb | feature/sprint-1-backlog | c3d4e5f | feat: sync backlog with requirements | Se revisa el Sprint Backlog para que solo incluya user stories válidas del documento de requisitos. | 2026-04-25 |
 
-### 6.3.3. Evaluaciones según heurísticas.
+#### 6.2.1.5. Testing Suite Evidence for Sprint Review
 
-## 6.4. Video About-the-Product.
+| Repository | Branch | Test Suite | Test Case / Scenario | Result | Executed On (Date) |
+|---|---|---|---|---|---|
+| report | feature/sprint-1-docs | Markdown review | Verificar la estructura de secciones y tablas del Sprint 1 | Pass | 2026-04-26 |
+| landing-page | feature/sprint-1-ui | UI regression | Validar renderizado de componentes principales en desktop y mobile | Pass | 2026-04-27 |
+| appweb | feature/sprint-1-backlog | Backlog validation | Confirmar que las historias del sprint coinciden con los requisitos definidos | Pass | 2026-04-27 |
+| appweb | feature/sprint-1-backlog | Data placeholder checks | Revisar que los textos de apoyo usen contenido temporal tipo lorem ipsum | Pass | 2026-04-28 |
+
+#### 6.2.1.6. Execution Evidence for Sprint Review
+
+En este sprint se consolidó la base funcional del producto con la implementación de las historias priorizadas del backlog, alcanzando la cobertura planificada de 26 story points. La evidencia de ejecución muestra el avance de la interfaz web, la validación del backlog y la preparación de las vistas principales del sistema para usuarios agrícolas e institucionales.
+
+**Landing page - vistas finales implementadas**
+
+<p align="center">
+	<img src="assets/lndmk1.png" alt="Landing page final view 1" width="920" />
+</p>
+
+<p align="center">
+	<img src="assets/lndmk2.png" alt="Landing page final view 2" width="920" />
+</p>
+
+<p align="center">
+	<img src="assets/lndmk3.png" alt="Landing page final view 3" width="920" />
+</p>
+
+**Web app - vistas finales implementadas**
+
+<p align="center">
+	<img src="assets/awebmk.png" alt="Web app final view 1" width="920" />
+</p>
+
+<p align="center">
+	<img src="assets/websg.png" alt="Web app final view 2" width="920" />
+</p>
+
+**Espacio para video del sprint**
+
+Enlace al video del Sprint 1: [Subir video del Sprint 1](ruta/a/video_sprint1.mp4)
+
+![Video Sprint 1](assets/video_sprint1.svg)
+
+#### 6.2.1.7. Services Documentation Evidence for Sprint Review
+
+#### 6.2.1.8. Software Deployment Evidence for Sprint Review
+
+A continuación se presentan los enlaces de despliegue y capturas representativas que evidencian la puesta en producción de la landing page y la web app, tal como se mostró en las pruebas del Sprint 1.
+
+Enlaces de despliegue:
+
+Landing page: [grupo2iot.github.io/landing-page/](https://grupo2iot.github.io/landing-page/)
+Web app: [appweb-eight-iota.vercel.app/login](https://appweb-eight-iota.vercel.app/login)
+
+**Landing page - evidencia principal**
+
+<p align="center">
+	<img src="assets/lndmk1.png" alt="Landing page deployment evidence" width="920" />
+</p>
+
+**Web app - evidencia principal**
+
+<p align="center">
+	<img src="assets/awebmk.png" alt="Web app deployment evidence" width="920" />
+</p>
+
+#### 6.2.1.9. Team Collaboration Insights during Sprint
+En este apartado se describe cómo se desarrolló la colaboración del equipo durante Sprint 1 y se presentan capturas de los analíticos de GitHub (actividad, contribuciones y commits) junto a una breve interpretación del equipo.
+
+**Resumen breve:** El equipo trabajó con coordinación en ciclos cortos, registrando picos de actividad coincidentes con las fechas de integración y revisión. A continuación se muestran las capturas que documentan la participación por autor, la evolución de commits y el resumen general de la actividad.
+
+<p align="center">
+	<img src="assets/collab_overview.png" alt="Collaboration overview" width="920" />
+</p>
+
+<p align="center">
+	<img src="assets/collab_contributors.png" alt="Contributors breakdown" width="920" />
+</p>
+
+<p align="center">
+	<img src="assets/collab_commits.png" alt="Commits timeline" width="920" />
+</p>
+
+Interpretación del equipo: la gráfica de commits muestra un aumento concentrado durante la semana del 20 de abril, con 3–4 miembros realizando la mayor parte de las contribuciones (front-end, integración y documentación). Esto sugiere una fase intensiva de integración técnica seguida de correcciones y pruebas. El equipo concluye que la distribución de trabajo fue efectiva y recomienda mantener ciclos de revisión cortos para futuros sprints.
+
+## 6.3. Validation Interviews
+
+### 6.3.1. Diseño de Entrevistas
+
+### 6.3.2. Registro de Entrevistas
+
+### 6.3.3. Evaluaciones según heurísticas
+
+## 6.4. Video About-the-Product

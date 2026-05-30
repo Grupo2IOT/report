@@ -12,7 +12,7 @@ Project Management:
 Requirements and Documentation:
 ![Lucidchart](https://img.shields.io/badge/Lucidchart-FF6F00?logo=lucidchart&logoColor=white) Lucidchart: Se utilizo para elaborar diagramas del sistema y apoyar la documentacion tecnica.
 
-![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white) GitHub: Plataforma central para versionado, control de cambios y documentacion del proyecto mediante README.
+![GitHub](https://h="40img.shields.io/badge/GitHub-181717?logo=github&logoColor=white) GitHub: Plataforma central para versionado, control de cambios y documentacion del proyecto mediante README.
 
 Product UX/UI Design:
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=white) Figma: Se empleo para la creacion de wireframes, mock-ups y prototipos de la landing page y aplicaciones.
@@ -354,15 +354,15 @@ En este apartado se describe cómo se desarrolló la colaboración del equipo du
 **Resumen breve:** El equipo trabajó con coordinación en ciclos cortos, registrando picos de actividad coincidentes con las fechas de integración y revisión. A continuación se muestran las capturas que documentan la participación por autor, la evolución de commits y el resumen general de la actividad.
 
 <p align="center">
-	<img src="assets/collab_overview.png" alt="Collaboration overview" width="920" />
+	<img src="assets/collab_overview.png" alt="Collaboration overview" height="420" />
 </p>
 
 <p align="center">
-	<img src="assets/collab_contributors.png" alt="Contributors breakdown" width="920" />
+	<img src="assets/collab_contributors.png" alt="Contributors breakdown" height="420" />
 </p>
 
 <p align="center">
-	<img src="assets/collab_commits.png" alt="Commits timeline" width="920" />
+	<img src="assets/collab_commits.png" alt="Commits timeline" height="420" />
 </p>
 
 Interpretación del equipo: la gráfica de commits muestra un aumento concentrado durante la semana del 20 de abril, con 3–4 miembros realizando la mayor parte de las contribuciones (front-end, integración y documentación). Esto sugiere una fase intensiva de integración técnica seguida de correcciones y pruebas. El equipo concluye que la distribución de trabajo fue efectiva y recomienda mantener ciclos de revisión cortos para futuros sprints.

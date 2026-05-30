@@ -46,11 +46,11 @@ El Modelado de Flujos de Mensajes de Dominio es una técnica empleada para anali
 En esta sección se presentan los Bounded Context Canvases, los cuales permiten describir de manera estructurada cada uno de los contextos delimitados identificados en el dominio. A través de este enfoque, se detallan aspectos clave como el propósito, las interacciones, los mensajes intercambiados y las decisiones de negocio, facilitando una comprensión clara de las responsabilidades y límites de cada contexto. Esto contribuye a una mejor organización del sistema y a la coherencia en su diseño bajo los principios de Domain-Driven Design.
 
 <p align="center">
-	<img src="assets/Bounded Context Canvases 2.jpg" alt="Bounded Context Canvases" width="920" />
+	<img src="assets/Bounded Context Canvases 2.jpg" alt="Bounded Context Canvases" height="720" />
 </p>
 
 <p align="center">
-	<img src="assets/Bounded Context Canvases 1.jpg" alt="Bounded Context Canvases" width="920" />
+	<img src="assets/Bounded Context Canvases 1.jpg" alt="Bounded Context Canvases" height="720" />
 </p>
 
 ### 4.1.2. Context Mapping
@@ -202,7 +202,7 @@ En esta capa se implementan las interfaces del dominio utilizando las tecnologí
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
 
 <p align="center">
-	<img src="assets/irrigation-component.png" alt="Deployment Diagram" width="600" />
+	<img src="assets/irrigation-component.png" alt="Deployment Diagram" height="600" />
 </p>
 
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
@@ -260,7 +260,7 @@ En esta capa residen las integraciones tecnológicas específicas requeridas por
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
 
 <p align="center">
-	<img src="assets/moisture-component.png" alt="Database Design" width="600" />
+	<img src="assets/moisture-component.png" alt="Database Design" height="600" />
 </p>
 
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
@@ -274,7 +274,7 @@ En esta capa residen las integraciones tecnológicas específicas requeridas por
 ##### 4.2.2.6.2. Bounded Context Database Design Diagram
 
 <p align="center">
-	<img src="assets/moisture-db.png" alt="Database Design" width="600" />
+	<img src="assets/moisture-db.png" alt="Database Design" width="400" />
 </p>
 
 <div style="page-break-after: always;"></div>
@@ -331,7 +331,7 @@ En esta capa se implementan los detalles técnicos de la nube:
 ##### 4.2.3.6.2. Bounded Context Database Design Diagram
 
 <p align="center">
-	<img src="assets/audit-db.png" alt="Database Design" width="600" />
+	<img src="assets/audit-db.png" alt="Database Design" width="400" />
 </p>
 
 <div style="page-break-after: always;"></div>

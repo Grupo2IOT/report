@@ -373,7 +373,7 @@ El prototipo ha sido validado en el simulador **Wokwi**, donde se verificó la c
 - **Representación Visual:** Se adjuntan capturas de pantalla del circuito en Wokwi y del monitor serial mostrando el reporte de datos procesados.
 
 <p align="center">
-	<img src="assets/Prototipo-wokwi.png" alt="Prototipo Wokwi de AquaEdge" width="700" />
+	<img src="assets/Prototipo-wokwi.png" alt="Prototipo Wokwi de AquaEdge" height="400" />
 </p>
 
 *Figura X. Implementación de la Capa Física en el entorno de simulación Wokwi. Se observa la integración del microcontrolador ESP32 con la sonda industrial (Custom Chip), el sensor de clima DHT22 y el subsistema de actuación, validando la interoperabilidad de los componentes antes del despliegue físico*

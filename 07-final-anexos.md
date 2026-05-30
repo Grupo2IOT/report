@@ -47,3 +47,39 @@ Tecfresh. (s.f.). Uso del agua en el sector agrícola en Perú. Recuperado de: h
 arXiv. (2026). Research paper on IoT / irrigation systems. Recuperado de: https://arxiv.org/pdf/2603.15085
 
 # Anexos
+
+<a id="anexo-1"></a>
+
+**Anexo 1 — Analíticos**
+
+<figure>
+	<img src="assets/evidecnia2.png" alt="Analíticos de GitHub" style="width:100%; max-width:900px; border:1px solid #d0d7de;" />
+	<figcaption style="text-align:center; font-size:12px;">Anexo 1 — Analíticos de GitHub</figcaption>
+</figure>
+
+<a id="anexo-2"></a>
+
+**Anexo 2 — Lista de commits**
+
+<figure>
+	<img src="assets/evidencia1.png" alt="Lista de commits" style="width:100%; max-width:900px; border:1px solid #d0d7de;" />
+	<figcaption style="text-align:center; font-size:12px;">Anexo 2 — Captura de commits</figcaption>
+</figure>
+
+<a id="anexo-3"></a>
+
+**Anexo 3 — TB1 Analíticos**
+
+<figure>
+	<img src="assets/evidecnia_tb1_1.png" alt="TB1 Analíticos" style="width:100%; max-width:900px; border:1px solid #d0d7de;" />
+	<figcaption style="text-align:center; font-size:12px;">Anexo 3 — TB1 Analíticos</figcaption>
+</figure>
+
+<a id="anexo-4"></a>
+
+**Anexo 4 — TB1 Commits**
+
+<figure>
+	<img src="assets/evidecnia_tb1_2.png" alt="TB1 Commits" style="width:100%; max-width:900px; border:1px solid #d0d7de;" />
+	<figcaption style="text-align:center; font-size:12px;">Anexo 4 — TB1 Captura de commits</figcaption>
+</figure>

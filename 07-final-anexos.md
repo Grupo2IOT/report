@@ -5,18 +5,63 @@
 
 ### Conclusiones
 
-A partir del trabajo de ingeniería de software desarrollado y las validaciones realizadas con nuestros segmentos objetivo, el equipo llegó a las siguientes conclusiones fundamentales:
+A partir del análisis realizado durante el desarrollo de AquaEdge, así como de las actividades de investigación, diseño, validación y prototipado ejecutadas a lo largo del proyecto, se obtuvieron las siguientes conclusiones:
 
-- **Problem statements y viabilidad del proyecto:** Se concluye que el déficit hídrico extremo que afecta a regiones como Piura representa una oportunidad crítica para la intervención tecnológica. Las validaciones confirmaron que la dependencia de métodos de riego tradicionales (gravedad/inundación), sin medición de humedad, eleva drásticamente el riesgo de pérdida total de cultivos, justificando la necesidad de un Ecosistema IoT de Riego Inteligente.
-- **Contraste de assumptions e hypotheses statements:** Se validó la hipótesis técnica principal: la carencia de infraestructura de telecomunicaciones en zonas rurales es la barrera más grande para la adopción tecnológica. Al estructurar la solución con Edge Computing (decisiones de riego locales y autónomas sin internet) y LoRaWAN (transmisión de datos a larga distancia), se demostró que es posible superar este obstáculo y garantizar la operatividad del sistema en condiciones reales.
-- **Criterios de éxito y segmento institucional (B2B/B2G):** Se comprobó que las Juntas de Usuarios e instituciones financieras (ej. Agrobanco) sufren de una "ceguera operativa" al no contar con datos en tiempo real de las parcelas. La propuesta del Dashboard web centralizado cumplió los criterios de éxito de Lean UX, ya que las instituciones mostraron disposición para usar la plataforma como herramienta principal de auditorías remotas y evaluación de riesgos crediticios.
+**1. Validación del problema y oportunidad de negocio**
+
+La investigación de campo y las entrevistas realizadas permitieron confirmar que la crisis hídrica que afecta a la región de Piura constituye una problemática crítica para los pequeños y medianos agricultores. La dependencia de métodos tradicionales de riego, la ausencia de herramientas de monitoreo y la limitada disponibilidad de agua generan pérdidas económicas significativas y ponen en riesgo la sostenibilidad de las actividades agrícolas. Este escenario valida la necesidad de implementar soluciones tecnológicas orientadas a la optimización del uso del recurso hídrico.
+
+**2. Validación de la propuesta tecnológica**
+
+Los resultados obtenidos evidencian que la combinación de tecnologías IoT, Edge Computing y LoRaWAN constituye una alternativa viable para entornos rurales con conectividad limitada o inexistente. La capacidad del sistema para procesar información localmente y ejecutar decisiones autónomas de riego reduce la dependencia de servicios en la nube y garantiza la continuidad operativa incluso ante interrupciones de comunicación.
+
+**3. Aceptación por parte de los usuarios finales**
+
+Las entrevistas realizadas con agricultores demostraron una alta disposición hacia la adopción de soluciones tecnológicas siempre que estas sean económicas, confiables y fáciles de utilizar. La principal característica valorada por los usuarios fue la capacidad del sistema para operar sin conexión permanente a internet, permitiendo automatizar el riego y reducir el riesgo de pérdida de cultivos durante periodos de escasez hídrica.
+
+**4. Valor para las instituciones y entidades de gestión**
+
+Las validaciones realizadas con representantes de instituciones vinculadas al sector agrario evidenciaron la necesidad de contar con herramientas de monitoreo remoto y auditoría en tiempo real. El Dashboard propuesto por AquaEdge fue percibido como una solución capaz de mejorar la supervisión del uso del agua, optimizar la toma de decisiones y reducir los costos asociados a inspecciones presenciales.
+
+**5. Aplicación de metodologías de Ingeniería de Software**
+
+La utilización de enfoques como Design Thinking, Lean UX, Domain-Driven Design (DDD), Event Storming y metodologías ágiles permitió estructurar el proyecto de manera ordenada, centrada en el usuario y alineada con las necesidades reales del dominio. Esto facilitó la identificación de requerimientos, la definición de bounded contexts y el diseño de una arquitectura escalable y mantenible.
+
+**6. Viabilidad del proyecto AquaEdge**
+
+Los resultados obtenidos durante la etapa de diseño, simulación y validación permiten concluir que AquaEdge posee viabilidad técnica, operativa y funcional para convertirse en una solución de apoyo a la gestión eficiente del agua en el sector agrícola. Asimismo, presenta potencial de escalabilidad hacia otras regiones afectadas por problemas similares de disponibilidad hídrica.
 
 ### Recomendaciones
 
-De cara a los siguientes pasos en la evolución y escalabilidad de los productos digitales, se recomienda lo siguiente:
+Con el objetivo de fortalecer el alcance y la sostenibilidad de AquaEdge en futuras etapas de desarrollo, se plantean las siguientes recomendaciones:
 
-- **Ampliación de integración de APIs externas:** Integrar modelos predictivos de Machine Learning en la nube (Cloud Computing), cruzando la data histórica con APIs climatológicas (ej. Weather Forecast API) para anticipar sequías prolongadas con mayor anticipación.
-- **Escalabilidad del hardware:** Evaluar el uso de energía solar (paneles fotovoltaicos) para la alimentación de los gateways LoRaWAN. Esto permitiría mayor independencia energética en zonas rurales extremas y ayudaría a cerrar la brecha de infraestructura física para una operación agrícola continua.
+**1. Incorporar modelos predictivos basados en inteligencia artificial**
+
+Se recomienda integrar algoritmos de Machine Learning que permitan analizar datos históricos de humedad, consumo de agua y condiciones climáticas para generar predicciones más precisas sobre necesidades de riego y posibles escenarios de estrés hídrico.
+
+**2. Integrar servicios meteorológicos especializados**
+
+La conexión con APIs de información climática permitirá complementar las decisiones de riego mediante pronósticos de lluvia, temperatura y humedad ambiental, mejorando la eficiencia del sistema y reduciendo el desperdicio de agua.
+
+**3. Realizar pilotos en entornos reales**
+
+Como siguiente fase del proyecto, se recomienda implementar pruebas piloto en parcelas agrícolas reales de la región Piura para validar el desempeño del sistema bajo condiciones operativas reales y obtener métricas cuantificables de ahorro de agua y mejora productiva.
+
+**4. Fortalecer la autonomía energética de la infraestructura**
+
+Se recomienda incorporar soluciones de energía solar tanto para los nodos IoT como para los gateways LoRaWAN, garantizando un funcionamiento continuo en zonas rurales con acceso limitado a la red eléctrica.
+
+**5. Ampliar las capacidades de monitoreo agrícola**
+
+En futuras versiones del sistema podrían integrarse sensores adicionales para medir variables como pH del suelo, conductividad eléctrica, nutrientes (NPK) y temperatura, proporcionando una visión más completa del estado agronómico de la parcela.
+
+**6. Desarrollar mecanismos avanzados de analítica y reportes**
+
+Se recomienda incorporar dashboards analíticos con indicadores de eficiencia hídrica, productividad agrícola y niveles de riesgo, facilitando la toma de decisiones estratégicas por parte de agricultores, juntas de usuarios e instituciones financieras.
+
+**7. Evaluar estrategias de escalabilidad comercial**
+
+Finalmente, se recomienda explorar alianzas con programas gubernamentales, juntas de usuarios, cooperativas agrícolas y entidades financieras para facilitar la adopción masiva de la solución y maximizar su impacto social y económico.
 
 ## Video About-the-Team
 

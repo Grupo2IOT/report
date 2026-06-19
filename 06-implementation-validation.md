@@ -370,9 +370,6 @@ Interpretación del equipo: la gráfica de commits muestra un aumento concentrad
 ## 6.3. Validation Interviews
 
 ### 6.3.1. Diseño de Entrevistas
-# 6.3. Validation Interviews
-
-## 6.3.1. Diseño de Entrevistas
 
 Con el objetivo de validar la propuesta de valor, la usabilidad de las interfaces desarrolladas y el nivel de aceptación de la solución AquaEdge, se diseñó una segunda ronda de entrevistas enfocada en la evaluación del producto implementado. Estas entrevistas fueron realizadas utilizando prototipos funcionales de la Landing Page y de la Web Application desarrollada durante el Sprint 1.
 
@@ -456,5 +453,38 @@ Los resultados obtenidos permitieron identificar oportunidades de mejora y confi
 ### 6.3.2. Registro de Entrevistas
 
 ### 6.3.3. Evaluaciones según heurísticas
+
+Con el propósito de evaluar la calidad de la experiencia de usuario de AquaEdge, se realizó una inspección heurística basada en las 10 Heurísticas de Usabilidad de Nielsen. La evaluación fue aplicada sobre la Landing Page y la Web Application desarrolladas durante el Sprint 1.
+
+### Tabla de Evaluación Heurística
+
+| Heurística de Nielsen                         | Evaluación          | Hallazgo                                                                                                           | Severidad | Recomendación                                           |
+| --------------------------------------------- | ------------------- | ------------------------------------------------------------------------------------------------------------------ | --------- | ------------------------------------------------------- |
+| Visibilidad del estado del sistema            | Cumple parcialmente | El dashboard muestra estados de humedad y alertas, pero algunas acciones no presentan retroalimentación inmediata. | 2         | Incorporar mensajes de confirmación y estados de carga. |
+| Correspondencia entre sistema y mundo real    | Cumple              | Se utilizan términos familiares para agricultores como humedad, parcela, riego y alertas.                          | 1         | Mantener lenguaje simple y contextualizado.             |
+| Control y libertad del usuario                | Cumple parcialmente | Algunas acciones no muestran opciones claras para cancelar o regresar.                                             | 2         | Agregar botones de retorno y confirmación.              |
+| Consistencia y estándares                     | Cumple              | La navegación, etiquetas y componentes mantienen consistencia visual.                                              | 1         | Continuar aplicando la guía de estilos definida.        |
+| Prevención de errores                         | Cumple parcialmente | No todos los formularios muestran validaciones preventivas.                                                        | 2         | Incorporar validación de campos en tiempo real.         |
+| Reconocimiento antes que recuerdo             | Cumple              | La información principal es visible y se utilizan iconos y etiquetas descriptivas.                                 | 1         | Mantener el uso de etiquetas visuales.                  |
+| Flexibilidad y eficiencia de uso              | Cumple parcialmente | Los usuarios avanzados podrían requerir accesos rápidos a funciones frecuentes.                                    | 2         | Incorporar accesos directos y filtros rápidos.          |
+| Diseño estético y minimalista                 | Cumple              | Las interfaces presentan información organizada y sin elementos innecesarios.                                      | 1         | Mantener la simplicidad visual.                         |
+| Ayuda para reconocer y recuperarse de errores | Cumple parcialmente | Los mensajes de error aún son limitados en algunas vistas.                                                         | 2         | Diseñar mensajes descriptivos y orientados a solución.  |
+| Ayuda y documentación                         | Cumple parcialmente | No existe una sección de ayuda integrada para usuarios nuevos.                                                     | 2         | Incorporar tutoriales breves y preguntas frecuentes.    |
+
+### Resultados de la Evaluación
+
+La evaluación heurística permitió identificar que la solución presenta una buena base de usabilidad, destacando especialmente en aspectos relacionados con consistencia visual, claridad de la información y diseño minimalista.
+
+Las principales oportunidades de mejora se encuentran en:
+
+* Retroalimentación inmediata ante acciones del usuario.
+* Validación preventiva de formularios.
+* Mensajes de error más descriptivos.
+* Inclusión de ayuda contextual para usuarios nuevos.
+* Incorporación de accesos rápidos para tareas frecuentes.
+
+### Conclusiones
+
+Los resultados obtenidos indican que AquaEdge cumple satisfactoriamente con la mayoría de las heurísticas de Nielsen, lo que evidencia una experiencia de usuario adecuada para agricultores e instituciones. Asimismo, las observaciones identificadas servirán como insumo para futuras iteraciones del producto, permitiendo incrementar la usabilidad y facilitar la adopción de la plataforma en escenarios reales de operación agrícola.
 
 ## 6.4. Video About-the-Product

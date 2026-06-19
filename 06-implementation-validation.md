@@ -370,6 +370,88 @@ Interpretación del equipo: la gráfica de commits muestra un aumento concentrad
 ## 6.3. Validation Interviews
 
 ### 6.3.1. Diseño de Entrevistas
+# 6.3. Validation Interviews
+
+## 6.3.1. Diseño de Entrevistas
+
+Con el objetivo de validar la propuesta de valor, la usabilidad de las interfaces desarrolladas y el nivel de aceptación de la solución AquaEdge, se diseñó una segunda ronda de entrevistas enfocada en la evaluación del producto implementado. Estas entrevistas fueron realizadas utilizando prototipos funcionales de la Landing Page y de la Web Application desarrollada durante el Sprint 1.
+
+Se definieron dos grupos de participantes alineados con los segmentos objetivo identificados previamente:
+
+* Pequeños y medianos agricultores de la región Piura (usuarios finales).
+* Representantes de instituciones agrícolas, juntas de usuarios y entidades financieras (usuarios institucionales).
+
+### Objetivos de Validación
+
+Los objetivos principales de las entrevistas fueron:
+
+* Validar si la propuesta de valor de AquaEdge es comprendida correctamente por los usuarios.
+* Evaluar la facilidad de uso de la Landing Page para comunicar los beneficios del producto.
+* Identificar dificultades de navegación dentro de la Web Application.
+* Verificar si las funcionalidades implementadas responden a los problemas identificados durante la etapa de Needfinding.
+* Determinar el nivel de aceptación de la automatización del riego basada en sensores.
+* Obtener recomendaciones de mejora para futuras iteraciones del producto.
+
+### Hipótesis a Validar
+
+**Hipótesis 1:** Los agricultores comprenden rápidamente la propuesta de valor de AquaEdge al interactuar con la Landing Page.
+
+**Hipótesis 2:** Los agricultores consideran útil la visualización de humedad y alertas para la toma de decisiones relacionadas con el riego.
+
+**Hipótesis 3:** Los usuarios institucionales consideran valioso el Dashboard para monitorear parcelas y generar reportes de auditoría.
+
+**Hipótesis 4:** Los usuarios perciben la interfaz como sencilla e intuitiva para realizar las tareas principales del sistema.
+
+### Guía de Entrevista para Agricultores
+
+#### Presentación del prototipo
+
+Se mostró al participante la Landing Page y las pantallas principales de la aplicación.
+
+#### Preguntas
+
+1. ¿Cuál considera que es el objetivo principal de AquaEdge después de observar la Landing Page?
+2. ¿La información presentada le parece clara y fácil de entender?
+3. ¿Le resultó sencillo identificar los beneficios para su parcela?
+4. ¿Qué tan útil considera visualizar el nivel de humedad en tiempo real?
+5. ¿Comprende fácilmente el significado de las alertas mostradas?
+6. ¿Le genera confianza un sistema que automatice el riego sin depender de internet?
+7. ¿Qué funcionalidad considera más importante dentro de la aplicación?
+8. ¿Hubo alguna pantalla o sección que le resultó confusa?
+9. ¿Qué mejoraría de la interfaz?
+10. ¿Utilizaría una solución como AquaEdge en su parcela?
+
+### Guía de Entrevista para Instituciones
+
+#### Presentación del prototipo
+
+Se mostró el Dashboard Web y las funcionalidades de monitoreo y auditoría.
+
+#### Preguntas
+
+1. ¿La plataforma permite identificar rápidamente el estado de las parcelas?
+2. ¿La información mostrada es suficiente para tomar decisiones de supervisión?
+3. ¿Considera útil la visualización de alertas y eventos de riego?
+4. ¿La navegación entre módulos le parece intuitiva?
+5. ¿Qué tan útil considera la generación de reportes de consumo de agua?
+6. ¿Qué información adicional le gustaría visualizar?
+7. ¿La plataforma ayudaría a reducir las inspecciones presenciales?
+8. ¿Considera viable implementar una solución de este tipo en instituciones agrícolas?
+9. ¿Qué aspectos deberían mejorarse antes de una implementación real?
+10. ¿Recomendaría el uso de AquaEdge dentro de su organización?
+
+### Métricas de Validación
+
+Para evaluar los resultados se utilizaron las siguientes métricas:
+
+* Comprensión de la propuesta de valor.
+* Facilidad de navegación.
+* Claridad de la información presentada.
+* Utilidad percibida de las funcionalidades.
+* Intención de uso futuro.
+* Nivel de satisfacción general.
+
+Los resultados obtenidos permitieron identificar oportunidades de mejora y confirmar la relevancia de la solución para ambos segmentos de usuarios.
 
 ### 6.3.2. Registro de Entrevistas
 

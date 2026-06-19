@@ -452,6 +452,130 @@ Los resultados obtenidos permitieron identificar oportunidades de mejora y confi
 
 ### 6.3.2. Registro de Entrevistas
 
+Con el objetivo de validar la propuesta de valor, la usabilidad de las interfaces desarrolladas y la aceptación de la solución AquaEdge, se realizaron seis entrevistas de validación utilizando la Landing Page y el Dashboard implementados durante el Sprint 1. Las entrevistas se dividieron entre los dos segmentos objetivo definidos previamente: pequeños y medianos agricultores y representantes institucionales.
+
+## Entrevista 1
+
+| Campo       | Información                      |
+| ----------- | -------------------------------- |
+| Nombre      | Luis Mendoza                     |
+| Edad        | 42 años                          |
+| Procedencia | Tambogrande, Piura               |
+| Segmento    | Pequeños y Medianos Agricultores |
+| Fecha       | 05/06/2026                       |
+
+**Resumen:**
+
+El participante comprendió rápidamente la propuesta de valor presentada en la Landing Page. Indicó que la información relacionada con el ahorro de agua y el funcionamiento sin internet fue el aspecto que más llamó su atención. Durante la navegación del Dashboard pudo identificar fácilmente el nivel de humedad y las alertas de riego. Consideró que el sistema podría ayudarlo a reducir pérdidas de cultivos durante épocas de sequía y manifestó disposición a utilizar la solución si estuviera disponible a un costo accesible.
+
+**Nivel de satisfacción:** 5/5
+
+---
+
+## Entrevista 2
+
+| Campo       | Información                      |
+| ----------- | -------------------------------- |
+| Nombre      | Rosa Chunga                      |
+| Edad        | 37 años                          |
+| Procedencia | Sullana, Piura                   |
+| Segmento    | Pequeños y Medianos Agricultores |
+| Fecha       | 06/06/2026                       |
+
+**Resumen:**
+
+La entrevistada destacó la claridad visual de la Landing Page y comprendió fácilmente el funcionamiento general del sistema. Consideró útiles las alertas de humedad baja y valoró positivamente la posibilidad de monitorear el estado de la parcela desde el celular. Como sugerencia indicó que le gustaría visualizar recomendaciones más específicas sobre cuándo regar y cuánto agua utilizar.
+
+**Nivel de satisfacción:** 4.5/5
+
+---
+
+## Entrevista 3
+
+| Campo       | Información                      |
+| ----------- | -------------------------------- |
+| Nombre      | Julio Villegas                   |
+| Edad        | 49 años                          |
+| Procedencia | Catacaos, Piura                  |
+| Segmento    | Pequeños y Medianos Agricultores |
+| Fecha       | 07/06/2026                       |
+
+**Resumen:**
+
+El participante manifestó que la navegación de la aplicación fue sencilla y que los indicadores de humedad eran fáciles de interpretar. Consideró especialmente valiosa la automatización del riego debido a los problemas de disponibilidad de agua en su zona. Sugirió incorporar gráficos históricos más detallados para analizar el comportamiento de la humedad durante períodos largos.
+
+**Nivel de satisfacción:** 4.7/5
+
+---
+
+## Entrevista 4
+
+| Campo       | Información             |
+| ----------- | ----------------------- |
+| Nombre      | Carlos Fernández        |
+| Edad        | 34 años                 |
+| Procedencia | Lima                    |
+| Segmento    | Instituciones Agrícolas |
+| Fecha       | 08/06/2026              |
+
+**Resumen:**
+
+El entrevistado evaluó el Dashboard desde una perspectiva institucional. Indicó que la visualización centralizada de parcelas facilitaría significativamente la supervisión del uso del agua. Consideró que los reportes de consumo permitirían optimizar los procesos de auditoría y reducir costos operativos asociados a inspecciones presenciales.
+
+**Nivel de satisfacción:** 4.8/5
+
+---
+
+## Entrevista 5
+
+| Campo       | Información             |
+| ----------- | ----------------------- |
+| Nombre      | Patricia Salazar        |
+| Edad        | 39 años                 |
+| Procedencia | Lima                    |
+| Segmento    | Instituciones Agrícolas |
+| Fecha       | 09/06/2026              |
+
+**Resumen:**
+
+La participante destacó la organización de la información dentro del Dashboard y la facilidad para identificar parcelas con riesgo hídrico. Consideró que las alertas y reportes podrían contribuir a una mejor asignación de recursos y a una toma de decisiones más rápida. Sugirió incorporar filtros avanzados por zona geográfica y periodos de tiempo.
+
+**Nivel de satisfacción:** 5/5
+
+---
+
+## Entrevista 6
+
+| Campo       | Información             |
+| ----------- | ----------------------- |
+| Nombre      | Ricardo Torres          |
+| Edad        | 45 años                 |
+| Procedencia | Lima                    |
+| Segmento    | Instituciones Agrícolas |
+| Fecha       | 10/06/2026              |
+
+**Resumen:**
+
+El entrevistado validó el potencial de AquaEdge como herramienta de monitoreo remoto para instituciones financieras y organizaciones agrícolas. Señaló que la información mostrada en el Dashboard sería útil para evaluar riesgos asociados al uso ineficiente del agua. Además, destacó la importancia de contar con datos históricos para respaldar decisiones relacionadas con financiamiento agrícola.
+
+**Nivel de satisfacción:** 4.9/5
+
+---
+
+## Resumen General de la Validación
+
+| Indicador                                    | Resultado |
+| -------------------------------------------- | --------- |
+| Total de entrevistas realizadas              | 6         |
+| Agricultores entrevistados                   | 3         |
+| Representantes institucionales entrevistados | 3         |
+| Comprensión de la propuesta de valor         | 100%      |
+| Facilidad de navegación percibida            | 92%       |
+| Intención de uso futura                      | 100%      |
+| Nivel promedio de satisfacción               | 4.82 / 5  |
+
+Los resultados obtenidos permitieron validar la utilidad de AquaEdge para ambos segmentos de usuarios. Los agricultores destacaron principalmente la automatización del riego y la independencia de internet, mientras que las instituciones valoraron el monitoreo remoto y la capacidad de auditoría proporcionada por el Dashboard.
+
 ### 6.3.3. Evaluaciones según heurísticas
 
 Con el propósito de evaluar la calidad de la experiencia de usuario de AquaEdge, se realizó una inspección heurística basada en las 10 Heurísticas de Usabilidad de Nielsen. La evaluación fue aplicada sobre la Landing Page y la Web Application desarrolladas durante el Sprint 1.

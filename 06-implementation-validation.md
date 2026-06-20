@@ -88,37 +88,37 @@ El despliegue de AquaEdge se realizo con Vercel para el frontend y con Supabase 
 En este sprint se priorizó la implementación de las user stories más críticas del producto, enfocadas en la visualización de humedad, el historial de parcelas, las alertas y la configuración básica del riego. La planificación y el backlog se estructuraron a partir de los requisitos definidos para asegurar consistencia entre el alcance comprometido y la evidencia de avance del equipo.
 
 #### 6.2.1.1. Sprint Planning 1
- 
-| **Sprint #** | Sprint 1 |
-|---|---|
-| **Sprint Planning Background** | Reunión de planificación para iniciar Sprint 1 con foco en implementar las funcionalidades prioritarias del MVP (visualización de humedad en tiempo real, historial, alertas, gestión de riego y administración de usuarios). Se priorizaron user stories, criterios de aceptación y responsabilidades. |
-| Date | 2026-04-23 |
-| Time | 10:00 AM |
-| Location | Reunión virtual (canal de coordinación: WhatsApp/Trello; sesión sincrónica por Google Meet) |
-| Prepared By | Jiménez Rosas, Arturo Eduardo |
-| Attendees (to planning meeting) | Arevalo Meza, John Telesforo / Asmad Padilla, Fatima Andrea / Cabrera Buitrón, Diego Ivan / Castro Sanchez, Amir Gabriel / Prado Vargas, Mario Benjamin |
-| Sprint 0 Review Summary | Sprint 0: Actividades de preparación — configuración de repositorios, definición inicial de epics y user stories, wireframes y puesta a punto del entorno de desarrollo. |
-| Sprint 0 Retrospective Summary | Lecciones aprendidas: mejorar la precisión de las estimaciones, definir criterios de aceptación más claros y asignar dueños tempranos para cada historia. |
-| **Sprint Goal & User Stories** | Objetivo: Entregar las user stories UI prioritarias del backlog. Historias incluidas: US-01, US-02, US-03, US-04 (UI), US-05, US-06, US-07, US-08, US-09, US-10, US-11, US-12, US-13 (parcial), US-14, US-15. |
-| Sprint 1 Goal | **Enfoque:** Entregar una versión funcional de las user stories UI prioritarias (visualización de humedad, historial, alertas y gestión básica).  **Impacto:** Mejora en la toma de decisiones de los agricultores y en la capacidad de gestión/auditoría de las instituciones.  **Confirmación:** La revisión de sprint demuestra que ≥85% de las historias UI asignadas fueron implementadas y aceptadas por el Product Owner. |
-| Sprint 1 Velocity | 26 Story Points |
-| Sum of Story Points | 26 Story Points (suma de SP para las historias asignadas en este sprint) |
+
+| **Sprint #**                    | Sprint 1                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Sprint Planning Background**  | Reunión de planificación para iniciar Sprint 1 con foco en implementar las funcionalidades prioritarias del MVP (visualización de humedad en tiempo real, historial, alertas, gestión de riego y administración de usuarios). Se priorizaron user stories, criterios de aceptación y responsabilidades.                                                                                                                        |
+| Date                            | 2026-04-23                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Time                            | 10:00 AM                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Location                        | Reunión virtual (canal de coordinación: WhatsApp/Trello; sesión sincrónica por Google Meet)                                                                                                                                                                                                                                                                                                                                    |
+| Prepared By                     | Jiménez Rosas, Arturo Eduardo                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Attendees (to planning meeting) | Arevalo Meza, John Telesforo / Asmad Padilla, Fatima Andrea / Cabrera Buitrón, Diego Ivan / Castro Sanchez, Amir Gabriel / Prado Vargas, Mario Benjamin                                                                                                                                                                                                                                                                        |
+| Sprint 0 Review Summary         | Sprint 0: Actividades de preparación — configuración de repositorios, definición inicial de epics y user stories, wireframes y puesta a punto del entorno de desarrollo.                                                                                                                                                                                                                                                       |
+| Sprint 0 Retrospective Summary  | Lecciones aprendidas: mejorar la precisión de las estimaciones, definir criterios de aceptación más claros y asignar dueños tempranos para cada historia.                                                                                                                                                                                                                                                                      |
+| **Sprint Goal & User Stories**  | Objetivo: Entregar las user stories UI prioritarias del backlog. Historias incluidas: US-01, US-02, US-03, US-04 (UI), US-05, US-06, US-07, US-08, US-09, US-10, US-11, US-12, US-13 (parcial), US-14, US-15.                                                                                                                                                                                                                  |
+| Sprint 1 Goal                   | **Enfoque:** Entregar una versión funcional de las user stories UI prioritarias (visualización de humedad, historial, alertas y gestión básica). **Impacto:** Mejora en la toma de decisiones de los agricultores y en la capacidad de gestión/auditoría de las instituciones. **Confirmación:** La revisión de sprint demuestra que ≥85% de las historias UI asignadas fueron implementadas y aceptadas por el Product Owner. |
+| Sprint 1 Velocity               | 26 Story Points                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Sum of Story Points             | 26 Story Points (suma de SP para las historias asignadas en este sprint)                                                                                                                                                                                                                                                                                                                                                       |
 
 #### 6.2.1.2. Aspect Leaders and Collaborators
- 
-| Team Member (Last Name, First Name) | GitHub Username | Frontend (L/C) | Backend (L/C) | QA (L/C) | UX (L/C) | DevOps (L/C) |
-|---|---|:---:|:---:|:---:|:---:|:---:|
-| Asmad Padilla, Fatima Andrea |  | L | C | C | L | C |
-| Cabrera Buitrón, Diego Ivan |  | C | L | C | C | C |
-| Castro Sanchez, Amir Gabriel |  | C | C | L | C | C |
-| Prado Vargas, Mario Benjamin |  | C | C | C | C | L |
 
-*Nota: `L` = Leader, `C` = Collaborator.*
+| Team Member (Last Name, First Name) | GitHub Username | Frontend (L/C) | Backend (L/C) | QA (L/C) | UX (L/C) | DevOps (L/C) |
+| ----------------------------------- | --------------- | :------------: | :-----------: | :------: | :------: | :----------: |
+| Asmad Padilla, Fatima Andrea        |                 |       L        |       C       |    C     |    L     |      C       |
+| Cabrera Buitrón, Diego Ivan         |                 |       C        |       L       |    C     |    C     |      C       |
+| Castro Sanchez, Amir Gabriel        |                 |       C        |       C       |    L     |    C     |      C       |
+| Prado Vargas, Mario Benjamin        |                 |       C        |       C       |    C     |    C     |      L       |
+
+_Nota: `L` = Leader, `C` = Collaborator._
 
 #### 6.2.1.3. Sprint Backlog 1
 
-| Sprint # | Sprint 1 |
-|---|---|
+| Sprint #   | Sprint 1         |
+| ---------- | ---------------- |
 | User Story | Work-Item / Task |
 
 <table>
@@ -270,26 +270,26 @@ En este sprint se priorizó la implementación de las user stories más crítica
 
 Total de Story Points del Sprint Backlog 1: 26.
 
-Enlace a la imagen del tablero de trabajo: [Subir imagen del Sprint Backlog 1](assets/imagen_sprint1.svg)
+Enlace a la imagen del tablero de trabajo: [Tablero Sprint Backlog 1](https://trello.com/invite/b/6a370f5d1336b3f5beb48aa2/ATTI61f8269c9ea4238b314bb74136a35e8b1FFA1431/sprint-1)
 
-![Sprint Backlog 1](assets/imagen_sprint1.svg)
+![Sprint Backlog 1](assets/imagen_sprint1.png)
 
 #### 6.2.1.4. Development Evidence for Sprint Review
 
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
-|---|---|---|---|---|---|
-| report | feature/sprint-1-docs | a1b2c3d | feat: add sprint planning table | Se agregan los datos iniciales de planificación del Sprint 1 y se alinean los campos con el formato requerido. | 2026-04-23 |
-| landing-page | feature/sprint-1-ui | b2c3d4e | feat: implement humidity dashboard | Se integra la primera versión de la visualización de humedad en tiempo real y el historial básico. | 2026-04-24 |
-| appweb | feature/sprint-1-backlog | c3d4e5f | feat: sync backlog with requirements | Se revisa el Sprint Backlog para que solo incluya user stories válidas del documento de requisitos. | 2026-04-25 |
+| Repository   | Branch                   | Commit Id | Commit Message                       | Commit Message Body                                                                                            | Commited on (Date) |
+| ------------ | ------------------------ | --------- | ------------------------------------ | -------------------------------------------------------------------------------------------------------------- | ------------------ |
+| report       | feature/sprint-1-docs    | a1b2c3d   | feat: add sprint planning table      | Se agregan los datos iniciales de planificación del Sprint 1 y se alinean los campos con el formato requerido. | 2026-04-23         |
+| landing-page | feature/sprint-1-ui      | b2c3d4e   | feat: implement humidity dashboard   | Se integra la primera versión de la visualización de humedad en tiempo real y el historial básico.             | 2026-04-24         |
+| appweb       | feature/sprint-1-backlog | c3d4e5f   | feat: sync backlog with requirements | Se revisa el Sprint Backlog para que solo incluya user stories válidas del documento de requisitos.            | 2026-04-25         |
 
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review
 
-| Repository | Branch | Test Suite | Test Case / Scenario | Result | Executed On (Date) |
-|---|---|---|---|---|---|
-| report | feature/sprint-1-docs | Markdown review | Verificar la estructura de secciones y tablas del Sprint 1 | Pass | 2026-04-26 |
-| landing-page | feature/sprint-1-ui | UI regression | Validar renderizado de componentes principales en desktop y mobile | Pass | 2026-04-27 |
-| appweb | feature/sprint-1-backlog | Backlog validation | Confirmar que las historias del sprint coinciden con los requisitos definidos | Pass | 2026-04-27 |
-| appweb | feature/sprint-1-backlog | Data placeholder checks | Revisar que los textos de apoyo usen contenido temporal tipo lorem ipsum | Pass | 2026-04-28 |
+| Repository   | Branch                   | Test Suite              | Test Case / Scenario                                                          | Result | Executed On (Date) |
+| ------------ | ------------------------ | ----------------------- | ----------------------------------------------------------------------------- | ------ | ------------------ |
+| report       | feature/sprint-1-docs    | Markdown review         | Verificar la estructura de secciones y tablas del Sprint 1                    | Pass   | 2026-04-26         |
+| landing-page | feature/sprint-1-ui      | UI regression           | Validar renderizado de componentes principales en desktop y mobile            | Pass   | 2026-04-27         |
+| appweb       | feature/sprint-1-backlog | Backlog validation      | Confirmar que las historias del sprint coinciden con los requisitos definidos | Pass   | 2026-04-27         |
+| appweb       | feature/sprint-1-backlog | Data placeholder checks | Revisar que los textos de apoyo usen contenido temporal tipo lorem ipsum      | Pass   | 2026-04-28         |
 
 #### 6.2.1.6. Execution Evidence for Sprint Review
 
@@ -349,6 +349,7 @@ Web app: [appweb-eight-iota.vercel.app/login](https://appweb-eight-iota.vercel.a
 </p>
 
 #### 6.2.1.9. Team Collaboration Insights during Sprint
+
 En este apartado se describe cómo se desarrolló la colaboración del equipo durante Sprint 1 y se presentan capturas de los analíticos de GitHub (actividad, contribuciones y commits) junto a una breve interpretación del equipo.
 
 **Resumen breve:** El equipo trabajó con coordinación en ciclos cortos, registrando picos de actividad coincidentes con las fechas de integración y revisión. A continuación se muestran las capturas que documentan la participación por autor, la evolución de commits y el resumen general de la actividad.
@@ -391,12 +392,12 @@ Durante el Sprint 2 se completó la integración de los componentes desarrollado
 
 | Team Member (Last Name, First Name) | GitHub Username | Frontend (L/C) | Backend (L/C) | QA (L/C) | UX (L/C) | DevOps (L/C) |
 | ----------------------------------- | --------------- | :------------: | :-----------: | :------: | :------: | :----------: |
-| Asmad Padilla, Fatima Andrea        |                 |        L       |       C       |     C    |     L    |       C      |
-| Cabrera Buitrón, Diego Ivan         |                 |        C       |       L       |     C    |     C    |       C      |
-| Castro Sanchez, Amir Gabriel        |                 |        C       |       C       |     L    |     C    |       C      |
-| Prado Vargas, Mario Benjamin        |                 |        C       |       C       |     C    |     C    |       L      |
+| Asmad Padilla, Fatima Andrea        |                 |       L        |       C       |    C     |    L     |      C       |
+| Cabrera Buitrón, Diego Ivan         |                 |       C        |       L       |    C     |    C     |      C       |
+| Castro Sanchez, Amir Gabriel        |                 |       C        |       C       |    L     |    C     |      C       |
+| Prado Vargas, Mario Benjamin        |                 |       C        |       C       |    C     |    C     |      L       |
 
-*Nota: `L` = Leader, `C` = Collaborator.*
+_Nota: `L` = Leader, `C` = Collaborator._
 
 #### 6.2.2.3. Sprint Backlog 2
 
@@ -492,10 +493,10 @@ A continuación se presentan los enlaces de despliegue correspondientes a la ver
 
 **Enlaces de despliegue**
 
-* Landing Page: https://grupo2iot.github.io/landing-page/
-* Web Application: https://appweb-eight-iota.vercel.app/login
-* Repositorio IoT: https://github.com/grupo2iot/iot-simulator
-* Repositorio Documentación: https://github.com/grupo2iot/report
+- Landing Page: https://grupo2iot.github.io/landing-page/
+- Web Application: https://appweb-eight-iota.vercel.app/login
+- Repositorio IoT: https://github.com/grupo2iot/iot-simulator
+- Repositorio Documentación: https://github.com/grupo2iot/report
 
 #### Landing Page desplegada
 
@@ -539,19 +540,19 @@ Con el objetivo de validar la propuesta de valor, la usabilidad de las interface
 
 Se definieron dos grupos de participantes alineados con los segmentos objetivo identificados previamente:
 
-* Pequeños y medianos agricultores de la región Piura (usuarios finales).
-* Representantes de instituciones agrícolas, juntas de usuarios y entidades financieras (usuarios institucionales).
+- Pequeños y medianos agricultores de la región Piura (usuarios finales).
+- Representantes de instituciones agrícolas, juntas de usuarios y entidades financieras (usuarios institucionales).
 
 ### Objetivos de Validación
 
 Los objetivos principales de las entrevistas fueron:
 
-* Validar si la propuesta de valor de AquaEdge es comprendida correctamente por los usuarios.
-* Evaluar la facilidad de uso de la Landing Page para comunicar los beneficios del producto.
-* Identificar dificultades de navegación dentro de la Web Application.
-* Verificar si las funcionalidades implementadas responden a los problemas identificados durante la etapa de Needfinding.
-* Determinar el nivel de aceptación de la automatización del riego basada en sensores.
-* Obtener recomendaciones de mejora para futuras iteraciones del producto.
+- Validar si la propuesta de valor de AquaEdge es comprendida correctamente por los usuarios.
+- Evaluar la facilidad de uso de la Landing Page para comunicar los beneficios del producto.
+- Identificar dificultades de navegación dentro de la Web Application.
+- Verificar si las funcionalidades implementadas responden a los problemas identificados durante la etapa de Needfinding.
+- Determinar el nivel de aceptación de la automatización del riego basada en sensores.
+- Obtener recomendaciones de mejora para futuras iteraciones del producto.
 
 ### Hipótesis a Validar
 
@@ -605,12 +606,12 @@ Se mostró el Dashboard Web y las funcionalidades de monitoreo y auditoría.
 
 Para evaluar los resultados se utilizaron las siguientes métricas:
 
-* Comprensión de la propuesta de valor.
-* Facilidad de navegación.
-* Claridad de la información presentada.
-* Utilidad percibida de las funcionalidades.
-* Intención de uso futuro.
-* Nivel de satisfacción general.
+- Comprensión de la propuesta de valor.
+- Facilidad de navegación.
+- Claridad de la información presentada.
+- Utilidad percibida de las funcionalidades.
+- Intención de uso futuro.
+- Nivel de satisfacción general.
 
 Los resultados obtenidos permitieron identificar oportunidades de mejora y confirmar la relevancia de la solución para ambos segmentos de usuarios.
 
@@ -765,11 +766,11 @@ La evaluación heurística permitió identificar que la solución presenta una b
 
 Las principales oportunidades de mejora se encuentran en:
 
-* Retroalimentación inmediata ante acciones del usuario.
-* Validación preventiva de formularios.
-* Mensajes de error más descriptivos.
-* Inclusión de ayuda contextual para usuarios nuevos.
-* Incorporación de accesos rápidos para tareas frecuentes.
+- Retroalimentación inmediata ante acciones del usuario.
+- Validación preventiva de formularios.
+- Mensajes de error más descriptivos.
+- Inclusión de ayuda contextual para usuarios nuevos.
+- Incorporación de accesos rápidos para tareas frecuentes.
 
 ### Conclusiones
 

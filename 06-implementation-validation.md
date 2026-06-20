@@ -319,12 +319,6 @@ En este sprint se consolid√≥ la base funcional del producto con la implementaci√
 	<img src="assets/websg.png" alt="Web app final view 2" width="920" />
 </p>
 
-**Espacio para video del sprint**
-
-Enlace al video del Sprint 1: [Subir video del Sprint 1](ruta/a/video_sprint1.mp4)
-
-![Video Sprint 1](assets/video_sprint1.svg)
-
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review
 
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review
@@ -413,9 +407,9 @@ _Nota: `L` = Leader, `C` = Collaborator._
 
 **Total de Story Points del Sprint Backlog 2: 30.**
 
-Enlace a la imagen del tablero de trabajo: [Subir imagen del Sprint Backlog 2](assets/imagen_sprint2.svg)
+Enlace a la imagen del tablero de trabajo: [Tablero Sprint Backlog 2](https://trello.com/invite/b/6a370f5d1336b3f5beb48aa2/ATTI61f8269c9ea4238b314bb74136a35e8b1FFA1431/sprint-2)
 
-![Sprint Backlog 2](assets/imagen_sprint2.svg)
+![Sprint Backlog 2](assets/imagen_sprint2.png)
 
 #### 6.2.2.4. Development Evidence for Sprint Review
 

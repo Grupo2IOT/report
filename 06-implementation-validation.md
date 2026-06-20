@@ -389,6 +389,15 @@ Durante el Sprint 2 se completó la integración de los componentes desarrollado
 
 #### 6.2.2.2. Aspect Leaders and Collaborators
 
+| Team Member (Last Name, First Name) | GitHub Username | Frontend (L/C) | Backend (L/C) | QA (L/C) | UX (L/C) | DevOps (L/C) |
+| ----------------------------------- | --------------- | :------------: | :-----------: | :------: | :------: | :----------: |
+| Asmad Padilla, Fatima Andrea        |                 |        L       |       C       |     C    |     L    |       C      |
+| Cabrera Buitrón, Diego Ivan         |                 |        C       |       L       |     C    |     C    |       C      |
+| Castro Sanchez, Amir Gabriel        |                 |        C       |       C       |     L    |     C    |       C      |
+| Prado Vargas, Mario Benjamin        |                 |        C       |       C       |     C    |     C    |       L      |
+
+*Nota: `L` = Leader, `C` = Collaborator.*
+
 #### 6.2.2.3. Sprint Backlog 2
 
 #### 6.2.2.4. Development Evidence for Sprint Review

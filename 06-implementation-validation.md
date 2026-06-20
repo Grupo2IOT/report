@@ -418,6 +418,13 @@ Enlace a la imagen del tablero de trabajo: [Subir imagen del Sprint Backlog 2](a
 
 #### 6.2.2.4. Development Evidence for Sprint Review
 
+| Repository    | Branch                   | Commit Id | Commit Message                         | Commit Message Body                                                                                | Commited on (Date) |
+| ------------- | ------------------------ | --------- | -------------------------------------- | -------------------------------------------------------------------------------------------------- | ------------------ |
+| landing-page  | main                     | XXXXXXX   | feat: redesign landing page sections   | Se actualizan las secciones informativas, beneficios y llamadas a la acción del producto AquaEdge. | 2026-06-10         |
+| web-app       | develop                  | XXXXXXX   | feat: integrate sensor dashboard       | Integración de visualización de datos provenientes de sensores IoT.                                | 2026-06-12         |
+| iot-simulator | feature/device-simulator | XXXXXXX   | feat: implement ESP32 sensor simulator | Implementación de simulador ESP32 con envío de datos mediante HTTP.                                | 2026-06-14         |
+| report        | main                     | XXXXXXX   | docs: update sprint 2 documentation    | Actualización de documentación y evidencias correspondientes al Sprint 2.                          | 2026-06-16         |
+
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review
 
 #### 6.2.2.6. Execution Evidence for Sprint Review

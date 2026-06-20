@@ -437,32 +437,20 @@ En este Sprint se logró completar la integración funcional de AquaEdge mediant
 #### Landing Page Final
 
 <p align="center">
-	<img src="assets/landing_final_1.png" alt="Landing Page Final" width="920" />
+	<img src="assets/lndmk1.png" alt="Landing page deployment evidence" width="920" />
 </p>
 
 #### Web Application Final
 
 <p align="center">
-	<img src="assets/webapp_final_1.png" alt="Web Application Final" width="920" />
+	<img src="assets/awebmk.png" alt="Web app deployment evidence" width="920" />
 </p>
 
 #### Simulación IoT ESP32
 
 <p align="center">
-	<img src="assets/wokwi_esp32.png" alt="ESP32 Simulation" width="920" />
+	<img src="assets/Prototipo-wokwi.png" alt="ESP32 Simulation" width="920" />
 </p>
-
-#### Comunicación con API REST
-
-<p align="center">
-	<img src="assets/api_integration.png" alt="API Integration" width="920" />
-</p>
-
-#### Video Sprint 2
-
-Enlace al video del Sprint 2: [Subir video Sprint 2](ruta/a/video_sprint2.mp4)
-
-![Video Sprint 2](assets/video_sprint2.svg)
 
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review
 

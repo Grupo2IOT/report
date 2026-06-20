@@ -427,13 +427,109 @@ Enlace a la imagen del tablero de trabajo: [Subir imagen del Sprint Backlog 2](a
 
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review
 
+| Repository      | Branch                   | Test Suite          | Test Case / Scenario                                                  | Result | Executed On (Date) |
+| --------------- | ------------------------ | ------------------- | --------------------------------------------------------------------- | ------ | ------------------ |
+| landing-page    | main                     | Responsive Testing  | Verificar correcta visualización en dispositivos móviles y escritorio | Pass   | 2026-06-11         |
+| web-app         | develop                  | Functional Testing  | Validar navegación y funcionamiento de módulos principales            | Pass   | 2026-06-12         |
+| iot-simulator   | feature/device-simulator | Integration Testing | Verificar envío correcto de datos a la API REST                       | Pass   | 2026-06-14         |
+| api-service     | develop                  | Endpoint Testing    | Validar recepción y procesamiento de datos JSON                       | Pass   | 2026-06-14         |
+| complete-system | release                  | End-to-End Testing  | Flujo Sensor → API → Dashboard → Usuario                              | Pass   | 2026-06-15         |
+
 #### 6.2.2.6. Execution Evidence for Sprint Review
+
+En este Sprint se logró completar la integración funcional de AquaEdge mediante la simulación de sensores IoT con ESP32, la transmisión de datos hacia servicios REST y la visualización de la información en las aplicaciones web. Las pruebas realizadas confirmaron el correcto funcionamiento de los componentes desplegados.
+
+#### Landing Page Final
+
+<p align="center">
+	<img src="assets/landing_final_1.png" alt="Landing Page Final" width="920" />
+</p>
+
+#### Web Application Final
+
+<p align="center">
+	<img src="assets/webapp_final_1.png" alt="Web Application Final" width="920" />
+</p>
+
+#### Simulación IoT ESP32
+
+<p align="center">
+	<img src="assets/wokwi_esp32.png" alt="ESP32 Simulation" width="920" />
+</p>
+
+#### Comunicación con API REST
+
+<p align="center">
+	<img src="assets/api_integration.png" alt="API Integration" width="920" />
+</p>
+
+#### Video Sprint 2
+
+Enlace al video del Sprint 2: [Subir video Sprint 2](ruta/a/video_sprint2.mp4)
+
+![Video Sprint 2](assets/video_sprint2.svg)
 
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review
 
+Durante este sprint se documentaron los servicios utilizados para la comunicación entre dispositivos IoT y aplicaciones web.
+
+| Service            | Method | Endpoint    | Description                                             |
+| ------------------ | ------ | ----------- | ------------------------------------------------------- |
+| Sensor Data API    | POST   | /heartrate  | Recepción de lecturas enviadas por el dispositivo ESP32 |
+| Sensor Data API    | GET    | /heartrate  | Consulta de datos registrados                           |
+| Authentication API | POST   | /login      | Inicio de sesión de usuarios                            |
+| Irrigation API     | GET    | /irrigation | Consulta del historial de eventos de riego              |
+
+**Evidencia de documentación de servicios**
+
+<p align="center">
+	<img src="assets/services_documentation.png" alt="Services Documentation" width="920" />
+</p>
+
 #### 6.2.2.8. Software Deployment Evidence for Sprint Review
 
+A continuación se presentan los enlaces de despliegue correspondientes a la versión integrada del sistema AquaEdge.
+
+**Enlaces de despliegue**
+
+* Landing Page: https://grupo2iot.github.io/landing-page/
+* Web Application: https://appweb-eight-iota.vercel.app/login
+* Repositorio IoT: https://github.com/grupo2iot/iot-simulator
+* Repositorio Documentación: https://github.com/grupo2iot/report
+
+#### Landing Page desplegada
+
+<p align="center">
+	<img src="assets/landing_deployment.png" alt="Landing Deployment" width="920" />
+</p>
+
+#### Web Application desplegada
+
+<p align="center">
+	<img src="assets/webapp_deployment.png" alt="Web Deployment" width="920" />
+</p>
+
 #### 6.2.2.9. Team Collaboration Insights during Sprint
+
+Durante el Sprint 2 el equipo mantuvo una colaboración continua mediante GitHub, Trello, WhatsApp y reuniones virtuales periódicas. La mayor actividad se concentró durante la fase de integración entre los componentes IoT y las aplicaciones web, así como durante la ejecución de pruebas funcionales y corrección de incidencias detectadas.
+
+Las métricas de GitHub muestran una distribución equilibrada de contribuciones entre los miembros del equipo, destacando actividades relacionadas con desarrollo frontend, simulación IoT, documentación y aseguramiento de calidad. Asimismo, el uso de pull requests y revisiones permitió mantener la calidad del código antes de su integración en la rama principal.
+
+**Resumen breve:** Se observó un incremento significativo en la actividad durante la fase de integración final, especialmente en tareas relacionadas con despliegue, pruebas de aceptación y documentación. Las contribuciones se distribuyeron de manera consistente entre los integrantes, permitiendo completar los objetivos comprometidos para el Sprint.
+
+<p align="center">
+	<img src="assets/collab_overview_sprint2.png" alt="Collaboration Overview Sprint 2" height="420" />
+</p>
+
+<p align="center">
+	<img src="assets/collab_contributors_sprint2.png" alt="Contributors Sprint 2" height="420" />
+</p>
+
+<p align="center">
+	<img src="assets/collab_commits_sprint2.png" alt="Commits Timeline Sprint 2" height="420" />
+</p>
+
+**Interpretación del equipo:** La evidencia de colaboración muestra una participación activa durante todo el Sprint 2, especialmente en actividades de integración y validación. La estrategia de trabajo basada en revisiones continuas y coordinación permanente permitió reducir incidencias y alcanzar exitosamente los objetivos planteados para la Sprint Review.
 
 ## 6.3. Validation Interviews
 

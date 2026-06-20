@@ -367,6 +367,28 @@ En este apartado se describe cómo se desarrolló la colaboración del equipo du
 
 Interpretación del equipo: la gráfica de commits muestra un aumento concentrado durante la semana del 20 de abril, con 3–4 miembros realizando la mayor parte de las contribuciones (front-end, integración y documentación). Esto sugiere una fase intensiva de integración técnica seguida de correcciones y pruebas. El equipo concluye que la distribución de trabajo fue efectiva y recomienda mantener ciclos de revisión cortos para futuros sprints.
 
+### 6.2.1. Sprint 2
+
+Durante el Sprint 2 se completó la integración de los componentes desarrollados previamente, incorporando la simulación del dispositivo IoT mediante ESP32, la comunicación con servicios web, la actualización de la Landing Page y el despliegue de las aplicaciones del ecosistema AquaEdge. Asimismo, se realizaron pruebas funcionales y de integración para validar el flujo completo de monitoreo y gestión del riego inteligente.
+
+#### 6.2.2.1. Sprint Planning 2
+
+#### 6.2.2.2. Aspect Leaders and Collaborators
+
+#### 6.2.2.3. Sprint Backlog 2
+
+#### 6.2.2.4. Development Evidence for Sprint Review
+
+#### 6.2.2.5. Testing Suite Evidence for Sprint Review
+
+#### 6.2.2.6. Execution Evidence for Sprint Review
+
+#### 6.2.2.7. Services Documentation Evidence for Sprint Review
+
+#### 6.2.2.8. Software Deployment Evidence for Sprint Review
+
+#### 6.2.2.9. Team Collaboration Insights during Sprint
+
 ## 6.3. Validation Interviews
 
 ### 6.3.1. Diseño de Entrevistas

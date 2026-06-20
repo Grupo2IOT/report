@@ -400,6 +400,22 @@ Durante el Sprint 2 se completó la integración de los componentes desarrollado
 
 #### 6.2.2.3. Sprint Backlog 2
 
+| User Story ID | User Story Title                            | Story Points | Work-Item ID | Work-Item Title                                         | Assigned To                  | Status |
+| ------------- | ------------------------------------------- | ------------ | ------------ | ------------------------------------------------------- | ---------------------------- | ------ |
+| US-04         | Activar riego automático basado en sensores | 5            | W-04.3       | Integración de lógica IoT con sensores simulados        | Cabrera Buitrón, Diego Ivan  | Done   |
+| US-06         | Visualizar eventos de riego ejecutados      | 3            | W-06.3       | Integración de historial de riego con backend           | Cabrera Buitrón, Diego Ivan  | Done   |
+| US-13         | Monitorear humedad mediante dispositivo IoT | 8            | W-13.1       | Simulación ESP32 y lectura de sensores                  | Prado Vargas, Mario Benjamin | Done   |
+| US-13         | Monitorear humedad mediante dispositivo IoT | 4            | W-13.2       | Comunicación HTTP con API REST                          | Prado Vargas, Mario Benjamin | Done   |
+| US-14         | Consultar métricas desde plataforma web     | 5            | W-14.1       | Consumo y visualización de datos desde servicios web    | Asmad Padilla, Fatima Andrea | Done   |
+| US-15         | Visualizar información institucional        | 2            | W-15.1       | Actualización de Landing Page final                     | Asmad Padilla, Fatima Andrea | Done   |
+| US-16         | Validar funcionamiento integral del sistema | 3            | W-16.1       | Diseño y ejecución de pruebas funcionales e integración | Castro Sanchez, Amir Gabriel | Done   |
+
+**Total de Story Points del Sprint Backlog 2: 30.**
+
+Enlace a la imagen del tablero de trabajo: [Subir imagen del Sprint Backlog 2](assets/imagen_sprint2.svg)
+
+![Sprint Backlog 2](assets/imagen_sprint2.svg)
+
 #### 6.2.2.4. Development Evidence for Sprint Review
 
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review

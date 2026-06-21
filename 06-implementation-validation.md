@@ -534,8 +534,8 @@ Los objetivos principales de las entrevistas fueron:
 - Identificar dificultades de navegación dentro de la Web Application.
 - Verificar si las funcionalidades implementadas responden a los problemas identificados durante la etapa de Needfinding.
 - Determinar el nivel de aceptación de la automatización del riego basada en sensores.
+ 
 - Obtener recomendaciones de mejora para futuras iteraciones del producto.
-
 ### Hipótesis a Validar
 
 **Hipótesis 1:** Los agricultores comprenden rápidamente la propuesta de valor de AquaEdge al interactuar con la Landing Page.
@@ -611,6 +611,9 @@ Con el objetivo de validar la propuesta de valor, la usabilidad de las interface
 | Segmento    | Pequeños y Medianos Agricultores |
 | Fecha       | 05/06/2026                       |
 
+- **Enlace de video:** [Video 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b490_upc_edu_pe/IQDMDQdLqakCTJsGhNQBFPbDAZuyXbkfBPyHMNfMpYh6MxU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=xF3XNj) <br><small>URL: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b490_upc_edu_pe/IQDMDQdLqakCTJsGhNQBFPbDAZuyXbkfBPyHMNfMpYh6MxU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=xF3XNj</small>
+- **Foto del entrevistado:**<br><img src="./assets/entrevista1iot.png" alt="Entrevista_1" width="330"/>
+
 **Resumen:**
 
 El participante comprendió rápidamente la propuesta de valor presentada en la Landing Page. Indicó que la información relacionada con el ahorro de agua y el funcionamiento sin internet fue el aspecto que más llamó su atención. Durante la navegación del Dashboard pudo identificar fácilmente el nivel de humedad y las alertas de riego. Consideró que el sistema podría ayudarlo a reducir pérdidas de cultivos durante épocas de sequía y manifestó disposición a utilizar la solución si estuviera disponible a un costo accesible.
@@ -628,6 +631,9 @@ El participante comprendió rápidamente la propuesta de valor presentada en la 
 | Procedencia | Sullana, Piura                   |
 | Segmento    | Pequeños y Medianos Agricultores |
 | Fecha       | 06/06/2026                       |
+
+- **Enlace de video:** [Video 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b490_upc_edu_pe/IQC7058PkkrUTKLWM4Drir24AW63MDYCR5EZduildrRTa1U?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=n7fhrv) <br><small>URL: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b490_upc_edu_pe/IQC7058PkkrUTKLWM4Drir24AW63MDYCR5EZduildrRTa1U?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=n7fhrv</small>
+- **Foto del entrevistado:**<br><img src="./assets/entrevista-santiagoG.png" alt="Entrevista 2" width="330"/>
 
 **Resumen:**
 
@@ -647,6 +653,9 @@ La entrevistada destacó la claridad visual de la Landing Page y comprendió fá
 | Segmento    | Pequeños y Medianos Agricultores |
 | Fecha       | 07/06/2026                       |
 
+- **Enlace de video:** [Video 7](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115357_upc_edu_pe/IQCXJcY0R1VNRIrktVGJ5A08AXdFcKlj0yslc2gAWdcIHn4?e=TgYKtm) <br><small>URL: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115357_upc_edu_pe/IQCXJcY0R1VNRIrktVGJ5A08AXdFcKlj0yslc2gAWdcIHn4?e=TgYKtm</small>
+- **Foto del entrevistado:**<br><img src="./assets/entrevista_7.png" alt="Entrevista 3" width="330"/>
+
 **Resumen:**
 
 El participante manifestó que la navegación de la aplicación fue sencilla y que los indicadores de humedad eran fáciles de interpretar. Consideró especialmente valiosa la automatización del riego debido a los problemas de disponibilidad de agua en su zona. Sugirió incorporar gráficos históricos más detallados para analizar el comportamiento de la humedad durante períodos largos.
@@ -664,6 +673,9 @@ El participante manifestó que la navegación de la aplicación fue sencilla y q
 | Procedencia | Lima                    |
 | Segmento    | Instituciones Agrícolas |
 | Fecha       | 08/06/2026              |
+
+- **Enlace de video:** [Video 4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b490_upc_edu_pe/IQAuyPvT7CXURoTXpQArPvxUAcaJnqvuP_HVGP5L_iE7PMQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=sWB09n) <br><small>URL: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b490_upc_edu_pe/IQAuyPvT7CXURoTXpQArPvxUAcaJnqvuP_HVGP5L_iE7PMQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=sWB09n</small>
+- **Foto del entrevistado:**<br><img src="./assets/Entrevista_4.png" alt="Entrevista_4" width="330"/>
 
 **Resumen:**
 
@@ -683,6 +695,9 @@ El entrevistado evaluó el Dashboard desde una perspectiva institucional. Indic�
 | Segmento    | Instituciones Agrícolas |
 | Fecha       | 09/06/2026              |
 
+- **Enlace de video:** [Video 5](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b490_upc_edu_pe/IQB9Y_98nT8kTpDVjBSHxTJxAUOltZItvggYjjt5f-GKVkU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=X0OCT5) <br><small>URL: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b490_upc_edu_pe/IQB9Y_98nT8kTpDVjBSHxTJxAUOltZItvggYjjt5f-GKVkU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=X0OCT5</small>
+- **Foto del entrevistado:**<br><img src="./assets/entrevista-brunoO.png" alt="Entrevista 5" width="330"/>
+
 **Resumen:**
 
 La participante destacó la organización de la información dentro del Dashboard y la facilidad para identificar parcelas con riesgo hídrico. Consideró que las alertas y reportes podrían contribuir a una mejor asignación de recursos y a una toma de decisiones más rápida. Sugirió incorporar filtros avanzados por zona geográfica y periodos de tiempo.
@@ -700,6 +715,9 @@ La participante destacó la organización de la información dentro del Dashboar
 | Procedencia | Lima                    |
 | Segmento    | Instituciones Agrícolas |
 | Fecha       | 10/06/2026              |
+
+- **Enlace de video:** [Video 8](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115357_upc_edu_pe/IQCxS1R29OIiSKFL2KtUp2JcAQv2HYnPcNWW5zLTnGky3yo?e=Tx0S7G) <br><small>URL: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115357_upc_edu_pe/IQCxS1R29OIiSKFL2KtUp2JcAQv2HYnPcNWW5zLTnGky3yo?e=Tx0S7G</small>
+- **Foto del entrevistado:**<br><img src="./assets/entrevista_8.png" alt="Entrevista 6" width="330"/>
 
 **Resumen:**
 
@@ -759,3 +777,11 @@ Las principales oportunidades de mejora se encuentran en:
 Los resultados obtenidos indican que AquaEdge cumple satisfactoriamente con la mayoría de las heurísticas de Nielsen, lo que evidencia una experiencia de usuario adecuada para agricultores e instituciones. Asimismo, las observaciones identificadas servirán como insumo para futuras iteraciones del producto, permitiendo incrementar la usabilidad y facilitar la adopción de la plataforma en escenarios reales de operación agrícola.
 
 ## 6.4. Video About-the-Product
+
+**Enlace del video promocional:**
+
+[Ver video en YouTube: https://youtu.be/C_3NotGUFAQ](https://youtu.be/C_3NotGUFAQ)
+
+<p align="center">
+	<img src="./assets/about-the-product.png" alt="About the Product" width="920" />
+</p>

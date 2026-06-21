@@ -611,8 +611,8 @@ Con el objetivo de validar la propuesta de valor, la usabilidad de las interface
 | Segmento    | Pequeños y Medianos Agricultores |
 | Fecha       | 05/06/2026                       |
 
-- **Enlace de video:** [Video 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b490_upc_edu_pe/IQDMDQdLqakCTJsGhNQBFPbDAZuyXbkfBPyHMNfMpYh6MxU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=xF3XNj) <br><small>URL: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b490_upc_edu_pe/IQDMDQdLqakCTJsGhNQBFPbDAZuyXbkfBPyHMNfMpYh6MxU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=xF3XNj</small>
-- **Foto del entrevistado:**<br><img src="./assets/entrevista1iot.png" alt="Entrevista_1" width="330"/>
+- **Enlace de video:** [Video 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b490_upc_edu_pe/IQC7058PkkrUTKLWM4Drir24AW63MDYCR5EZduildrRTa1U?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=n7fhrv) <br><small>URL: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b490_upc_edu_pe/IQC7058PkkrUTKLWM4Drir24AW63MDYCR5EZduildrRTa1U?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=n7fhrv</small>
+- **Foto del entrevistado:**<br><img src="./assets/entrevista-santiagoG.png" alt="Entrevista 2" width="330"/>
 
 **Resumen:**
 
@@ -632,8 +632,8 @@ El participante comprendió rápidamente la propuesta de valor presentada en la 
 | Segmento    | Pequeños y Medianos Agricultores |
 | Fecha       | 06/06/2026                       |
 
-- **Enlace de video:** [Video 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b490_upc_edu_pe/IQC7058PkkrUTKLWM4Drir24AW63MDYCR5EZduildrRTa1U?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=n7fhrv) <br><small>URL: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b490_upc_edu_pe/IQC7058PkkrUTKLWM4Drir24AW63MDYCR5EZduildrRTa1U?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=n7fhrv</small>
-- **Foto del entrevistado:**<br><img src="./assets/entrevista-santiagoG.png" alt="Entrevista 2" width="330"/>
+- **Enlace de video:** [Video 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b490_upc_edu_pe/IQDMDQdLqakCTJsGhNQBFPbDAZuyXbkfBPyHMNfMpYh6MxU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=xF3XNj) <br><small>URL: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b490_upc_edu_pe/IQDMDQdLqakCTJsGhNQBFPbDAZuyXbkfBPyHMNfMpYh6MxU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=xF3XNj</small>
+- **Foto del entrevistado:**<br><img src="./assets/entrevista1iot.png" alt="Entrevista_1" width="330"/>
 
 **Resumen:**
 
@@ -674,8 +674,8 @@ El participante manifestó que la navegación de la aplicación fue sencilla y q
 | Segmento    | Instituciones Agrícolas |
 | Fecha       | 08/06/2026              |
 
-- **Enlace de video:** [Video 4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b490_upc_edu_pe/IQAuyPvT7CXURoTXpQArPvxUAcaJnqvuP_HVGP5L_iE7PMQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=sWB09n) <br><small>URL: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b490_upc_edu_pe/IQAuyPvT7CXURoTXpQArPvxUAcaJnqvuP_HVGP5L_iE7PMQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=sWB09n</small>
-- **Foto del entrevistado:**<br><img src="./assets/Entrevista_4.png" alt="Entrevista_4" width="330"/>
+- **Enlace de video:** [Video 5](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b490_upc_edu_pe/IQB9Y_98nT8kTpDVjBSHxTJxAUOltZItvggYjjt5f-GKVkU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=X0OCT5) <br><small>URL: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b490_upc_edu_pe/IQB9Y_98nT8kTpDVjBSHxTJxAUOltZItvggYjjt5f-GKVkU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=X0OCT5</small>
+- **Foto del entrevistado:**<br><img src="./assets/entrevista-brunoO.png" alt="Entrevista 5" width="330"/>
 
 **Resumen:**
 
@@ -695,8 +695,8 @@ El entrevistado evaluó el Dashboard desde una perspectiva institucional. Indic�
 | Segmento    | Instituciones Agrícolas |
 | Fecha       | 09/06/2026              |
 
-- **Enlace de video:** [Video 5](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b490_upc_edu_pe/IQB9Y_98nT8kTpDVjBSHxTJxAUOltZItvggYjjt5f-GKVkU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=X0OCT5) <br><small>URL: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b490_upc_edu_pe/IQB9Y_98nT8kTpDVjBSHxTJxAUOltZItvggYjjt5f-GKVkU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=X0OCT5</small>
-- **Foto del entrevistado:**<br><img src="./assets/entrevista-brunoO.png" alt="Entrevista 5" width="330"/>
+- **Enlace de video:** [Video 4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b490_upc_edu_pe/IQAuyPvT7CXURoTXpQArPvxUAcaJnqvuP_HVGP5L_iE7PMQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=sWB09n) <br><small>URL: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b490_upc_edu_pe/IQAuyPvT7CXURoTXpQArPvxUAcaJnqvuP_HVGP5L_iE7PMQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=sWB09n</small>
+- **Foto del entrevistado:**<br><img src="./assets/Entrevista_4.png" alt="Entrevista_4" width="330"/>
 
 **Resumen:**
 

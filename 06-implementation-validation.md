@@ -613,6 +613,7 @@ Con el objetivo de validar la propuesta de valor, la usabilidad de las interface
 
 - **Enlace de video:** [Video 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b490_upc_edu_pe/IQC7058PkkrUTKLWM4Drir24AW63MDYCR5EZduildrRTa1U?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=n7fhrv) <br><small>URL: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b490_upc_edu_pe/IQC7058PkkrUTKLWM4Drir24AW63MDYCR5EZduildrRTa1U?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=n7fhrv</small>
 - **Foto del entrevistado:**<br><img src="./assets/entrevista-santiagoG.png" alt="Entrevista 2" width="330"/>
+
 **Resumen:**
 
 El participante comprendió rápidamente la propuesta de valor presentada en la Landing Page. Indicó que la información relacionada con el ahorro de agua y el funcionamiento sin internet fue el aspecto que más llamó su atención. Durante la navegación del Dashboard pudo identificar fácilmente el nivel de humedad y las alertas de riego. Consideró que el sistema podría ayudarlo a reducir pérdidas de cultivos durante épocas de sequía y manifestó disposición a utilizar la solución si estuviera disponible a un costo accesible.

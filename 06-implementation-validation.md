@@ -397,13 +397,24 @@ _Nota: `L` = Leader, `C` = Collaborator._
 
 | User Story ID | User Story Title                            | Story Points | Work-Item ID | Work-Item Title                                         | Assigned To                  | Status |
 | ------------- | ------------------------------------------- | ------------ | ------------ | ------------------------------------------------------- | ---------------------------- | ------ |
-| US-04         | Activar riego automático basado en sensores | 5            | W-04.3       | Integración de lógica IoT con sensores simulados        | Cabrera Buitrón, Diego Ivan  | Done   |
-| US-06         | Visualizar eventos de riego ejecutados      | 3            | W-06.3       | Integración de historial de riego con backend           | Cabrera Buitrón, Diego Ivan  | Done   |
-| US-13         | Monitorear humedad mediante dispositivo IoT | 8            | W-13.1       | Simulación ESP32 y lectura de sensores                  | Prado Vargas, Mario Benjamin | Done   |
+| US-04         | Activar riego automático basado en sensores | 2            | W-04.3       | Integración de lógica IoT con sensores simulados        | Cabrera Buitrón, Diego Ivan  | Done   |
+| US-04         | Activar riego automático basado en sensores | 2            | W-04.4       | Pruebas de integración de activación automática         | Cabrera Buitrón, Diego Ivan  | Done   |
+| US-04         | Activar riego automático basado en sensores | 1            | W-04.5       | Documentación técnica del módulo de riego               | Cabrera Buitrón, Diego Ivan  | Done   |
+| US-06         | Visualizar eventos de riego ejecutados      | 1            | W-06.3       | Integración de historial de riego con backend           | Cabrera Buitrón, Diego Ivan  | Done   |
+| US-06         | Visualizar eventos de riego ejecutados      | 1            | W-06.4       | Diseño de interfaz para eventos de riego                | Cabrera Buitrón, Diego Ivan  | Done   |
+| US-06         | Visualizar eventos de riego ejecutados      | 1            | W-06.5       | Validación de datos de eventos de riego                 | Cabrera Buitrón, Diego Ivan  | Done   |
+| US-13         | Monitorear humedad mediante dispositivo IoT | 6            | W-13.1       | Simulación ESP32 y lectura de sensores                  | Prado Vargas, Mario Benjamin | Done   |
 | US-13         | Monitorear humedad mediante dispositivo IoT | 4            | W-13.2       | Comunicación HTTP con API REST                          | Prado Vargas, Mario Benjamin | Done   |
-| US-14         | Consultar métricas desde plataforma web     | 5            | W-14.1       | Consumo y visualización de datos desde servicios web    | Asmad Padilla, Fatima Andrea | Done   |
-| US-15         | Visualizar información institucional        | 2            | W-15.1       | Actualización de Landing Page final                     | Asmad Padilla, Fatima Andrea | Done   |
-| US-16         | Validar funcionamiento integral del sistema | 3            | W-16.1       | Diseño y ejecución de pruebas funcionales e integración | Castro Sanchez, Amir Gabriel | Done   |
+| US-13         | Monitorear humedad mediante dispositivo IoT | 2            | W-13.3       | Implementación de manejo de errores de conexión         | Prado Vargas, Mario Benjamin | Done   |
+| US-14         | Consultar métricas desde plataforma web     | 2            | W-14.1       | Consumo y visualización de datos desde servicios web    | Asmad Padilla, Fatima Andrea | Done   |
+| US-14         | Consultar métricas desde plataforma web     | 2            | W-14.2       | Optimización de consultas a la API de métricas          | Asmad Padilla, Fatima Andrea | Done   |
+| US-14         | Consultar métricas desde plataforma web     | 1            | W-14.3       | Implementación de caché local para métricas             | Asmad Padilla, Fatima Andrea | Done   |
+| US-15         | Visualizar información institucional        | 1            | W-15.1       | Actualización de Landing Page final                     | Asmad Padilla, Fatima Andrea | Done   |
+| US-15         | Visualizar información institucional        | 1            | W-15.2       | Despliegue de actualización de Landing Page             | Asmad Padilla, Fatima Andrea | Done   |
+| US-15         | Visualizar información institucional        | 0            | W-15.3       | Revisión de ortografía y enlaces rotos                  | Asmad Padilla, Fatima Andrea | Done   |
+| US-16         | Validar funcionamiento integral del sistema | 1            | W-16.1       | Diseño y ejecución de pruebas funcionales e integración | Castro Sanchez, Amir Gabriel | Done   |
+| US-16         | Validar funcionamiento integral del sistema | 1            | W-16.2       | Reporte de cobertura y resolución de bugs               | Castro Sanchez, Amir Gabriel | Done   |
+| US-16         | Validar funcionamiento integral del sistema | 1            | W-16.3       | Aprobación final y cierre de sprint                     | Castro Sanchez, Amir Gabriel | Done   |
 
 **Total de Story Points del Sprint Backlog 2: 30.**
 

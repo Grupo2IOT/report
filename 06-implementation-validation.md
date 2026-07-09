@@ -362,7 +362,7 @@ En este apartado se describe cómo se desarrolló la colaboración del equipo du
 
 Interpretación del equipo: la gráfica de commits muestra un aumento concentrado durante la semana del 20 de abril, con 3–4 miembros realizando la mayor parte de las contribuciones (front-end, integración y documentación). Esto sugiere una fase intensiva de integración técnica seguida de correcciones y pruebas. El equipo concluye que la distribución de trabajo fue efectiva y recomienda mantener ciclos de revisión cortos para futuros sprints.
 
-### 6.2.1. Sprint 2
+### 6.2.2. Sprint 2
 
 Durante el Sprint 2 se completó la integración de los componentes desarrollados previamente, incorporando la simulación del dispositivo IoT mediante ESP32, la comunicación con servicios web, la actualización de la Landing Page y el despliegue de las aplicaciones del ecosistema AquaEdge. Asimismo, se realizaron pruebas funcionales y de integración para validar el flujo completo de monitoreo y gestión del riego inteligente.
 
@@ -524,6 +524,163 @@ Las métricas de GitHub muestran una distribución equilibrada de contribuciones
 </p>
 
 **Interpretación del equipo:** La evidencia de colaboración muestra una participación activa durante todo el Sprint 2, especialmente en actividades de integración y validación. La estrategia de trabajo basada en revisiones continuas y coordinación permanente permitió reducir incidencias y alcanzar exitosamente los objetivos planteados para la Sprint Review.
+
+### 6.2.3. Sprint 3
+
+Durante el Sprint 3 se conectó la edge-api (simulación ESP32) con la infraestructura cloud, se implementó streaming en tiempo real mediante WebSocket/SSE y se actualizaron tanto el frontend web como la aplicación mobile para visualizar telemetría en vivo. Se realizaron pruebas integrales que validaron el flujo completo edge → cloud → cliente.
+
+#### 6.2.3.1. Sprint Planning 3
+
+| **Sprint #**                    | Sprint 3                                                                                                                                                                                                                                                                    |
+| ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint Planning Background**  | Reunión de planificación enfocada en conectar la edge-api con servicios cloud, implementar streaming en tiempo real y actualizar frontend/mobile para telemetría en vivo. Se priorizaron las historias de integración cloud, streaming y visualización en tiempo real. |
+| Date                            | 2026-07-01                                                                                                                                                                                                                                                                  |
+| Time                            | 10:00 AM                                                                                                                                                                                                                                                                    |
+| Location                        | Reunión virtual (Google Meet, WhatsApp y Trello)                                                                                                                                                                                                                            |
+| Prepared By                     | Jiménez Rosas, Arturo Eduardo                                                                                                                                                                                                                                               |
+| Attendees (to planning meeting) | Asmad Padilla, Fatima Andrea / Cabrera Buitrón, Diego Ivan / Castro Sanchez, Amir Gabriel / Prado Vargas, Mario Benjamin                                                                                                                                                     |
+| Sprint 2 Review Summary         | Se completó la integración de la simulación IoT con APIs REST, la actualización de la Landing Page y el despliegue de los componentes principales del ecosistema AquaEdge.                                                                                                  |
+| Sprint 2 Retrospective Summary  | Se identificó la necesidad de conectar los datos de sensores a la nube para permitir visualización remota y en tiempo real desde cualquier dispositivo.                                                                                                                     |
+| Sprint Goal                     | Conectar edge-api a cloud e implementar telemetría en tiempo real en frontend web y mobile app.                                                                                                                                                                             |
+| Sprint 3 Velocity               | 30 Story Points                                                                                                                                                                                                                                                             |
+| Sum of Story Points             | 30 Story Points                                                                                                                                                                                                                                                             |
+
+#### 6.2.3.2. Aspect Leaders and Collaborators
+
+| Team Member (Last Name, First Name) | GitHub Username | Frontend (L/C) | Backend (L/C) | QA (L/C) | UX (L/C) | DevOps (L/C) |
+| ----------------------------------- | --------------- | :------------: | :-----------: | :------: | :------: | :----------: |
+| Asmad Padilla, Fatima Andrea        |                 |       L        |       C       |    C     |    L     |      C       |
+| Cabrera Buitrón, Diego Ivan         |                 |       C        |       L       |    C     |    C     |      C       |
+| Castro Sanchez, Amir Gabriel        |                 |       C        |       C       |    L     |    C     |      C       |
+| Prado Vargas, Mario Benjamin        |                 |       C        |       C       |    C     |    C     |      L       |
+
+_Nota: `L` = Leader, `C` = Collaborator._
+
+#### 6.2.3.3. Sprint Backlog 3
+
+| User Story ID | User Story Title                                      | Story Points | Work-Item ID | Work-Item Title                                                   | Assigned To                  | Status |
+| ------------- | ----------------------------------------------------- | ------------ | ------------ | ----------------------------------------------------------------- | ---------------------------- | ------ |
+| US-17         | Conectar edge-api con servicios cloud                 | 5            | W-17.1       | Implementar gateway MQTT para publicación de telemetría           | Prado Vargas, Mario Benjamin | Done   |
+| US-17         | Conectar edge-api con servicios cloud                 | 5            | W-17.2       | Configurar ingesta y almacenamiento cloud de datos de sensores    | Prado Vargas, Mario Benjamin | Done   |
+| US-18         | Visualizar telemetría en tiempo real en frontend web  | 8            | W-18.1       | Integrar WebSocket en dashboard web para datos en vivo            | Asmad Padilla, Fatima Andrea | Done   |
+| US-18         | Visualizar telemetría en tiempo real en frontend web  | 8            | W-18.2       | Diseñar widgets de telemetría en tiempo real                      | Asmad Padilla, Fatima Andrea | Done   |
+| US-19         | Visualizar telemetría en tiempo real en mobile app    | 8            | W-19.1       | Implementar suscripción a canal de telemetría en mobile           | Cabrera Buitrón, Diego Ivan  | Done   |
+| US-19         | Visualizar telemetría en tiempo real en mobile app    | 8            | W-19.2       | Actualizar UI mobile con indicadores de telemetría en vivo        | Cabrera Buitrón, Diego Ivan  | Done   |
+| US-20         | Implementar servicio backend de streaming (SSE/WS)    | 5            | W-20.1       | Desarrollar API de streaming con Server-Sent Events               | Cabrera Buitrón, Diego Ivan  | Done   |
+| US-20         | Implementar servicio backend de streaming (SSE/WS)    | 5            | W-20.2       | Implementar mecanismos de reconexión y heartbeat                   | Cabrera Buitrón, Diego Ivan  | Done   |
+| US-21         | Validar flujo completo edge-to-cloud-to-client        | 4            | W-21.1       | Pruebas de integración edge → cloud → frontend/mobile             | Castro Sanchez, Amir Gabriel | Done   |
+| US-21         | Validar flujo completo edge-to-cloud-to-client        | 4            | W-21.2       | Reporte de cobertura y resolución de incidencias                  | Castro Sanchez, Amir Gabriel | Done   |
+
+**Total de Story Points del Sprint Backlog 3: 30.**
+
+Enlace a la imagen del tablero de trabajo: [Tablero Sprint Backlog 3](https://trello.com/invite/b/7b481f5d1336b3f5beb48aa3/ATTI61f8269c9ea4238b314bb74136a35e8b1FFA1432/sprint-3)
+
+![Sprint Backlog 3](assets/imagen_sprint3.png)
+
+#### 6.2.3.4. Development Evidence for Sprint Review
+
+| Repository      | Branch                    | Commit Id | Commit Message                              | Commit Message Body                                                                          | Commited on (Date) |
+| --------------- | ------------------------- | --------- | ------------------------------------------- | -------------------------------------------------------------------------------------------- | ------------------ |
+| iot-simulator   | feature/cloud-gateway     | XXXXXXX   | feat: implement MQTT gateway for telemetry  | Implementación de gateway MQTT para publicación de datos de sensores hacia cloud.            | 2026-07-03         |
+| api-service     | feature/streaming         | XXXXXXX   | feat: add SSE endpoint for real-time data   | Desarrollo de API de streaming con Server-Sent Events para broadcasting de telemetría.       | 2026-07-05         |
+| web-app         | feature/realtime-dashboard | XXXXXXX   | feat: integrate WebSocket for live telemetry | Integración de WebSocket en dashboard web para visualización de datos en tiempo real.        | 2026-07-07         |
+| mobile-app      | feature/realtime-metrics  | XXXXXXX   | feat: subscribe to telemetry channel        | Implementación de suscripción a canal de telemetría en tiempo real en mobile app.            | 2026-07-09         |
+| report          | main                      | XXXXXXX   | docs: update sprint 3 documentation         | Actualización de documentación y evidencias correspondientes al Sprint 3.                    | 2026-07-11         |
+
+#### 6.2.3.5. Testing Suite Evidence for Sprint Review
+
+| Repository      | Branch                   | Test Suite                | Test Case / Scenario                                        | Result | Executed On (Date) |
+| --------------- | ------------------------ | ------------------------- | ----------------------------------------------------------- | ------ | ------------------ |
+| iot-simulator   | feature/cloud-gateway    | Integration Testing       | Validar publicación MQTT de datos de sensores hacia cloud   | Pass   | 2026-07-04         |
+| api-service     | feature/streaming        | Load Testing              | Verificar throughput de conexiones SSE concurrentes         | Pass   | 2026-07-06         |
+| web-app         | feature/realtime-dashboard | Functional Testing       | Validar actualización en vivo de widgets de telemetría      | Pass   | 2026-07-08         |
+| mobile-app      | feature/realtime-metrics | Functional Testing        | Verificar recepción y visualización de telemetría en mobile | Pass   | 2026-07-10         |
+| complete-system | release                  | End-to-End Testing        | Flujo Edge → Cloud → Web/Mobile → Usuario                   | Pass   | 2026-07-11         |
+
+#### 6.2.3.6. Execution Evidence for Sprint Review
+
+En este Sprint se logró conectar la edge-api del dispositivo IoT (ESP32 simulado) con la infraestructura cloud a través de un gateway MQTT, implementar un servicio de streaming Server-Sent Events para la difusión de datos en tiempo real, y actualizar tanto el frontend web como la aplicación mobile para consumir y visualizar la telemetría en vivo. Las pruebas realizadas confirmaron la correcta transmisión y visualización de los datos a lo largo de todo el flujo.
+
+#### Telemetría en la Nube
+
+<p align="center">
+	<img src="./telemetry-in-cloud.png" alt="Telemetry in Cloud" width="920" />
+</p>
+
+#### Web Application - Telemetría en Tiempo Real
+
+<p align="center">
+	<img src="assets/awebmk.png" alt="Web app real-time telemetry" width="920" />
+</p>
+
+#### Mobile Application - Telemetría en Tiempo Real
+
+<p align="center">
+	<img src="assets/apmk1.png" alt="Mobile app telemetry" width="320" />
+</p>
+
+#### 6.2.3.7. Services Documentation Evidence for Sprint Review
+
+Durante este sprint se documentaron los servicios utilizados para la comunicación cloud y streaming de telemetría.
+
+| Service            | Method | Endpoint              | Description                                                     |
+| ------------------ | ------ | --------------------- | --------------------------------------------------------------- |
+| MQTT Gateway       | PUB    | /sensors/telemetry    | Publicación de datos de sensores desde el dispositivo IoT       |
+| Telemetry API      | GET    | /stream               | Streaming de telemetría en tiempo real vía SSE                  |
+| Telemetry API      | GET    | /telemetry/history    | Consulta de histórico de telemetría                             |
+| Cloud Ingestion    | POST   | /api/ingest           | Ingesta de datos de sensores hacia almacenamiento cloud         |
+
+**Evidencia de documentación de servicios**
+
+<p align="center">
+	<img src="assets/services_documentation.png" alt="Services Documentation" width="920" />
+</p>
+
+#### 6.2.3.8. Software Deployment Evidence for Sprint Review
+
+A continuación se presentan los enlaces de despliegue correspondientes a la versión integrada del sistema AquaEdge con telemetría en tiempo real.
+
+**Enlaces de despliegue**
+
+- Landing Page: https://grupo2iot.github.io/landing-page/
+- Web Application: https://appweb-eight-iota.vercel.app/login
+- Mobile App: https://appmobile-eight-iota.vercel.app/
+- Repositorio IoT: https://github.com/grupo2iot/iot-simulator
+- Repositorio Documentación: https://github.com/grupo2iot/report
+
+#### Web Application desplegada
+
+<p align="center">
+	<img src="assets/webapp_deployment.png" alt="Web Deployment" width="920" />
+</p>
+
+#### Mobile Application desplegada
+
+<p align="center">
+	<img src="assets/apmk1.png" alt="Mobile Deployment" width="320" />
+</p>
+
+#### 6.2.3.9. Team Collaboration Insights during Sprint
+
+Durante el Sprint 3 el equipo mantuvo una colaboración continua mediante GitHub, Trello, WhatsApp y reuniones virtuales periódicas. La mayor actividad se concentró durante la fase de integración del gateway MQTT con la nube, así como durante la implementación del streaming SSE y la adaptación de los clientes web y mobile para consumir datos en tiempo real.
+
+Las métricas de GitHub muestran una distribución equilibrada de contribuciones entre los miembros del equipo, destacando actividades relacionadas con desarrollo de infraestructura cloud, integración de streaming, frontend web, mobile y aseguramiento de calidad.
+
+**Resumen breve:** Se observó un incremento significativo en la actividad durante la fase de integración cloud, especialmente en tareas relacionadas con el gateway MQTT, la API de streaming y las pruebas end-to-end. Las contribuciones se distribuyeron de manera consistente entre los integrantes, permitiendo completar los objetivos comprometidos para el Sprint 3.
+
+<p align="center">
+	<img src="assets/collab_overview_sprint3.png" alt="Collaboration Overview Sprint 3" height="420" />
+</p>
+
+<p align="center">
+	<img src="assets/collab_contributors_sprint3.png" alt="Contributors Sprint 3" height="420" />
+</p>
+
+<p align="center">
+	<img src="assets/collab_commits_sprint3.png" alt="Commits Timeline Sprint 3" height="420" />
+</p>
+
+**Interpretación del equipo:** La evidencia de colaboración muestra una participación activa durante todo el Sprint 3, especialmente en actividades de integración cloud y streaming en tiempo real. La estrategia de trabajo basada en revisiones continuas y coordinación permanente permitió reducir incidencias y alcanzar exitosamente los objetivos planteados para la Sprint Review.
 
 ## 6.3. Validation Interviews
 

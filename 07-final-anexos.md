@@ -64,6 +64,14 @@ Finalmente, se recomienda explorar alianzas con programas gubernamentales, junta
 
 ## Video About-the-Team
 
+**Enlace del video del equipo:**
+
+[Ver video en YouTube: https://youtu.be/AboutTheTeam](https://youtu.be/AboutTheTeam)
+
+<p align="center">
+	<img src="./about-the-team.png" alt="About the Team" width="920" />
+</p>
+
 # Bibliografía
 
 Agrobanco. (s.f.). Crédito agrícola. Recuperado de: https://www.agrobanco.com.pe/credito-agricola

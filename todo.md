@@ -1,0 +1,3 @@
+- ✅ Sprint Backlog 3 creado (topic: connect edge-api to cloud + real-time telemetry en frontend/mobile)
+- ✅ Wokwi link agregado en 05-ui-ux-design.md (sección 5.6.4 IoT Device Physical Design & Simulation)
+- ✅ About-the-Team section completado en 07-final-anexos.md con imagen

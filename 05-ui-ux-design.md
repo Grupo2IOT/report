@@ -368,6 +368,8 @@ El dispositivo no es un simple transmisor; ejecuta una **Lógica de Borde** que 
 
 El prototipo ha sido validado en el simulador **Wokwi**, donde se verificó la correcta integración de todos los componentes del BOM. El diseño físico final contempla el uso de una carcasa **IP66** con pasacables estancos para proteger la electrónica de la humedad extrema de Piura.
 
+- **Enlace al prototipo:** [Abrir simulación en Wokwi](https://wokwi.com/projects/464035774603663361)
+
 - **Estado de Simulación:** Validado (Humedad, Clima, NPK y Actuación funcionando).
 
 - **Representación Visual:** Se adjuntan capturas de pantalla del circuito en Wokwi y del monitor serial mostrando el reporte de datos procesados.
